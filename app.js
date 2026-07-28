@@ -29,6 +29,8 @@ function whenLabel(iso) {
   if (k === tomorrow) return `Tmrw ${t}`;
   return `${fmtDay.format(d)} ${t}`;
 }
+const priceTag = (ev) =>
+  ev.price > 0 ? ` · $${ev.price}` : ev.price === 0 ? " · Free" : "";
 const isSoon = (iso) => {
   const dt = Date.parse(iso) - Date.now();
   return dt > -2 * 36e5 && dt < 3 * 36e5;
@@ -81,7 +83,7 @@ function renderRail(list) {
     card.innerHTML = `
       <div class="card-art" ${art}>
         <span class="card-badge"><span class="e">${ev.food.emoji}</span>${ev.food.label}</span>
-        <span class="card-when ${isSoon(ev.start) ? "is-soon" : ""}">${whenLabel(ev.start)}</span>
+        <span class="card-when ${isSoon(ev.start) ? "is-soon" : ""}">${whenLabel(ev.start)}${priceTag(ev)}</span>
       </div>
       <div class="card-body">
         <h3 class="card-name">${ev.name}</h3>
@@ -117,7 +119,7 @@ function renderMarkers(list) {
     const m = L.marker([ev.lat, ev.lng], { icon }).addTo(map);
     m.bindPopup(
       `<div class="pop-name">${ev.name}</div>
-       <div class="pop-meta">${ev.food.emoji} ${whenLabel(ev.start)} · ${ev.venue}</div>`,
+       <div class="pop-meta">${ev.food.emoji} ${whenLabel(ev.start)}${priceTag(ev)} · ${ev.venue}</div>`,
       { closeButton: false }
     );
     m.on("click", () => focusEvent(ev, { scroll: true }));
@@ -188,7 +190,7 @@ function boot(d) {
     x.classList.toggle("is-on", x.dataset.day === state.day));
   const age = Math.round((Date.now() - Date.parse(d.generatedAt)) / 36e5);
   $("stamp").innerHTML =
-    `updated ${age <= 0 ? "just now" : age + "h ago"} · events from <a href="https://lu.ma/sf" target="_blank" rel="noopener">lu.ma</a>`;
+    `updated ${age <= 0 ? "just now" : age + "h ago"} · events from <a href="https://lu.ma/sf" target="_blank" rel="noopener">lu.ma</a> + <a href="https://www.eventbrite.com/d/ca--san-francisco/food-and-drink--events/" target="_blank" rel="noopener">eventbrite</a>`;
   moveThumb();
   render();
 }

@@ -37,6 +37,11 @@ const FOOD_TYPES = [
   ] },
 ];
 
+const EB_PAGES = [
+  ...[1, 2, 3, 4, 5].map((p) => `https://www.eventbrite.com/d/ca--san-francisco/food-and-drink--events/?page=${p}`),
+  ...[1, 2].map((p) => `https://www.eventbrite.com/d/ca--san-francisco/free-food/?page=${p}`),
+];
+
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 async function fetchJSON(url, tries = 3) {
@@ -91,6 +96,75 @@ function findSnippet(text, word) {
   if (!hit) return null;
   const clean = hit.trim().replace(/\s+/g, " ");
   return clean.length > 140 ? clean.slice(0, 137).trimEnd() + "…" : clean;
+}
+
+// Interpret a wall-clock date+time in a timezone as an ISO UTC instant.
+function localToISO(dateStr, timeStr, tz) {
+  const guess = new Date(`${dateStr}T${timeStr || "00:00"}:00Z`);
+  const part = new Intl.DateTimeFormat("en-US", { timeZone: tz, timeZoneName: "shortOffset" })
+    .formatToParts(guess).find((p) => p.type === "timeZoneName").value;
+  const m = part.match(/GMT([+-]\d+)(?::(\d+))?/);
+  const offMin = m ? parseInt(m[1]) * 60 + (m[2] ? Math.sign(parseInt(m[1])) * parseInt(m[2]) : 0) : 0;
+  return new Date(guess.getTime() - offMin * 60000).toISOString();
+}
+
+// Eventbrite killed its public search API, but listing pages embed the same
+// data in window.__SERVER_DATA__ — full description included, no per-event fetch.
+async function fetchEventbrite(now, horizon) {
+  const found = new Map();
+  for (const pageUrl of EB_PAGES) {
+    let html;
+    try {
+      const res = await fetch(pageUrl, { headers: { ...UA, Accept: "text/html" } });
+      if (!res.ok) { console.warn(`  eventbrite ${res.status} for ${pageUrl}`); continue; }
+      html = await res.text();
+    } catch (err) { console.warn(`  eventbrite fetch failed: ${err.message}`); continue; }
+    const m = html.match(/window\.__SERVER_DATA__\s*=\s*(\{.*?\});\s*\n/s);
+    if (!m) continue;
+    let data;
+    try { data = JSON.parse(m[1]); } catch { continue; }
+    const stack = [data];
+    while (stack.length) {
+      const node = stack.pop();
+      if (Array.isArray(node)) { stack.push(...node); continue; }
+      if (!node || typeof node !== "object") continue;
+      if (node._type === "destination_event" && node.primary_venue?.address?.latitude) {
+        found.set(node.eid || node.id, node);
+        continue;
+      }
+      stack.push(...Object.values(node));
+    }
+    await sleep(400);
+  }
+
+  const out = [];
+  for (const ev of found.values()) {
+    if (ev.is_online_event || ev.is_cancelled) continue;
+    const addr = ev.primary_venue.address;
+    const lat = parseFloat(addr.latitude), lng = parseFloat(addr.longitude);
+    if (lat < 37.7 || lat > 37.835 || lng < -122.53 || lng > -122.35) continue;
+    const tz = ev.timezone || "America/Los_Angeles";
+    const start = localToISO(ev.start_date, ev.start_time, tz);
+    const startMs = Date.parse(start);
+    if (!(startMs > now - 3 * 3600 * 1000 && startMs < horizon)) continue;
+    const priceRaw = ev.ticket_availability?.minimum_ticket_price?.major_value;
+    const price = priceRaw == null ? null : Math.round(parseFloat(priceRaw));
+    out.push({
+      slug: `eb-${ev.eid || ev.id}`,
+      source: "eventbrite",
+      name: ev.name,
+      urlFull: ev.url,
+      start,
+      end: ev.end_date ? localToISO(ev.end_date, ev.end_time, tz) : null,
+      lat, lng,
+      venue: ev.primary_venue.name || addr.localized_address_display || "San Francisco",
+      cover: ev.image?.image_sizes?.medium || ev.image?.url || null,
+      colors: ev.image?.edge_color ? [ev.image.edge_color] : [],
+      price,
+      desc: [ev.summary, ev.full_description].filter(Boolean).join("\n"),
+    });
+  }
+  return out;
 }
 
 async function main() {
@@ -151,9 +225,21 @@ async function main() {
   }
   await Promise.all(Array.from({ length: DETAIL_CONCURRENCY }, worker));
 
+  // 2b. Eventbrite (best-effort: never sinks the build if it's blocked or reshaped).
+  let ebEvents = [];
+  try {
+    ebEvents = await fetchEventbrite(now, horizon);
+    console.log(`Eventbrite: ${ebEvents.length} offline SF events in window`);
+  } catch (err) {
+    console.warn(`Eventbrite source failed, continuing with Luma only: ${err.message}`);
+  }
+  // Cross-source dedupe: same title on the same day keeps the Luma copy.
+  const lumaKeys = new Set(detailed.map((e) => e.name.toLowerCase().slice(0, 40) + e.start.slice(0, 10)));
+  ebEvents = ebEvents.filter((e) => !lumaKeys.has(e.name.toLowerCase().slice(0, 40) + e.start.slice(0, 10)));
+
   // 3. Classify.
   const events = [];
-  for (const ev of detailed) {
+  for (const ev of [...detailed, ...ebEvents]) {
     const text = `${ev.name}\n${ev.desc}`;
     const hits = classifyFood(text);
     if (!hits) continue;
@@ -161,8 +247,9 @@ async function main() {
     const snippet = findSnippet(ev.desc, primary.word) || findSnippet(ev.name, primary.word) || "";
     events.push({
       slug: ev.slug,
+      source: ev.source || "luma",
       name: ev.name,
-      url: `https://lu.ma/${ev.slug}`,
+      url: ev.urlFull || `https://lu.ma/${ev.slug}`,
       start: ev.start,
       end: ev.end,
       lat: ev.lat,
@@ -170,17 +257,36 @@ async function main() {
       venue: ev.venue,
       cover: ev.cover,
       colors: ev.colors,
+      price: ev.price ?? null,
       food: { key: primary.type.key, emoji: primary.type.emoji, label: primary.type.label },
       allFood: hits.map((h) => ({ key: h.type.key, emoji: h.type.emoji, label: h.type.label })),
       snippet,
     });
   }
+  // 3b. Price enrichment for Eventbrite events (listing payload carries no price).
+  const needPrice = events.filter((e) => e.source === "eventbrite" && e.price == null);
+  let pi = 0;
+  async function priceWorker() {
+    while (pi < needPrice.length) {
+      const ev = needPrice[pi++];
+      try {
+        const res = await fetch(ev.url, { headers: { ...UA, Accept: "text/html" } });
+        if (!res.ok) continue;
+        const html = await res.text();
+        const pm = html.match(/"lowPrice"\s*:\s*"?([\d.]+)"?/);
+        if (pm) ev.price = Math.round(parseFloat(pm[1]));
+      } catch { /* price stays unknown */ }
+      await sleep(200);
+    }
+  }
+  await Promise.all(Array.from({ length: 4 }, priceWorker));
+
   events.sort((a, b) => Date.parse(a.start) - Date.parse(b.start));
 
   const out = {
     generatedAt: new Date().toISOString(),
     city: "San Francisco",
-    source: "lu.ma",
+    source: "lu.ma + eventbrite",
     count: events.length,
     events,
   };
