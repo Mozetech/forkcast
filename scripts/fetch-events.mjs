@@ -261,6 +261,7 @@ async function main() {
       if (lat < 37.7 || lat > 37.835 || lng < -122.53 || lng > -122.35) continue;
       listed.push({
         slug: ev.url,
+        apiId: ev.api_id,
         name: ev.name,
         start: ev.start_at,
         end: ev.end_at,
@@ -387,6 +388,7 @@ async function main() {
       cover: ev.cover,
       colors: ev.colors,
       price: ev.price ?? null,
+      embed: ev.apiId ? `https://luma.com/embed/event/${ev.apiId}/simple` : null,
       food: { key: primary.key, label: primary.label },
       snippet: deEmoji(snippet),
     });

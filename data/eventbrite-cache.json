@@ -338,23 +338,6 @@
   "desc": "✨ Don't miss the monthly drag variety show Mabuhay Bitches! Experience vibrant drag  Filipino style, delicious food, and tempting drinks!"
  },
  {
-  "slug": "eb-1980566336227",
-  "source": "eventbrite",
-  "name": "SF: Food + History + Art Tour",
-  "urlFull": "https://www.eventbrite.com/e/sf-food-history-art-tour-tickets-1980566336227",
-  "start": "2026-08-02T19:00:00.000Z",
-  "end": "2026-08-02T22:00:00.000Z",
-  "lat": 37.7508296,
-  "lng": -122.4181823,
-  "venue": "Elsy's Restaurant",
-  "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F902367093%2F251550691539%2F1%2Foriginal.20241119-185814?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4ef6d9a19666029f015a785232370fc0",
-  "colors": [
-   "#846b58"
-  ],
-  "price": 97,
-  "desc": "Join us on the SF: Food + History + Art Tour and TRULY experience the very best of San Francisco."
- },
- {
   "slug": "eb-1989124662411",
   "source": "eventbrite",
   "name": "In-person class: Better than Takeout Pad Thai (San Francisco)",
@@ -370,6 +353,23 @@
   ],
   "price": 65,
   "desc": "Better than Takeout: Pad Thai"
+ },
+ {
+  "slug": "eb-1980566336227",
+  "source": "eventbrite",
+  "name": "SF: Food + History + Art Tour",
+  "urlFull": "https://www.eventbrite.com/e/sf-food-history-art-tour-tickets-1980566336227",
+  "start": "2026-08-02T19:00:00.000Z",
+  "end": "2026-08-02T22:00:00.000Z",
+  "lat": 37.7508296,
+  "lng": -122.4181823,
+  "venue": "Elsy's Restaurant",
+  "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F902367093%2F251550691539%2F1%2Foriginal.20241119-185814?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4ef6d9a19666029f015a785232370fc0",
+  "colors": [
+   "#846b58"
+  ],
+  "price": 97,
+  "desc": "Join us on the SF: Food + History + Art Tour and TRULY experience the very best of San Francisco."
  },
  {
   "slug": "eb-1988686800755",
@@ -523,23 +523,6 @@
   "desc": ""
  },
  {
-  "slug": "eb-1988507528547",
-  "source": "eventbrite",
-  "name": "Exploring the Mission District - Food Tour in the Bay Area | Cozymeal™",
-  "urlFull": "https://www.eventbrite.com/e/exploring-the-mission-district-food-tour-in-the-bay-area-cozymealtm-tickets-1988507528547",
-  "start": "2026-07-28T18:00:00.000Z",
-  "end": "2026-07-28T21:00:00.000Z",
-  "lat": 37.7509821,
-  "lng": -122.4187205,
-  "venue": "Location provided after booking",
-  "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F440682209%2F931232795353%2F1%2Foriginal.20230207-035519?w=640&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=992758e86d594982c6c446e0fa44f6c4",
-  "colors": [
-   "#a38b83"
-  ],
-  "price": 0,
-  "desc": ""
- },
- {
   "slug": "eb-1988500338040",
   "source": "eventbrite",
   "name": "Explore Chinatown and Little Italy - Food Tour in the Bay Area | Cozymeal™",
@@ -552,6 +535,23 @@
   "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F290098819%2F931232795353%2F1%2Foriginal.20220524-000754?w=640&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=fcbabeaa5216839b26b2a705176b08e4",
   "colors": [
    "#8e7e72"
+  ],
+  "price": 0,
+  "desc": ""
+ },
+ {
+  "slug": "eb-1988507528547",
+  "source": "eventbrite",
+  "name": "Exploring the Mission District - Food Tour in the Bay Area | Cozymeal™",
+  "urlFull": "https://www.eventbrite.com/e/exploring-the-mission-district-food-tour-in-the-bay-area-cozymealtm-tickets-1988507528547",
+  "start": "2026-07-28T18:00:00.000Z",
+  "end": "2026-07-28T21:00:00.000Z",
+  "lat": 37.7509821,
+  "lng": -122.4187205,
+  "venue": "Location provided after booking",
+  "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F440682209%2F931232795353%2F1%2Foriginal.20230207-035519?w=640&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=992758e86d594982c6c446e0fa44f6c4",
+  "colors": [
+   "#a38b83"
   ],
   "price": 0,
   "desc": ""
@@ -572,23 +572,6 @@
   ],
   "price": 0,
   "desc": "$1 Wing Wednesdays at Underdogs Cantina"
- },
- {
-  "slug": "eb-1995037012409",
-  "source": "eventbrite",
-  "name": "Quesabirria Mondays",
-  "urlFull": "https://www.eventbrite.com/e/quesabirria-mondays-tickets-1995037012409",
-  "start": "2026-08-03T18:00:00.000Z",
-  "end": "2026-08-04T04:00:00.000Z",
-  "lat": 37.77950959999999,
-  "lng": -122.3907097,
-  "venue": "Underdogs Cantina",
-  "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189268939%2F1287845793773%2F1%2Foriginal.20260721-011154?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.835&fp-y=0.562&s=d753b9b539ddc02c3d4fd7aa0ea5cb63",
-  "colors": [
-   "#9c4e06"
-  ],
-  "price": 0,
-  "desc": "Every Monday (Dine-In Only)"
  },
  {
   "slug": "eb-1994910024585",

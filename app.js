@@ -142,10 +142,14 @@ function renderRail(list) {
         <p class="card-venue">${icon("pin", 12)}<span class="venue-text">${ev.venue}</span></p>
         <div class="card-foot">
           <span class="card-quote">${ev.snippet ? "“" + ev.snippet + "”" : ""}</span>
-          <a class="card-go" href="${ev.url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Go</a>
+          <a class="card-go" href="${ev.url}" target="_blank" rel="noopener" data-embed="${ev.embed || ""}">Go</a>
         </div>
       </div>`;
     card.onclick = () => focusEvent(ev, { fly: true });
+    card.querySelector(".card-go").onclick = (e) => {
+      e.stopPropagation();
+      if (ev.embed) { e.preventDefault(); openModal(ev.embed); }
+    };
     railEl.appendChild(card);
   });
   emptyEl.hidden = list.length > 0;
@@ -213,6 +217,21 @@ function render() {
   }
   state.booted = true;
 }
+
+/* ── register modal (Luma's official embed, in place) ───── */
+
+const modalEl = $("modal"), frameEl = $("modal-frame");
+function openModal(src) {
+  frameEl.src = src;
+  modalEl.hidden = false;
+}
+function closeModal() {
+  modalEl.hidden = true;
+  frameEl.src = "about:blank";
+}
+$("modal-x").onclick = closeModal;
+$("modal-backdrop").onclick = closeModal;
+addEventListener("keydown", (e) => { if (e.key === "Escape") closeModal(); });
 
 /* ── day switcher ───────────────────────────────────────── */
 

@@ -1,33 +1,9 @@
 {
- "generatedAt": "2026-07-28T12:53:15.980Z",
+ "generatedAt": "2026-07-28T13:03:52.046Z",
  "city": "San Francisco",
  "source": "lu.ma + eventbrite",
  "count": 16,
  "events": [
-  {
-   "slug": "kdgxf1fs",
-   "source": "luma",
-   "name": "AI Nerd Meet Up",
-   "url": "https://lu.ma/kdgxf1fs",
-   "start": "2026-07-29T01:00:00.000Z",
-   "end": "2026-07-29T04:00:00.000Z",
-   "lat": 37.76086254883034,
-   "lng": -122.39074641404001,
-   "venue": "San Francisco",
-   "cover": "https://images.lumacdn.com/uploads/34/a0f3f03d-aa66-431b-84d0-5dbd8092ac8b.png",
-   "colors": [
-    "#f8f7fb",
-    "#6538f9",
-    "#06080c",
-    "#f6bf61"
-   ],
-   "price": 0,
-   "food": {
-    "key": "pizza",
-    "label": "Pizza"
-   },
-   "snippet": "Food: Pizza, drinks and snacks will be provided"
-  },
   {
    "slug": "w61gmib2",
    "source": "luma",
@@ -46,11 +22,37 @@
     "#4a1323"
    ],
    "price": 0,
+   "embed": "https://luma.com/embed/event/evt-XCxlrZIFrED0Nx5/simple",
    "food": {
     "key": "food",
     "label": "Food"
    },
    "snippet": "For our first edition, we’ll convene a curated group of attendees at UpScaleX for an evening of short research presentations, open discus…"
+  },
+  {
+   "slug": "kdgxf1fs",
+   "source": "luma",
+   "name": "AI Nerd Meet Up",
+   "url": "https://lu.ma/kdgxf1fs",
+   "start": "2026-07-29T01:00:00.000Z",
+   "end": "2026-07-29T04:00:00.000Z",
+   "lat": 37.76086254883034,
+   "lng": -122.39074641404001,
+   "venue": "San Francisco",
+   "cover": "https://images.lumacdn.com/uploads/34/a0f3f03d-aa66-431b-84d0-5dbd8092ac8b.png",
+   "colors": [
+    "#f8f7fb",
+    "#6538f9",
+    "#06080c",
+    "#f6bf61"
+   ],
+   "price": 0,
+   "embed": "https://luma.com/embed/event/evt-AUlyE6fg1iijyVx/simple",
+   "food": {
+    "key": "pizza",
+    "label": "Pizza"
+   },
+   "snippet": "Food: Pizza, drinks and snacks will be provided"
   },
   {
    "slug": "on-mercury-sf",
@@ -68,6 +70,7 @@
     "#554e7b"
    ],
    "price": 0,
+   "embed": "https://luma.com/embed/event/evt-G2H1XlOXOzz69xE/simple",
    "food": {
     "key": "coffee",
     "label": "Coffee"
@@ -92,6 +95,7 @@
     "#9c9067"
    ],
    "price": 0,
+   "embed": "https://luma.com/embed/event/evt-NSw1gQCCwb9DzIf/simple",
    "food": {
     "key": "food",
     "label": "Food"
@@ -116,6 +120,7 @@
     "#d42f0b"
    ],
    "price": 0,
+   "embed": "https://luma.com/embed/event/evt-gtWXwKnAlF4s321/simple",
    "food": {
     "key": "coffee",
     "label": "Coffee"
@@ -140,6 +145,7 @@
     "#6dd774"
    ],
    "price": 0,
+   "embed": "https://luma.com/embed/event/evt-UHAODEGAFIQryhB/simple",
    "food": {
     "key": "wine",
     "label": "Aperitivo"
@@ -162,6 +168,7 @@
     "#fdfdfe"
    ],
    "price": 0,
+   "embed": "https://luma.com/embed/event/evt-iZMrMUFofZK4eOF/simple",
    "food": {
     "key": "food",
     "label": "Food"
@@ -186,6 +193,7 @@
     "#27a49e"
    ],
    "price": 0,
+   "embed": "https://luma.com/embed/event/evt-7FtTJSFEc9492Yw/simple",
    "food": {
     "key": "food",
     "label": "Food"
@@ -209,6 +217,7 @@
     "#e7e8ec"
    ],
    "price": 0,
+   "embed": "https://luma.com/embed/event/evt-9kBGaQyAylbqM3i/simple",
    "food": {
     "key": "food",
     "label": "Food"
@@ -233,11 +242,36 @@
     "#fcf9f6"
    ],
    "price": 0,
+   "embed": "https://luma.com/embed/event/evt-5rnwnFn8Rp1UoXX/simple",
    "food": {
     "key": "food",
     "label": "Food"
    },
    "snippet": "Keep the conversation going over drinks and authentic Taiwanese snacks."
+  },
+  {
+   "slug": "7h2hjufc",
+   "source": "luma",
+   "name": "Scaling revenue at Stripe and Vercel with Jeanne DeWitt Grosser (COO, Vercel)",
+   "url": "https://lu.ma/7h2hjufc",
+   "start": "2026-07-31T01:00:00.000Z",
+   "end": "2026-07-31T03:00:00.000Z",
+   "lat": 37.79713990716092,
+   "lng": -122.39651984364899,
+   "venue": "San Francisco",
+   "cover": "https://images.lumacdn.com/uploads/n0/5bb8bc6e-2552-44f9-a659-e0a9bc3e71a2.png",
+   "colors": [
+    "#e1eadd",
+    "#1d1d1d",
+    "#fea9fc"
+   ],
+   "price": 0,
+   "embed": "https://luma.com/embed/event/evt-P7Fb9e3MUBbNsmh/simple",
+   "food": {
+    "key": "food",
+    "label": "Food"
+   },
+   "snippet": "6:00–6:45 PM — Welcome drinks & snacks"
   },
   {
    "slug": "JulyDynamoAfterHours",
@@ -257,34 +291,12 @@
     "#8bab77"
    ],
    "price": 0,
+   "embed": "https://luma.com/embed/event/evt-lutDq15FCBqcZ5v/simple",
    "food": {
     "key": "food",
     "label": "Food"
    },
    "snippet": "7:00 PM - 9:00 PM: Socialization with food and drinks"
-  },
-  {
-   "slug": "7h2hjufc",
-   "source": "luma",
-   "name": "Scaling revenue at Stripe and Vercel with Jeanne DeWitt Grosser (COO, Vercel)",
-   "url": "https://lu.ma/7h2hjufc",
-   "start": "2026-07-31T01:00:00.000Z",
-   "end": "2026-07-31T03:00:00.000Z",
-   "lat": 37.79713990716092,
-   "lng": -122.39651984364899,
-   "venue": "San Francisco",
-   "cover": "https://images.lumacdn.com/uploads/n0/5bb8bc6e-2552-44f9-a659-e0a9bc3e71a2.png",
-   "colors": [
-    "#e1eadd",
-    "#1d1d1d",
-    "#fea9fc"
-   ],
-   "price": 0,
-   "food": {
-    "key": "food",
-    "label": "Food"
-   },
-   "snippet": "6:00–6:45 PM — Welcome drinks & snacks"
   },
   {
    "slug": "bluedot-sf-launch",
@@ -304,6 +316,7 @@
     "#e49da6"
    ],
    "price": 0,
+   "embed": "https://luma.com/embed/event/evt-45VVK0N3KlKxofo/simple",
    "food": {
     "key": "food",
     "label": "Food"
@@ -325,6 +338,7 @@
     "#917651"
    ],
    "price": 0,
+   "embed": null,
    "food": {
     "key": "bbq",
     "label": "BBQ"
@@ -349,6 +363,7 @@
     "#4dafe6"
    ],
    "price": 0,
+   "embed": "https://luma.com/embed/event/evt-l4PD87CvOxvzJHv/simple",
    "food": {
     "key": "food",
     "label": "Food"
@@ -373,6 +388,7 @@
     "#fcaefc"
    ],
    "price": 0,
+   "embed": "https://luma.com/embed/event/evt-pMhXGRqu65aEuC8/simple",
    "food": {
     "key": "food",
     "label": "Food"
