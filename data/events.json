@@ -1,0 +1,775 @@
+{
+ "generatedAt": "2026-07-28T04:07:49.830Z",
+ "city": "San Francisco",
+ "source": "lu.ma",
+ "count": 24,
+ "events": [
+  {
+   "slug": "bf1psict",
+   "name": "Summer Soiree with Entire",
+   "url": "https://lu.ma/bf1psict",
+   "start": "2026-07-28T02:00:00.000Z",
+   "end": "2026-07-28T05:00:00.000Z",
+   "lat": 37.75726253850555,
+   "lng": -122.41686975115287,
+   "venue": "San Francisco",
+   "cover": "https://images.lumacdn.com/uploads/9o/b3ef8572-ca4f-4fb4-b2a0-e52318065ccd.png",
+   "colors": [
+    "#e5a3af",
+    "#5677b1",
+    "#b591ba",
+    "#fefefe"
+   ],
+   "food": {
+    "key": "food",
+    "emoji": "🍽️",
+    "label": "Food"
+   },
+   "allFood": [
+    {
+     "key": "food",
+     "emoji": "🍽️",
+     "label": "Food"
+    }
+   ],
+   "snippet": "We'll have good food, drinks, conversations, and no demos."
+  },
+  {
+   "slug": "5lcn6pt8",
+   "name": "Pebblebed's Builders Late Night Café",
+   "url": "https://lu.ma/5lcn6pt8",
+   "start": "2026-07-28T02:30:00.000Z",
+   "end": "2026-07-28T07:00:00.000Z",
+   "lat": 37.76685210716557,
+   "lng": -122.4183940049446,
+   "venue": "San Francisco",
+   "cover": "https://images.lumacdn.com/event-covers/xf/e2587daf-fcd2-4312-936a-22c23e344ffd.png",
+   "colors": [
+    "#6c64b0",
+    "#fdfdfe",
+    "#a57685",
+    "#33f7f9"
+   ],
+   "food": {
+    "key": "coffee",
+    "emoji": "☕",
+    "label": "Coffee"
+   },
+   "allFood": [
+    {
+     "key": "coffee",
+     "emoji": "☕",
+     "label": "Coffee"
+    },
+    {
+     "key": "pastry",
+     "emoji": "🍩",
+     "label": "Pastries"
+    },
+    {
+     "key": "food",
+     "emoji": "🍽️",
+     "label": "Food"
+    }
+   ],
+   "snippet": "That flow state hits different - focused energy and the smell of fresh coffee."
+  },
+  {
+   "slug": "qzltss9v",
+   "name": "Show and tell night",
+   "url": "https://lu.ma/qzltss9v",
+   "start": "2026-07-29T00:00:00.000Z",
+   "end": "2026-07-29T04:00:00.000Z",
+   "lat": 37.80005414905311,
+   "lng": -122.4029503589853,
+   "venue": "San Francisco",
+   "cover": "https://images.lumacdn.com/uploads/6v/8003d5bb-7ecb-42b9-8564-1b6d89d9b022.png",
+   "colors": [
+    "#161718",
+    "#ffffff",
+    "#f86606",
+    "#246cfd"
+   ],
+   "food": {
+    "key": "food",
+    "emoji": "🍽️",
+    "label": "Food"
+   },
+   "allFood": [
+    {
+     "key": "food",
+     "emoji": "🍽️",
+     "label": "Food"
+    }
+   ],
+   "snippet": "5:00 PM Networking and food"
+  },
+  {
+   "slug": "durable-ai-july",
+   "name": "Durable Multimodal AI Meetup with HeyGen, Vapi, and Modal",
+   "url": "https://lu.ma/durable-ai-july",
+   "start": "2026-07-29T00:30:00.000Z",
+   "end": "2026-07-29T03:00:00.000Z",
+   "lat": 37.79428422713315,
+   "lng": -122.40153759592502,
+   "venue": "San Francisco",
+   "cover": "https://images.lumacdn.com/uploads/cu/5172530c-f358-4163-becd-7b7901025027.png",
+   "colors": [
+    "#161516",
+    "#f4f3f2",
+    "#3544a1",
+    "#cbfc19"
+   ],
+   "food": {
+    "key": "boba",
+    "emoji": "🧋",
+    "label": "Boba"
+   },
+   "allFood": [
+    {
+     "key": "boba",
+     "emoji": "🧋",
+     "label": "Boba"
+    },
+    {
+     "key": "food",
+     "emoji": "🍽️",
+     "label": "Food"
+    }
+   ],
+   "snippet": "🥘 Korean street food, ​🧋BOBA, and real technical conversations"
+  },
+  {
+   "slug": "7lhjec3b",
+   "name": "scrappy sessions",
+   "url": "https://lu.ma/7lhjec3b",
+   "start": "2026-07-29T00:30:00.000Z",
+   "end": "2026-07-29T02:00:00.000Z",
+   "lat": 37.78210634410642,
+   "lng": -122.39299874186096,
+   "venue": "San Francisco",
+   "cover": "https://images.lumacdn.com/uploads/jn/39e68e3c-4fe3-4791-87b5-20b170a96b24.png",
+   "colors": [
+    "#fbf7ef",
+    "#1a1916",
+    "#c7d3b0"
+   ],
+   "food": {
+    "key": "food",
+    "emoji": "🍽️",
+    "label": "Food"
+   },
+   "allFood": [
+    {
+     "key": "food",
+     "emoji": "🍽️",
+     "label": "Food"
+    }
+   ],
+   "snippet": "free food 😛"
+  },
+  {
+   "slug": "kdgxf1fs",
+   "name": "AI Nerd Meet Up",
+   "url": "https://lu.ma/kdgxf1fs",
+   "start": "2026-07-29T01:00:00.000Z",
+   "end": "2026-07-29T04:00:00.000Z",
+   "lat": 37.76086254883034,
+   "lng": -122.39074641404001,
+   "venue": "San Francisco",
+   "cover": "https://images.lumacdn.com/uploads/34/a0f3f03d-aa66-431b-84d0-5dbd8092ac8b.png",
+   "colors": [
+    "#f8f7fb",
+    "#6538f9",
+    "#06080c",
+    "#f6bf61"
+   ],
+   "food": {
+    "key": "pizza",
+    "emoji": "🍕",
+    "label": "Pizza"
+   },
+   "allFood": [
+    {
+     "key": "pizza",
+     "emoji": "🍕",
+     "label": "Pizza"
+    },
+    {
+     "key": "food",
+     "emoji": "🍽️",
+     "label": "Food"
+    }
+   ],
+   "snippet": "🍕 Food: Pizza, drinks and snacks will be provided"
+  },
+  {
+   "slug": "w61gmib2",
+   "name": "Intelligence in the Open — Edition 01: Reasoning, Evaluation & Long-Horizon Agents",
+   "url": "https://lu.ma/w61gmib2",
+   "start": "2026-07-29T01:00:00.000Z",
+   "end": "2026-07-29T04:00:00.000Z",
+   "lat": 37.79398868920479,
+   "lng": -122.40122263783394,
+   "venue": "San Francisco",
+   "cover": "https://images.lumacdn.com/uploads/qq/07cfddfa-9f2e-4342-b46e-c552fd4874e6.png",
+   "colors": [
+    "#f13d1f",
+    "#d71b42",
+    "#fdf7f7",
+    "#4a1323"
+   ],
+   "food": {
+    "key": "food",
+    "emoji": "🍽️",
+    "label": "Food"
+   },
+   "allFood": [
+    {
+     "key": "food",
+     "emoji": "🍽️",
+     "label": "Food"
+    }
+   ],
+   "snippet": "For our first edition, we’ll convene a curated group of attendees at UpScaleX for an evening of short research presentations, open discus…"
+  },
+  {
+   "slug": "on-mercury-sf",
+   "name": "on Mercury - SF",
+   "url": "https://lu.ma/on-mercury-sf",
+   "start": "2026-07-29T16:00:00.000Z",
+   "end": "2026-07-29T23:00:00.000Z",
+   "lat": 37.757324,
+   "lng": -122.3879397,
+   "venue": "2535 3rd St, San Francisco",
+   "cover": "https://images.lumacdn.com/uploads/wd/7622a24e-5344-4a1e-9041-7698f294286c.png",
+   "colors": [
+    "#e0ded7",
+    "#554e7b"
+   ],
+   "food": {
+    "key": "coffee",
+    "emoji": "☕",
+    "label": "Coffee"
+   },
+   "allFood": [
+    {
+     "key": "coffee",
+     "emoji": "☕",
+     "label": "Coffee"
+    },
+    {
+     "key": "pancake",
+     "emoji": "🥞",
+     "label": "Brunch"
+    },
+    {
+     "key": "food",
+     "emoji": "🍽️",
+     "label": "Food"
+    }
+   ],
+   "snippet": "Grab breakfast with your team, take a coffee break, or swing by between meetings — we'd love to see you."
+  },
+  {
+   "slug": "cazn88f7",
+   "name": "Can We Close the Sim2Real Gap?",
+   "url": "https://lu.ma/cazn88f7",
+   "start": "2026-07-30T00:30:00.000Z",
+   "end": "2026-07-30T04:00:00.000Z",
+   "lat": 37.762809662151504,
+   "lng": -122.41025880982444,
+   "venue": "San Francisco",
+   "cover": "https://images.lumacdn.com/uploads/jd/6a0e3da7-fdb1-4bd6-b9f2-c3184b6701bc.jpg",
+   "colors": [
+    "#ebebe3",
+    "#cacaca",
+    "#060402",
+    "#9c9067"
+   ],
+   "food": {
+    "key": "food",
+    "emoji": "🍽️",
+    "label": "Food"
+   },
+   "allFood": [
+    {
+     "key": "food",
+     "emoji": "🍽️",
+     "label": "Food"
+    }
+   ],
+   "snippet": "5:30 PM — Doors Open + Light Bites"
+  },
+  {
+   "slug": "m7lqzial",
+   "name": "Agentic Happy Hour with GitKraken",
+   "url": "https://lu.ma/m7lqzial",
+   "start": "2026-07-30T01:30:00.000Z",
+   "end": "2026-07-30T04:30:00.000Z",
+   "lat": 37.785345,
+   "lng": -122.40555200000001,
+   "venue": "12 4th St, San Francisco",
+   "cover": "https://images.lumacdn.com/uploads/2t/e645ce55-cc03-4d43-a867-b2af37dbf666.png",
+   "colors": [
+    "#028ba5",
+    "#fefefe",
+    "#f2aa15",
+    "#d55e11"
+   ],
+   "food": {
+    "key": "wine",
+    "emoji": "🥂",
+    "label": "Aperitivo"
+   },
+   "allFood": [
+    {
+     "key": "wine",
+     "emoji": "🥂",
+     "label": "Aperitivo"
+    },
+    {
+     "key": "food",
+     "emoji": "🍽️",
+     "label": "Food"
+    }
+   ],
+   "snippet": "Agentic Happy Hour with GitKraken"
+  },
+  {
+   "slug": "builtdifferent-auth0-stripe",
+   "name": "Built Different: Auth0 x Stripe Hackathon",
+   "url": "https://lu.ma/builtdifferent-auth0-stripe",
+   "start": "2026-07-30T19:00:00.000Z",
+   "end": "2026-07-31T02:30:00.000Z",
+   "lat": 37.7895063,
+   "lng": -122.39744179999998,
+   "venue": "100 First Plaza, 100 1st St 6th floor, San Francisco",
+   "cover": "https://images.lumacdn.com/uploads/lq/2300f1be-0302-42f0-bcf3-b322777d3533.png",
+   "colors": [
+    "#12110f",
+    "#631a95",
+    "#fcfcfc",
+    "#d42f0b"
+   ],
+   "food": {
+    "key": "coffee",
+    "emoji": "☕",
+    "label": "Coffee"
+   },
+   "allFood": [
+    {
+     "key": "coffee",
+     "emoji": "☕",
+     "label": "Coffee"
+    },
+    {
+     "key": "wine",
+     "emoji": "🥂",
+     "label": "Aperitivo"
+    },
+    {
+     "key": "food",
+     "emoji": "🍽️",
+     "label": "Food"
+    }
+   ],
+   "snippet": "Lunch, coffee, and a happy hour on us."
+  },
+  {
+   "slug": "4yta9i2j",
+   "name": "IREN AI Social",
+   "url": "https://lu.ma/4yta9i2j",
+   "start": "2026-07-31T00:00:00.000Z",
+   "end": "2026-07-31T02:00:00.000Z",
+   "lat": 37.77704327097121,
+   "lng": -122.3932181598894,
+   "venue": "San Francisco",
+   "cover": "https://images.lumacdn.com/uploads/3a/d797c4b5-356e-4ec8-b5b1-45a480cebff7.png",
+   "colors": [
+    "#032245",
+    "#4fcdbd",
+    "#32b6f4",
+    "#6dd774"
+   ],
+   "food": {
+    "key": "wine",
+    "emoji": "🥂",
+    "label": "Aperitivo"
+   },
+   "allFood": [
+    {
+     "key": "wine",
+     "emoji": "🥂",
+     "label": "Aperitivo"
+    },
+    {
+     "key": "food",
+     "emoji": "🍽️",
+     "label": "Food"
+    }
+   ],
+   "snippet": "IREN is hosting a happy hour for the people building in AI."
+  },
+  {
+   "slug": "h5x0pzw9",
+   "name": "☕️ OpenAI Codex Community Meetup-San Francisco #8",
+   "url": "https://lu.ma/h5x0pzw9",
+   "start": "2026-07-31T00:00:00.000Z",
+   "end": "2026-07-31T03:00:00.000Z",
+   "lat": 37.726956436312584,
+   "lng": -122.47767078963795,
+   "venue": "San Francisco",
+   "cover": "https://images.lumacdn.com/event-covers/5n/379662f0-7bf3-4157-a46c-28ada9f7076f.png",
+   "colors": [
+    "#3f3de3",
+    "#fdfdfe"
+   ],
+   "food": {
+    "key": "food",
+    "emoji": "🍽️",
+    "label": "Food"
+   },
+   "allFood": [
+    {
+     "key": "food",
+     "emoji": "🍽️",
+     "label": "Food"
+    }
+   ],
+   "snippet": "Expect a warm, high-energy, and highly interactive evening with networking, refreshments, practical conversations, optional demos, and ne…"
+  },
+  {
+   "slug": "i3evxecn",
+   "name": "Qualcomm x ZETIC x Liquid AI: Edge AI Builders Meetup",
+   "url": "https://lu.ma/i3evxecn",
+   "start": "2026-07-31T00:00:00.000Z",
+   "end": "2026-07-31T03:30:00.000Z",
+   "lat": 37.7898731,
+   "lng": -122.4053026,
+   "venue": "300 Grant Ave Ste 500, San Francisco",
+   "cover": "https://images.lumacdn.com/uploads/y7/26d5805b-36e6-448f-90e2-8c6d4abecf38.jpg",
+   "colors": [
+    "#fafafa",
+    "#353636",
+    "#3555dc",
+    "#27a49e"
+   ],
+   "food": {
+    "key": "food",
+    "emoji": "🍽️",
+    "label": "Food"
+   },
+   "allFood": [
+    {
+     "key": "food",
+     "emoji": "🍽️",
+     "label": "Food"
+    }
+   ],
+   "snippet": "Food and drinks provided!"
+  },
+  {
+   "slug": "715ul99e",
+   "name": "Builder Night",
+   "url": "https://lu.ma/715ul99e",
+   "start": "2026-07-31T00:30:00.000Z",
+   "end": "2026-07-31T03:30:00.000Z",
+   "lat": 37.788385399999996,
+   "lng": -122.4029183,
+   "venue": "660 Market St, San Francisco",
+   "cover": "https://images.lumacdn.com/uploads/4q/0b5ba175-e6f0-439d-818d-bf4045be36a7.png",
+   "colors": [
+    "#2a242d",
+    "#050507",
+    "#e7e8ec"
+   ],
+   "food": {
+    "key": "food",
+    "emoji": "🍽️",
+    "label": "Food"
+   },
+   "allFood": [
+    {
+     "key": "food",
+     "emoji": "🍽️",
+     "label": "Food"
+    }
+   ],
+   "snippet": "This is less panel, more practical session: two focused demos, an open conversation with the teams, and plenty of time for food, drinks,…"
+  },
+  {
+   "slug": "4g3wb753",
+   "name": "Startup Reality 202: AI in Industries — From Foundation Models to Vertical Moats",
+   "url": "https://lu.ma/4g3wb753",
+   "start": "2026-07-31T00:30:00.000Z",
+   "end": "2026-07-31T03:00:00.000Z",
+   "lat": 37.79366285660567,
+   "lng": -122.39772654867906,
+   "venue": "San Francisco",
+   "cover": "https://images.lumacdn.com/uploads/ac/e7d45c54-af30-47c9-b811-5bf522fe8020.png",
+   "colors": [
+    "#084542",
+    "#5a5248",
+    "#f6664c",
+    "#fcf9f6"
+   ],
+   "food": {
+    "key": "food",
+    "emoji": "🍽️",
+    "label": "Food"
+   },
+   "allFood": [
+    {
+     "key": "food",
+     "emoji": "🍽️",
+     "label": "Food"
+    }
+   ],
+   "snippet": "Keep the conversation going over drinks and authentic Taiwanese snacks."
+  },
+  {
+   "slug": "JulyDynamoAfterHours",
+   "name": "Dynamo After Hours",
+   "url": "https://lu.ma/JulyDynamoAfterHours",
+   "start": "2026-07-31T01:00:00.000Z",
+   "end": "2026-07-31T04:00:00.000Z",
+   "lat": 37.77342151243784,
+   "lng": -122.40359088666929,
+   "venue": "San Francisco",
+   "cover": "https://images.lumacdn.com/event-covers/gx/e4aa6021-40b1-4db6-9dfe-8317bce3864b.png",
+   "colors": [
+    "#141917",
+    "#eaeaeb",
+    "#78665c",
+    "#8bab77"
+   ],
+   "food": {
+    "key": "food",
+    "emoji": "🍽️",
+    "label": "Food"
+   },
+   "allFood": [
+    {
+     "key": "food",
+     "emoji": "🍽️",
+     "label": "Food"
+    }
+   ],
+   "snippet": "7:00 PM - 9:00 PM: Socialization with food and drinks"
+  },
+  {
+   "slug": "7h2hjufc",
+   "name": "Scaling revenue at Stripe and Vercel with Jeanne DeWitt Grosser (COO, Vercel)",
+   "url": "https://lu.ma/7h2hjufc",
+   "start": "2026-07-31T01:00:00.000Z",
+   "end": "2026-07-31T03:00:00.000Z",
+   "lat": 37.79713990716092,
+   "lng": -122.39651984364899,
+   "venue": "San Francisco",
+   "cover": "https://images.lumacdn.com/uploads/n0/5bb8bc6e-2552-44f9-a659-e0a9bc3e71a2.png",
+   "colors": [
+    "#e1eadd",
+    "#1d1d1d",
+    "#fea9fc"
+   ],
+   "food": {
+    "key": "food",
+    "emoji": "🍽️",
+    "label": "Food"
+   },
+   "allFood": [
+    {
+     "key": "food",
+     "emoji": "🍽️",
+     "label": "Food"
+    }
+   ],
+   "snippet": "6:00–6:45 PM — Welcome drinks & snacks"
+  },
+  {
+   "slug": "ir1t9z73",
+   "name": "Taste: A Physical AI Data Happy Hour",
+   "url": "https://lu.ma/ir1t9z73",
+   "start": "2026-07-31T01:00:00.000Z",
+   "end": "2026-07-31T04:00:00.000Z",
+   "lat": 37.798985217527374,
+   "lng": -122.3937160956817,
+   "venue": "San Francisco",
+   "cover": "https://images.lumacdn.com/uploads/s6/44ca226b-0593-47b7-b630-a8b973330310.jpg",
+   "colors": [
+    "#1f1ef6",
+    "#001564",
+    "#fdfdfd",
+    "#fc8d5f"
+   ],
+   "food": {
+    "key": "wine",
+    "emoji": "🥂",
+    "label": "Aperitivo"
+   },
+   "allFood": [
+    {
+     "key": "wine",
+     "emoji": "🥂",
+     "label": "Aperitivo"
+    },
+    {
+     "key": "food",
+     "emoji": "🍽️",
+     "label": "Food"
+    }
+   ],
+   "snippet": "Unusual Ventures & HumanSignal invite you to \"Taste: A Physical AI Data Happy Hour\""
+  },
+  {
+   "slug": "bluedot-sf-launch",
+   "name": "BlueDot SF Launch",
+   "url": "https://lu.ma/bluedot-sf-launch",
+   "start": "2026-07-31T02:00:00.000Z",
+   "end": "2026-07-31T05:00:00.000Z",
+   "lat": 37.77837775071261,
+   "lng": -122.42051374524527,
+   "venue": "San Francisco",
+   "cover": "https://images.unsplash.com/photo-1518365050014-70fe7232897f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjQyMjF8MHwxfHNlYXJjaHw2fHxsYXVuY2h8ZW58MHx8fHwxNzgzNjEyNjUyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+   "colors": [
+    "#001334",
+    "#473461",
+    "#fdf7ee",
+    "#e49da6"
+   ],
+   "food": {
+    "key": "food",
+    "emoji": "🍽️",
+    "label": "Food"
+   },
+   "allFood": [
+    {
+     "key": "food",
+     "emoji": "🍽️",
+     "label": "Food"
+    }
+   ],
+   "snippet": "Join us for the first of many evenings at our new home: good food, good drinks, and a room full of people working on making AI go well."
+  },
+  {
+   "slug": "h6fxh0x7",
+   "name": "Draw Together, Be SEEN",
+   "url": "https://lu.ma/h6fxh0x7",
+   "start": "2026-08-01T19:00:00.000Z",
+   "end": "2026-08-02T00:00:00.000Z",
+   "lat": 37.752525600000006,
+   "lng": -122.4176365,
+   "venue": "886 Capp St, San Francisco",
+   "cover": "https://images.lumacdn.com/uploads/5n/154851d9-db77-4670-ab34-f91218d80718.png",
+   "colors": [
+    "#c7da49",
+    "#0c0908",
+    "#c8647f",
+    "#4dafe6"
+   ],
+   "food": {
+    "key": "food",
+    "emoji": "🍽️",
+    "label": "Food"
+   },
+   "allFood": [
+    {
+     "key": "food",
+     "emoji": "🍽️",
+     "label": "Food"
+    }
+   ],
+   "snippet": "🍕 Free Food & Drinks"
+  },
+  {
+   "slug": "hcroww7j",
+   "name": "Read in the Park - San Francisco 📚",
+   "url": "https://lu.ma/hcroww7j",
+   "start": "2026-08-01T21:00:00.000Z",
+   "end": "2026-08-01T23:30:00.000Z",
+   "lat": 37.764785643420815,
+   "lng": -122.47492883392079,
+   "venue": "San Francisco",
+   "cover": "https://images.lumacdn.com/uploads/7y/26f9267e-f1d9-40c6-b784-9082a6f7040f.png",
+   "colors": [
+    "#739013",
+    "#ffffff",
+    "#000000"
+   ],
+   "food": {
+    "key": "food",
+    "emoji": "🍽️",
+    "label": "Food"
+   },
+   "allFood": [
+    {
+     "key": "food",
+     "emoji": "🍽️",
+     "label": "Food"
+    }
+   ],
+   "snippet": "→ A snack or drink if you'd like"
+  },
+  {
+   "slug": "kernel6",
+   "name": "kernel 6 launch party !",
+   "url": "https://lu.ma/kernel6",
+   "start": "2026-08-02T01:30:00.000Z",
+   "end": "2026-08-02T03:00:00.000Z",
+   "lat": 37.7861601,
+   "lng": -122.4082452,
+   "venue": "151 Powell St, San Francisco",
+   "cover": "https://images.lumacdn.com/uploads/5a/eec9b0be-69bd-4e44-b1ba-4551cb249460.png",
+   "colors": [
+    "#bcd5d8",
+    "#cea07b",
+    "#9075c4",
+    "#b95b77"
+   ],
+   "food": {
+    "key": "food",
+    "emoji": "🍽️",
+    "label": "Food"
+   },
+   "allFood": [
+    {
+     "key": "food",
+     "emoji": "🍽️",
+     "label": "Food"
+    }
+   ],
+   "snippet": "We'll have readings from the issue, conversations with contributing writers, and (naturally) food!"
+  },
+  {
+   "slug": "b4y2veki",
+   "name": "Built on Baseten | AI Demo Night",
+   "url": "https://lu.ma/b4y2veki",
+   "start": "2026-08-05T01:00:00.000Z",
+   "end": "2026-08-05T03:00:00.000Z",
+   "lat": 37.79920545868835,
+   "lng": -122.3980268418913,
+   "venue": "San Francisco",
+   "cover": "https://images.lumacdn.com/uploads/4s/eac27e5c-5e01-4a94-a1b3-35d5bc19a166.png",
+   "colors": [
+    "#f1f7ef",
+    "#0e0b0e",
+    "#25e46e",
+    "#fcaefc"
+   ],
+   "food": {
+    "key": "food",
+    "emoji": "🍽️",
+    "label": "Food"
+   },
+   "allFood": [
+    {
+     "key": "food",
+     "emoji": "🍽️",
+     "label": "Food"
+    }
+   ],
+   "snippet": "6:00–6:30 PM - Welcome drinks & bites"
+  }
+ ]
+}
