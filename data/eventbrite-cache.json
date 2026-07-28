@@ -574,23 +574,6 @@
   "desc": "$1 Wing Wednesdays at Underdogs Cantina"
  },
  {
-  "slug": "eb-1995037012409",
-  "source": "eventbrite",
-  "name": "Quesabirria Mondays",
-  "urlFull": "https://www.eventbrite.com/e/quesabirria-mondays-tickets-1995037012409",
-  "start": "2026-08-03T18:00:00.000Z",
-  "end": "2026-08-04T04:00:00.000Z",
-  "lat": 37.77950959999999,
-  "lng": -122.3907097,
-  "venue": "Underdogs Cantina",
-  "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189268939%2F1287845793773%2F1%2Foriginal.20260721-011154?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.835&fp-y=0.562&s=d753b9b539ddc02c3d4fd7aa0ea5cb63",
-  "colors": [
-   "#9c4e06"
-  ],
-  "price": 0,
-  "desc": "Every Monday (Dine-In Only)"
- },
- {
   "slug": "eb-1994910024585",
   "source": "eventbrite",
   "name": "The Whale's Tail",

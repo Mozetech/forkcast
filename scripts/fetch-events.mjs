@@ -44,6 +44,10 @@ const EB_PAGES = [
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
+// Event organizers love emoji; this UI doesn't use them.
+const deEmoji = (s) =>
+  (s || "").replace(/[\p{Extended_Pictographic}\u{FE0F}\u{200D}]/gu, "").replace(/\s+/g, " ").trim();
+
 async function fetchJSON(url, tries = 3) {
   for (let i = 0; i < tries; i++) {
     try {
@@ -68,34 +72,60 @@ function mirrorToText(node) {
   return node.type === "paragraph" || node.type === "heading" ? joined + "\n" : joined;
 }
 
+// The bar is FREE FOOD, not "an event about food": the text must say food is
+// being given to attendees. "Mentions tacos" is not enough; "tacos provided" is.
+const FOOD_NOUN = "food|meal|meals|pizza|pizzas|tacos?|burritos?|sushi|ramen|pho|noodles?|dumplings?|dim sum|bao|burgers?|sliders?|hot ?dogs?|bbq|barbecue|kebabs?|curry|biryani|dosa|shawarma|falafel|salads?|poke|boba|bubble tea|milk tea|matcha|coffee|espresso|lattes?|cold brew|donuts?|doughnuts?|pastries|croissants?|bagels?|muffins?|ice cream|gelato|desserts?|cakes?|cookies?|mochi|pancakes?|waffles?|breakfast|brunch|lunch|dinner|supper|snacks?|refreshments|appetizers|apps|bites|eats|drinks|beverages|charcuterie|cheese";
+
+const PROVIDED_RES = [
+  new RegExp(`free\\s+(${FOOD_NOUN})`, "i"),
+  new RegExp(`(${FOOD_NOUN})[^.!\\n]{0,60}(will be |are |is )?(provided|included|served|supplied|on us|on the house|covered|sponsored|courtesy of)`, "i"),
+  new RegExp(`(provided|complimentary|free of charge|unlimited)[^.!\\n]{0,40}(${FOOD_NOUN})`, "i"),
+  new RegExp(`(we['’]?ll have|we will have|we['’]?ve got|there will be|there['’]?ll be|come (grab|enjoy)|join us for|enjoy some|serving up|we['’]?re serving|handing out)[^.!\\n]{0,50}(${FOOD_NOUN})`, "i"),
+  new RegExp(`(${FOOD_NOUN})[^.!\\n]{0,30}(and|&|\\+)[^.!\\n]{0,30}networking`, "i"),
+  new RegExp(`networking[^.!\\n]{0,30}(and|&|\\+|with|over)[^.!\\n]{0,30}(${FOOD_NOUN})`, "i"),
+  /catered|catering provided|potluck|(light|heavy) (fare|bites|appetizers|refreshments)|(grab|have) a (slice|bite|plate)|(breakfast|lunch|dinner|brunch) (is |will be )?(free|on us|included|complimentary)/i,
+];
+
+// Food you would have to pay for at the event.
+const FOR_SALE_RE = /for (purchase|sale)|available to (buy|purchase)|food tour|tasting tour|culinary (tour|walk|experience)|walking tour|farmers'? market|food trucks?|cash bar|pay[- ]as[- ]you[- ]go|purchase (food|tastings)|bring (money|cash)|own expense|not included/i;
+const STRONG_FREE_RE = /free food|free samples|complimentary tastings|free tastings|all food (is )?(free|included)/i;
+
 function classifyFood(text) {
-  const lower = " " + text.toLowerCase().replace(/[\n\r]/g, " ") + " ";
-  const hits = [];
-  for (const type of FOOD_TYPES) {
-    for (const word of type.words) {
-      const re = new RegExp(`(^|[^a-z])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}($|[^a-z])`, "i");
-      if (re.test(lower)) { hits.push({ type, word }); break; }
-    }
+  const lower = text.toLowerCase().replace(/[\r]/g, "");
+  if (FOR_SALE_RE.test(lower) && !STRONG_FREE_RE.test(lower)) return null;
+  for (const re of PROVIDED_RES) {
+    const m = lower.match(re);
+    if (m) return { evidence: m[0], index: m.index };
   }
-  if (hits.length === 0) return null;
-  // False-positive guards for the generic bucket.
-  if (hits.length === 1 && hits[0].type.key === "food") {
-    const w = hits[0].word;
-    if (w === "food" && /food for thought|soul food(?!\s*(truck|served|provided))|food-grade|foodtech|food tech|food industry|food startup|food delivery|food policy|food waste/i.test(lower)
-      && !/free food|food provided|food served|food will be|food and drink|food & drink|food trucks?|great food|good food|delicious food|plenty of food/i.test(lower)) {
-      return null;
-    }
-  }
-  return hits;
+  return null;
 }
 
-function findSnippet(text, word) {
+// Label the cuisine: prefer a match inside the evidence sentence, then anywhere.
+function labelFood(evidenceSentence, fullText) {
+  for (const scope of [evidenceSentence, fullText]) {
+    const lower = " " + scope.toLowerCase() + " ";
+    for (const type of FOOD_TYPES) {
+      if (type.key === "food") continue;
+      for (const word of type.words) {
+        const re = new RegExp(`(^|[^a-z])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}($|[^a-z])`, "i");
+        if (re.test(lower)) return type;
+      }
+    }
+  }
+  return FOOD_TYPES.find((t) => t.key === "food");
+}
+
+function sentenceAround(text, index) {
   const sentences = text.split(/(?<=[.!?])\s+|\n+/);
-  const re = new RegExp(`(^|[^a-z])${word}($|[^a-z])`, "i");
-  const hit = sentences.find((s) => re.test(s));
-  if (!hit) return null;
-  const clean = hit.trim().replace(/\s+/g, " ");
-  return clean.length > 140 ? clean.slice(0, 137).trimEnd() + "…" : clean;
+  let pos = 0;
+  for (const s of sentences) {
+    pos += s.length + 1;
+    if (pos > index) {
+      const clean = s.trim().replace(/\s+/g, " ");
+      return clean.length > 140 ? clean.slice(0, 137).trimEnd() + "…" : clean;
+    }
+  }
+  return "";
 }
 
 // Interpret a wall-clock date+time in a timezone as an ISO UTC instant.
@@ -289,37 +319,36 @@ async function main() {
     writeFs(cachePath, JSON.stringify(ebEvents, null, 1));
   }
 
-  // 3. Classify — free events only. Unknown-price Eventbrite events are dropped
-  // (that category skews paid); Luma events price from ticket types.
+  // 3. Classify — free admission AND food explicitly given away. Unknown-price
+  // Eventbrite events are dropped (that category skews paid); Luma price from ticket types.
   const events = [];
-  let paidSkipped = 0;
+  let paidSkipped = 0, noFreeFood = 0;
   for (const ev of [...detailed, ...ebEvents]) {
     if (ev.soldOut) continue;
     if (ev.price !== 0 && !(ev.source !== "eventbrite" && ev.price == null)) { paidSkipped++; continue; }
     const text = `${ev.name}\n${ev.desc}`;
-    const hits = classifyFood(text);
-    if (!hits) continue;
-    const primary = hits[0];
-    const snippet = findSnippet(ev.desc, primary.word) || findSnippet(ev.name, primary.word) || "";
+    const provision = classifyFood(text);
+    if (!provision) { noFreeFood++; continue; }
+    const snippet = sentenceAround(text, provision.index) || provision.evidence;
+    const primary = labelFood(snippet, text);
     events.push({
       slug: ev.slug,
       source: ev.source || "luma",
-      name: ev.name,
+      name: deEmoji(ev.name),
       url: ev.urlFull || `https://lu.ma/${ev.slug}`,
       start: ev.start,
       end: ev.end,
       lat: ev.lat,
       lng: ev.lng,
-      venue: ev.venue,
+      venue: deEmoji(ev.venue),
       cover: ev.cover,
       colors: ev.colors,
       price: ev.price ?? null,
-      food: { key: primary.type.key, label: primary.type.label },
-      allFood: hits.map((h) => ({ key: h.type.key, label: h.type.label })),
-      snippet,
+      food: { key: primary.key, label: primary.label },
+      snippet: deEmoji(snippet),
     });
   }
-  console.log(`Skipped ${paidSkipped} paid or unknown-price events`);
+  console.log(`Skipped ${paidSkipped} paid/unknown-price, ${noFreeFood} without free food`);
   events.sort((a, b) => Date.parse(a.start) - Date.parse(b.start));
 
   const out = {

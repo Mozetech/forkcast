@@ -1,168 +1,32 @@
 {
- "generatedAt": "2026-07-28T12:29:42.443Z",
+ "generatedAt": "2026-07-28T12:46:34.067Z",
  "city": "San Francisco",
  "source": "lu.ma + eventbrite",
- "count": 24,
+ "count": 11,
  "events": [
   {
-   "slug": "eb-1751427349349",
-   "source": "eventbrite",
-   "name": "Food in the Dark :1-on-1 Blindfolded Tasting Experience with Shanghai Domme",
-   "url": "https://www.eventbrite.com/e/food-in-the-dark-1-on-1-blindfolded-tasting-experience-with-shanghai-domme-tickets-1751427349349",
-   "start": "2026-07-28T16:00:00.000Z",
-   "end": "2026-07-29T05:00:00.000Z",
-   "lat": 37.780138,
-   "lng": -122.394055,
-   "venue": "Shanghai Jingan International Center",
-   "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1135995763%2F2921851175751%2F1%2Foriginal.20250926-035035?crop=focalpoint&fit=crop&h=200&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.4&fp-y=0.161&s=3027c7c967ba2887031d9268be02243f",
-   "colors": [],
-   "price": 0,
-   "food": {
-    "key": "food",
-    "label": "Food"
-   },
-   "allFood": [
-    {
-     "key": "food",
-     "label": "Food"
-    }
-   ],
-   "snippet": "Food in the Dark :1-on-1 Blindfolded Tasting Experience with Shanghai Domme"
-  },
-  {
-   "slug": "eb-1988500753282",
-   "source": "eventbrite",
-   "name": "Historic Ferry Building and Farmers' Market - Food Tour in the Bay Area | Cozymeal™",
-   "url": "https://www.eventbrite.com/e/historic-ferry-building-and-farmers-market-food-tour-in-the-bay-area-cozymealtm-tickets-1988500753282",
-   "start": "2026-07-28T17:00:00.000Z",
-   "end": "2026-07-28T18:30:00.000Z",
-   "lat": 37.7955703,
-   "lng": -122.3933208,
-   "venue": "Location provided after booking",
-   "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F786514089%2F931232795353%2F1%2Foriginal.20240610-145249?w=640&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=dfbf89735c14e5d4547f5505b3d9ee91",
+   "slug": "w61gmib2",
+   "source": "luma",
+   "name": "Intelligence in the Open — Edition 01: Reasoning, Evaluation & Long-Horizon Agents",
+   "url": "https://lu.ma/w61gmib2",
+   "start": "2026-07-29T01:00:00.000Z",
+   "end": "2026-07-29T04:00:00.000Z",
+   "lat": 37.79398868920479,
+   "lng": -122.40122263783394,
+   "venue": "San Francisco",
+   "cover": "https://images.lumacdn.com/uploads/qq/07cfddfa-9f2e-4342-b46e-c552fd4874e6.png",
    "colors": [
-    "#b9996b"
+    "#f13d1f",
+    "#d71b42",
+    "#fdf7f7",
+    "#4a1323"
    ],
    "price": 0,
    "food": {
     "key": "food",
     "label": "Food"
    },
-   "allFood": [
-    {
-     "key": "food",
-     "label": "Food"
-    }
-   ],
-   "snippet": "Historic Ferry Building and Farmers' Market - Food Tour in the Bay Area | Cozymeal™"
-  },
-  {
-   "slug": "eb-1988500329013",
-   "source": "eventbrite",
-   "name": "Experience Chinatown Like a Local - Food Tour in the Bay Area | Cozymeal™",
-   "url": "https://www.eventbrite.com/e/experience-chinatown-like-a-local-food-tour-in-the-bay-area-cozymealtm-tickets-1988500329013",
-   "start": "2026-07-28T17:30:00.000Z",
-   "end": "2026-07-28T20:30:00.000Z",
-   "lat": 37.790786,
-   "lng": -122.405412,
-   "venue": "Location provided after booking",
-   "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F290098129%2F931232795353%2F1%2Foriginal.20220524-000619?w=640&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=ee403daeb579e89c8192db9b7c0cad75",
-   "colors": [
-    "#8b8261"
-   ],
-   "price": 0,
-   "food": {
-    "key": "food",
-    "label": "Food"
-   },
-   "allFood": [
-    {
-     "key": "food",
-     "label": "Food"
-    }
-   ],
-   "snippet": "Experience Chinatown Like a Local - Food Tour in the Bay Area | Cozymeal™"
-  },
-  {
-   "slug": "eb-1988500338040",
-   "source": "eventbrite",
-   "name": "Explore Chinatown and Little Italy - Food Tour in the Bay Area | Cozymeal™",
-   "url": "https://www.eventbrite.com/e/explore-chinatown-and-little-italy-food-tour-in-the-bay-area-cozymealtm-tickets-1988500338040",
-   "start": "2026-07-28T17:30:00.000Z",
-   "end": "2026-07-28T21:30:00.000Z",
-   "lat": 37.790786,
-   "lng": -122.405412,
-   "venue": "Location provided after booking",
-   "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F290098819%2F931232795353%2F1%2Foriginal.20220524-000754?w=640&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=fcbabeaa5216839b26b2a705176b08e4",
-   "colors": [
-    "#8e7e72"
-   ],
-   "price": 0,
-   "food": {
-    "key": "food",
-    "label": "Food"
-   },
-   "allFood": [
-    {
-     "key": "food",
-     "label": "Food"
-    }
-   ],
-   "snippet": "Explore Chinatown and Little Italy - Food Tour in the Bay Area | Cozymeal™"
-  },
-  {
-   "slug": "eb-1988507725135",
-   "source": "eventbrite",
-   "name": "The Mission District's Thriving Culinary Scene - Food Tour in the Bay Area | Cozymeal™",
-   "url": "https://www.eventbrite.com/e/the-mission-districts-thriving-culinary-scene-food-tour-in-the-bay-area-cozymealtm-tickets-1988507725135",
-   "start": "2026-07-28T18:00:00.000Z",
-   "end": "2026-07-28T21:00:00.000Z",
-   "lat": 37.7509821,
-   "lng": -122.4187205,
-   "venue": "Location provided after booking",
-   "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F513888309%2F931232795353%2F1%2Foriginal.20230512-210123?w=640&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=0e5c2c5648fe40b1059565c0742cb445",
-   "colors": [
-    "#99755a"
-   ],
-   "price": 0,
-   "food": {
-    "key": "food",
-    "label": "Food"
-   },
-   "allFood": [
-    {
-     "key": "food",
-     "label": "Food"
-    }
-   ],
-   "snippet": "The Mission District's Thriving Culinary Scene - Food Tour in the Bay Area | Cozymeal™"
-  },
-  {
-   "slug": "eb-1988507528547",
-   "source": "eventbrite",
-   "name": "Exploring the Mission District - Food Tour in the Bay Area | Cozymeal™",
-   "url": "https://www.eventbrite.com/e/exploring-the-mission-district-food-tour-in-the-bay-area-cozymealtm-tickets-1988507528547",
-   "start": "2026-07-28T18:00:00.000Z",
-   "end": "2026-07-28T21:00:00.000Z",
-   "lat": 37.7509821,
-   "lng": -122.4187205,
-   "venue": "Location provided after booking",
-   "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F440682209%2F931232795353%2F1%2Foriginal.20230207-035519?w=640&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=992758e86d594982c6c446e0fa44f6c4",
-   "colors": [
-    "#a38b83"
-   ],
-   "price": 0,
-   "food": {
-    "key": "food",
-    "label": "Food"
-   },
-   "allFood": [
-    {
-     "key": "food",
-     "label": "Food"
-    }
-   ],
-   "snippet": "Exploring the Mission District - Food Tour in the Bay Area | Cozymeal™"
+   "snippet": "For our first edition, we’ll convene a curated group of attendees at UpScaleX for an evening of short research presentations, open discus…"
   },
   {
    "slug": "kdgxf1fs",
@@ -186,83 +50,7 @@
     "key": "pizza",
     "label": "Pizza"
    },
-   "allFood": [
-    {
-     "key": "pizza",
-     "label": "Pizza"
-    },
-    {
-     "key": "food",
-     "label": "Food"
-    }
-   ],
-   "snippet": "🍕 Food: Pizza, drinks and snacks will be provided"
-  },
-  {
-   "slug": "w61gmib2",
-   "source": "luma",
-   "name": "Intelligence in the Open — Edition 01: Reasoning, Evaluation & Long-Horizon Agents",
-   "url": "https://lu.ma/w61gmib2",
-   "start": "2026-07-29T01:00:00.000Z",
-   "end": "2026-07-29T04:00:00.000Z",
-   "lat": 37.79398868920479,
-   "lng": -122.40122263783394,
-   "venue": "San Francisco",
-   "cover": "https://images.lumacdn.com/uploads/qq/07cfddfa-9f2e-4342-b46e-c552fd4874e6.png",
-   "colors": [
-    "#f13d1f",
-    "#d71b42",
-    "#fdf7f7",
-    "#4a1323"
-   ],
-   "price": 0,
-   "food": {
-    "key": "food",
-    "label": "Food"
-   },
-   "allFood": [
-    {
-     "key": "food",
-     "label": "Food"
-    }
-   ],
-   "snippet": "For our first edition, we’ll convene a curated group of attendees at UpScaleX for an evening of short research presentations, open discus…"
-  },
-  {
-   "slug": "on-mercury-sf",
-   "source": "luma",
-   "name": "on Mercury - SF",
-   "url": "https://lu.ma/on-mercury-sf",
-   "start": "2026-07-29T16:00:00.000Z",
-   "end": "2026-07-29T23:00:00.000Z",
-   "lat": 37.757324,
-   "lng": -122.3879397,
-   "venue": "2535 3rd St, San Francisco",
-   "cover": "https://images.lumacdn.com/uploads/wd/7622a24e-5344-4a1e-9041-7698f294286c.png",
-   "colors": [
-    "#e0ded7",
-    "#554e7b"
-   ],
-   "price": 0,
-   "food": {
-    "key": "coffee",
-    "label": "Coffee"
-   },
-   "allFood": [
-    {
-     "key": "coffee",
-     "label": "Coffee"
-    },
-    {
-     "key": "pancake",
-     "label": "Brunch"
-    },
-    {
-     "key": "food",
-     "label": "Food"
-    }
-   ],
-   "snippet": "Grab breakfast with your team, take a coffee break, or swing by between meetings — we'd love to see you."
+   "snippet": "Food: Pizza, drinks and snacks will be provided"
   },
   {
    "slug": "cazn88f7",
@@ -286,12 +74,6 @@
     "key": "food",
     "label": "Food"
    },
-   "allFood": [
-    {
-     "key": "food",
-     "label": "Food"
-    }
-   ],
    "snippet": "5:30 PM — Doors Open + Light Bites"
   },
   {
@@ -316,21 +98,7 @@
     "key": "coffee",
     "label": "Coffee"
    },
-   "allFood": [
-    {
-     "key": "coffee",
-     "label": "Coffee"
-    },
-    {
-     "key": "wine",
-     "label": "Aperitivo"
-    },
-    {
-     "key": "food",
-     "label": "Food"
-    }
-   ],
-   "snippet": "Lunch, coffee, and a happy hour on us."
+   "snippet": "Food situation?"
   },
   {
    "slug": "4yta9i2j",
@@ -354,45 +122,7 @@
     "key": "wine",
     "label": "Aperitivo"
    },
-   "allFood": [
-    {
-     "key": "wine",
-     "label": "Aperitivo"
-    },
-    {
-     "key": "food",
-     "label": "Food"
-    }
-   ],
-   "snippet": "IREN is hosting a happy hour for the people building in AI."
-  },
-  {
-   "slug": "h5x0pzw9",
-   "source": "luma",
-   "name": "☕️ OpenAI Codex Community Meetup-San Francisco #8",
-   "url": "https://lu.ma/h5x0pzw9",
-   "start": "2026-07-31T00:00:00.000Z",
-   "end": "2026-07-31T03:00:00.000Z",
-   "lat": 37.726956436312584,
-   "lng": -122.47767078963795,
-   "venue": "San Francisco",
-   "cover": "https://images.lumacdn.com/event-covers/5n/379662f0-7bf3-4157-a46c-28ada9f7076f.png",
-   "colors": [
-    "#3f3de3",
-    "#fdfdfe"
-   ],
-   "price": 0,
-   "food": {
-    "key": "food",
-    "label": "Food"
-   },
-   "allFood": [
-    {
-     "key": "food",
-     "label": "Food"
-    }
-   ],
-   "snippet": "Expect a warm, high-energy, and highly interactive evening with networking, refreshments, practical conversations, optional demos, and ne…"
+   "snippet": "Whether you're working on models, applications, infrastructure, or anything in between, come grab a drink and light bites, meet the IREN…"
   },
   {
    "slug": "i3evxecn",
@@ -416,13 +146,29 @@
     "key": "food",
     "label": "Food"
    },
-   "allFood": [
-    {
-     "key": "food",
-     "label": "Food"
-    }
-   ],
    "snippet": "Food and drinks provided!"
+  },
+  {
+   "slug": "h5x0pzw9",
+   "source": "luma",
+   "name": "OpenAI Codex Community Meetup-San Francisco #8",
+   "url": "https://lu.ma/h5x0pzw9",
+   "start": "2026-07-31T00:00:00.000Z",
+   "end": "2026-07-31T03:00:00.000Z",
+   "lat": 37.726956436312584,
+   "lng": -122.47767078963795,
+   "venue": "San Francisco",
+   "cover": "https://images.lumacdn.com/event-covers/5n/379662f0-7bf3-4157-a46c-28ada9f7076f.png",
+   "colors": [
+    "#3f3de3",
+    "#fdfdfe"
+   ],
+   "price": 0,
+   "food": {
+    "key": "food",
+    "label": "Food"
+   },
+   "snippet": "Are you interested in volunteering for this event or supporting future community events as a sponsor, media partner, or collaborator?"
   },
   {
    "slug": "715ul99e",
@@ -445,102 +191,7 @@
     "key": "food",
     "label": "Food"
    },
-   "allFood": [
-    {
-     "key": "food",
-     "label": "Food"
-    }
-   ],
-   "snippet": "This is less panel, more practical session: two focused demos, an open conversation with the teams, and plenty of time for food, drinks,…"
-  },
-  {
-   "slug": "4g3wb753",
-   "source": "luma",
-   "name": "Startup Reality 202: AI in Industries — From Foundation Models to Vertical Moats",
-   "url": "https://lu.ma/4g3wb753",
-   "start": "2026-07-31T00:30:00.000Z",
-   "end": "2026-07-31T03:00:00.000Z",
-   "lat": 37.79366285660567,
-   "lng": -122.39772654867906,
-   "venue": "San Francisco",
-   "cover": "https://images.lumacdn.com/uploads/ac/e7d45c54-af30-47c9-b811-5bf522fe8020.png",
-   "colors": [
-    "#084542",
-    "#5a5248",
-    "#f6664c",
-    "#fcf9f6"
-   ],
-   "price": 0,
-   "food": {
-    "key": "food",
-    "label": "Food"
-   },
-   "allFood": [
-    {
-     "key": "food",
-     "label": "Food"
-    }
-   ],
-   "snippet": "Keep the conversation going over drinks and authentic Taiwanese snacks."
-  },
-  {
-   "slug": "JulyDynamoAfterHours",
-   "source": "luma",
-   "name": "Dynamo After Hours",
-   "url": "https://lu.ma/JulyDynamoAfterHours",
-   "start": "2026-07-31T01:00:00.000Z",
-   "end": "2026-07-31T04:00:00.000Z",
-   "lat": 37.77342151243784,
-   "lng": -122.40359088666929,
-   "venue": "San Francisco",
-   "cover": "https://images.lumacdn.com/event-covers/gx/e4aa6021-40b1-4db6-9dfe-8317bce3864b.png",
-   "colors": [
-    "#141917",
-    "#eaeaeb",
-    "#78665c",
-    "#8bab77"
-   ],
-   "price": 0,
-   "food": {
-    "key": "food",
-    "label": "Food"
-   },
-   "allFood": [
-    {
-     "key": "food",
-     "label": "Food"
-    }
-   ],
-   "snippet": "7:00 PM - 9:00 PM: Socialization with food and drinks"
-  },
-  {
-   "slug": "7h2hjufc",
-   "source": "luma",
-   "name": "Scaling revenue at Stripe and Vercel with Jeanne DeWitt Grosser (COO, Vercel)",
-   "url": "https://lu.ma/7h2hjufc",
-   "start": "2026-07-31T01:00:00.000Z",
-   "end": "2026-07-31T03:00:00.000Z",
-   "lat": 37.79713990716092,
-   "lng": -122.39651984364899,
-   "venue": "San Francisco",
-   "cover": "https://images.lumacdn.com/uploads/n0/5bb8bc6e-2552-44f9-a659-e0a9bc3e71a2.png",
-   "colors": [
-    "#e1eadd",
-    "#1d1d1d",
-    "#fea9fc"
-   ],
-   "price": 0,
-   "food": {
-    "key": "food",
-    "label": "Food"
-   },
-   "allFood": [
-    {
-     "key": "food",
-     "label": "Food"
-    }
-   ],
-   "snippet": "6:00–6:45 PM — Welcome drinks & snacks"
+   "snippet": "7:25 PM — Open networking, food, and drinks"
   },
   {
    "slug": "bluedot-sf-launch",
@@ -564,12 +215,6 @@
     "key": "food",
     "label": "Food"
    },
-   "allFood": [
-    {
-     "key": "food",
-     "label": "Food"
-    }
-   ],
    "snippet": "Join us for the first of many evenings at our new home: good food, good drinks, and a room full of people working on making AI go well."
   },
   {
@@ -581,7 +226,7 @@
    "end": "2026-08-01T18:00:00.000Z",
    "lat": 37.780138,
    "lng": -122.394055,
-   "venue": "CALDERGLEN  PACK",
+   "venue": "CALDERGLEN PACK",
    "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188828128%2F1698436308293%2F1%2Foriginal.20260714-130600?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=284973c4a2677dd911051dbed4cfb2df",
    "colors": [
     "#917651"
@@ -591,44 +236,7 @@
     "key": "bbq",
     "label": "BBQ"
    },
-   "allFood": [
-    {
-     "key": "bbq",
-     "label": "BBQ"
-    },
-    {
-     "key": "food",
-     "label": "Food"
-    }
-   ],
    "snippet": "Join us for a chill FREE SUMMER BBQ EVENT with tasty eats, good vibes, and cool company!"
-  },
-  {
-   "slug": "eb-1995055528792",
-   "source": "eventbrite",
-   "name": "The City Eats Monthly Feed - SAN FRANCISCO",
-   "url": "https://www.eventbrite.com/e/the-city-eats-monthly-feed-san-francisco-tickets-1995055528792",
-   "start": "2026-08-01T16:30:00.000Z",
-   "end": "2026-08-01T19:00:00.000Z",
-   "lat": 37.7839497,
-   "lng": -122.4107461,
-   "venue": "199 Eddy St",
-   "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187218011%2F461684631128%2F1%2Foriginal.20260618-182002?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ca14c00c0b3c31522ae5d11f0f5145aa",
-   "colors": [
-    "#a59c92"
-   ],
-   "price": 0,
-   "food": {
-    "key": "food",
-    "label": "Food"
-   },
-   "allFood": [
-    {
-     "key": "food",
-     "label": "Food"
-    }
-   ],
-   "snippet": "The City Eats Monthly Feed - SAN FRANCISCO"
   },
   {
    "slug": "h6fxh0x7",
@@ -652,70 +260,7 @@
     "key": "food",
     "label": "Food"
    },
-   "allFood": [
-    {
-     "key": "food",
-     "label": "Food"
-    }
-   ],
-   "snippet": "🍕 Free Food & Drinks"
-  },
-  {
-   "slug": "eb-1994910024585",
-   "source": "eventbrite",
-   "name": "The Whale's Tail",
-   "url": "https://www.eventbrite.com/e/the-whales-tail-tickets-1994910024585",
-   "start": "2026-08-01T19:00:00.000Z",
-   "end": "2026-08-02T01:00:00.000Z",
-   "lat": 37.7711818,
-   "lng": -122.4737831,
-   "venue": "John F Kennedy Promenade",
-   "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1093494293%2F2862285121821%2F1%2Foriginal.20250812-032811?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=c77300912badd66549f141783acd5a80",
-   "colors": [
-    "#484238"
-   ],
-   "price": 0,
-   "food": {
-    "key": "food",
-    "label": "Food"
-   },
-   "allFood": [
-    {
-     "key": "food",
-     "label": "Food"
-    }
-   ],
-   "snippet": "Enjoy FREE family fun at the Whale’s Tail: drinks, food trucks, lawn games, art, and live music at Golden Gate Park’s JFK Promenade."
-  },
-  {
-   "slug": "b4y2veki",
-   "source": "luma",
-   "name": "Built on Baseten | AI Demo Night",
-   "url": "https://lu.ma/b4y2veki",
-   "start": "2026-08-05T01:00:00.000Z",
-   "end": "2026-08-05T03:00:00.000Z",
-   "lat": 37.79920545868835,
-   "lng": -122.3980268418913,
-   "venue": "San Francisco",
-   "cover": "https://images.lumacdn.com/uploads/4s/eac27e5c-5e01-4a94-a1b3-35d5bc19a166.png",
-   "colors": [
-    "#f1f7ef",
-    "#0e0b0e",
-    "#25e46e",
-    "#fcaefc"
-   ],
-   "price": 0,
-   "food": {
-    "key": "food",
-    "label": "Food"
-   },
-   "allFood": [
-    {
-     "key": "food",
-     "label": "Food"
-    }
-   ],
-   "snippet": "6:00–6:30 PM - Welcome drinks & bites"
+   "snippet": "Free Food & Drinks"
   }
  ]
 }
