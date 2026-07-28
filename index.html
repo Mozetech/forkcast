@@ -4,8 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Forkcast · free food radar for SF</title>
-<meta name="description" content="Live map of SF events with free food. Pizza, boba, coffee and more, updated every few hours.">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍕</text></svg>">
+<meta name="description" content="Live map of free SF events with food. Updated every few hours.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='15' fill='%23e8542f'/%3E%3Cpath d='M22 13v10a10 10 0 0 0 20 0V13M32 13v9M32 33v18' stroke='white' stroke-width='4.6' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -14,17 +14,18 @@
 </head>
 <body>
 
-<div id="map" aria-label="Map of food events in San Francisco"></div>
+<div id="map" aria-label="Map of free food events in San Francisco"></div>
 <div class="vignette" aria-hidden="true"></div>
 <div class="blobs" aria-hidden="true"><i></i><i></i><i></i></div>
 
 <header class="chrome top">
-  <div class="logo glass" id="logo" title="Forkcast — free food radar">
-    <span class="logo-mark">🍴</span>
+  <div class="logo glass" id="logo" title="Forkcast, free food radar">
+    <span class="logo-mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><path d="M8 3v4a4 4 0 0 0 8 0V3"/><path d="M12 3v4"/><path d="M12 11v10"/></svg></span>
     <span class="logo-word">Forkcast</span>
     <span class="logo-count" id="count">–</span>
   </div>
   <nav class="days glass" id="days" aria-label="When">
+    <button class="day" data-day="now">Now</button>
     <button class="day is-on" data-day="today">Today</button>
     <button class="day" data-day="tomorrow">Tmrw</button>
     <button class="day" data-day="week">Week</button>
@@ -37,7 +38,7 @@
   <div class="rail-wrap">
     <div class="rail" id="rail" tabindex="0" aria-label="Food events"></div>
     <div class="empty glass" id="empty" hidden>
-      <span class="empty-emoji">🫙</span>
+      <span class="empty-mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="12" cy="12" r="8.2"/><circle cx="12" cy="12" r="4"/></svg></span>
       <span>nothing here yet</span>
     </div>
   </div>

@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-07-28T12:16:04.221Z",
+ "generatedAt": "2026-07-28T12:29:42.443Z",
  "city": "San Francisco",
  "source": "lu.ma + eventbrite",
- "count": 42,
+ "count": 24,
  "events": [
   {
    "slug": "eb-1751427349349",
@@ -19,13 +19,11 @@
    "price": 0,
    "food": {
     "key": "food",
-    "emoji": "🍽️",
     "label": "Food"
    },
    "allFood": [
     {
      "key": "food",
-     "emoji": "🍽️",
      "label": "Food"
     }
    ],
@@ -48,13 +46,11 @@
    "price": 0,
    "food": {
     "key": "food",
-    "emoji": "🍽️",
     "label": "Food"
    },
    "allFood": [
     {
      "key": "food",
-     "emoji": "🍽️",
      "label": "Food"
     }
    ],
@@ -77,13 +73,11 @@
    "price": 0,
    "food": {
     "key": "food",
-    "emoji": "🍽️",
     "label": "Food"
    },
    "allFood": [
     {
      "key": "food",
-     "emoji": "🍽️",
      "label": "Food"
     }
    ],
@@ -106,13 +100,11 @@
    "price": 0,
    "food": {
     "key": "food",
-    "emoji": "🍽️",
     "label": "Food"
    },
    "allFood": [
     {
      "key": "food",
-     "emoji": "🍽️",
      "label": "Food"
     }
    ],
@@ -135,13 +127,11 @@
    "price": 0,
    "food": {
     "key": "food",
-    "emoji": "🍽️",
     "label": "Food"
    },
    "allFood": [
     {
      "key": "food",
-     "emoji": "🍽️",
      "label": "Food"
     }
    ],
@@ -164,117 +154,15 @@
    "price": 0,
    "food": {
     "key": "food",
-    "emoji": "🍽️",
     "label": "Food"
    },
    "allFood": [
     {
      "key": "food",
-     "emoji": "🍽️",
      "label": "Food"
     }
    ],
    "snippet": "Exploring the Mission District - Food Tour in the Bay Area | Cozymeal™"
-  },
-  {
-   "slug": "qzltss9v",
-   "source": "luma",
-   "name": "Show and tell night",
-   "url": "https://lu.ma/qzltss9v",
-   "start": "2026-07-29T00:00:00.000Z",
-   "end": "2026-07-29T04:00:00.000Z",
-   "lat": 37.80005414905311,
-   "lng": -122.4029503589853,
-   "venue": "San Francisco",
-   "cover": "https://images.lumacdn.com/uploads/6v/8003d5bb-7ecb-42b9-8564-1b6d89d9b022.png",
-   "colors": [
-    "#161718",
-    "#ffffff",
-    "#f86606",
-    "#246cfd"
-   ],
-   "price": null,
-   "food": {
-    "key": "food",
-    "emoji": "🍽️",
-    "label": "Food"
-   },
-   "allFood": [
-    {
-     "key": "food",
-     "emoji": "🍽️",
-     "label": "Food"
-    }
-   ],
-   "snippet": "5:00 PM Networking and food"
-  },
-  {
-   "slug": "durable-ai-july",
-   "source": "luma",
-   "name": "Durable Multimodal AI Meetup with HeyGen, Vapi, and Modal",
-   "url": "https://lu.ma/durable-ai-july",
-   "start": "2026-07-29T00:30:00.000Z",
-   "end": "2026-07-29T03:00:00.000Z",
-   "lat": 37.79428422713315,
-   "lng": -122.40153759592502,
-   "venue": "San Francisco",
-   "cover": "https://images.lumacdn.com/uploads/cu/5172530c-f358-4163-becd-7b7901025027.png",
-   "colors": [
-    "#161516",
-    "#f4f3f2",
-    "#3544a1",
-    "#cbfc19"
-   ],
-   "price": null,
-   "food": {
-    "key": "boba",
-    "emoji": "🧋",
-    "label": "Boba"
-   },
-   "allFood": [
-    {
-     "key": "boba",
-     "emoji": "🧋",
-     "label": "Boba"
-    },
-    {
-     "key": "food",
-     "emoji": "🍽️",
-     "label": "Food"
-    }
-   ],
-   "snippet": "🥘 Korean street food, ​🧋BOBA, and real technical conversations"
-  },
-  {
-   "slug": "7lhjec3b",
-   "source": "luma",
-   "name": "scrappy sessions",
-   "url": "https://lu.ma/7lhjec3b",
-   "start": "2026-07-29T00:30:00.000Z",
-   "end": "2026-07-29T02:00:00.000Z",
-   "lat": 37.78210634410642,
-   "lng": -122.39299874186096,
-   "venue": "San Francisco",
-   "cover": "https://images.lumacdn.com/uploads/jn/39e68e3c-4fe3-4791-87b5-20b170a96b24.png",
-   "colors": [
-    "#fbf7ef",
-    "#1a1916",
-    "#c7d3b0"
-   ],
-   "price": null,
-   "food": {
-    "key": "food",
-    "emoji": "🍽️",
-    "label": "Food"
-   },
-   "allFood": [
-    {
-     "key": "food",
-     "emoji": "🍽️",
-     "label": "Food"
-    }
-   ],
-   "snippet": "free food 😛"
   },
   {
    "slug": "kdgxf1fs",
@@ -293,21 +181,18 @@
     "#06080c",
     "#f6bf61"
    ],
-   "price": null,
+   "price": 0,
    "food": {
     "key": "pizza",
-    "emoji": "🍕",
     "label": "Pizza"
    },
    "allFood": [
     {
      "key": "pizza",
-     "emoji": "🍕",
      "label": "Pizza"
     },
     {
      "key": "food",
-     "emoji": "🍽️",
      "label": "Food"
     }
    ],
@@ -330,16 +215,14 @@
     "#fdf7f7",
     "#4a1323"
    ],
-   "price": null,
+   "price": 0,
    "food": {
     "key": "food",
-    "emoji": "🍽️",
     "label": "Food"
    },
    "allFood": [
     {
      "key": "food",
-     "emoji": "🍽️",
      "label": "Food"
     }
    ],
@@ -360,26 +243,22 @@
     "#e0ded7",
     "#554e7b"
    ],
-   "price": null,
+   "price": 0,
    "food": {
     "key": "coffee",
-    "emoji": "☕",
     "label": "Coffee"
    },
    "allFood": [
     {
      "key": "coffee",
-     "emoji": "☕",
      "label": "Coffee"
     },
     {
      "key": "pancake",
-     "emoji": "🥞",
      "label": "Brunch"
     },
     {
      "key": "food",
-     "emoji": "🍽️",
      "label": "Food"
     }
    ],
@@ -402,57 +281,18 @@
     "#060402",
     "#9c9067"
    ],
-   "price": null,
+   "price": 0,
    "food": {
     "key": "food",
-    "emoji": "🍽️",
     "label": "Food"
    },
    "allFood": [
     {
      "key": "food",
-     "emoji": "🍽️",
      "label": "Food"
     }
    ],
    "snippet": "5:30 PM — Doors Open + Light Bites"
-  },
-  {
-   "slug": "m7lqzial",
-   "source": "luma",
-   "name": "Agentic Happy Hour with GitKraken",
-   "url": "https://lu.ma/m7lqzial",
-   "start": "2026-07-30T01:30:00.000Z",
-   "end": "2026-07-30T04:30:00.000Z",
-   "lat": 37.785345,
-   "lng": -122.40555200000001,
-   "venue": "12 4th St, San Francisco",
-   "cover": "https://images.lumacdn.com/uploads/2t/e645ce55-cc03-4d43-a867-b2af37dbf666.png",
-   "colors": [
-    "#028ba5",
-    "#fefefe",
-    "#f2aa15",
-    "#d55e11"
-   ],
-   "price": null,
-   "food": {
-    "key": "wine",
-    "emoji": "🥂",
-    "label": "Aperitivo"
-   },
-   "allFood": [
-    {
-     "key": "wine",
-     "emoji": "🥂",
-     "label": "Aperitivo"
-    },
-    {
-     "key": "food",
-     "emoji": "🍽️",
-     "label": "Food"
-    }
-   ],
-   "snippet": "Agentic Happy Hour with GitKraken"
   },
   {
    "slug": "builtdifferent-auth0-stripe",
@@ -471,59 +311,26 @@
     "#fcfcfc",
     "#d42f0b"
    ],
-   "price": null,
+   "price": 0,
    "food": {
     "key": "coffee",
-    "emoji": "☕",
     "label": "Coffee"
    },
    "allFood": [
     {
      "key": "coffee",
-     "emoji": "☕",
      "label": "Coffee"
     },
     {
      "key": "wine",
-     "emoji": "🥂",
      "label": "Aperitivo"
     },
     {
      "key": "food",
-     "emoji": "🍽️",
      "label": "Food"
     }
    ],
    "snippet": "Lunch, coffee, and a happy hour on us."
-  },
-  {
-   "slug": "eb-1984332702530",
-   "source": "eventbrite",
-   "name": "Cultura y Comida: Mission District Food & Culture Tour",
-   "url": "https://www.eventbrite.com/e/cultura-y-comida-mission-district-food-culture-tour-tickets-1984332702530",
-   "start": "2026-07-30T19:00:00.000Z",
-   "end": "2026-07-30T21:00:00.000Z",
-   "lat": 37.7519917,
-   "lng": -122.418722,
-   "venue": "24th St Mission BART Plaza",
-   "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F663473759%2F1363264927863%2F1%2Foriginal.20231226-222059?w=640&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C504%2C4032%2C2016&s=9a2e66baa8dde6594b74897569325ccd",
-   "colors": [
-    "#aca49d"
-   ],
-   "price": 85,
-   "food": {
-    "key": "food",
-    "emoji": "🍽️",
-    "label": "Food"
-   },
-   "allFood": [
-    {
-     "key": "food",
-     "emoji": "🍽️",
-     "label": "Food"
-    }
-   ],
-   "snippet": "Cultura y Comida: Mission District Food & Culture Tour"
   },
   {
    "slug": "4yta9i2j",
@@ -542,21 +349,18 @@
     "#32b6f4",
     "#6dd774"
    ],
-   "price": null,
+   "price": 0,
    "food": {
     "key": "wine",
-    "emoji": "🥂",
     "label": "Aperitivo"
    },
    "allFood": [
     {
      "key": "wine",
-     "emoji": "🥂",
      "label": "Aperitivo"
     },
     {
      "key": "food",
-     "emoji": "🍽️",
      "label": "Food"
     }
    ],
@@ -577,16 +381,14 @@
     "#3f3de3",
     "#fdfdfe"
    ],
-   "price": null,
+   "price": 0,
    "food": {
     "key": "food",
-    "emoji": "🍽️",
     "label": "Food"
    },
    "allFood": [
     {
      "key": "food",
-     "emoji": "🍽️",
      "label": "Food"
     }
    ],
@@ -609,20 +411,47 @@
     "#3555dc",
     "#27a49e"
    ],
-   "price": null,
+   "price": 0,
    "food": {
     "key": "food",
-    "emoji": "🍽️",
     "label": "Food"
    },
    "allFood": [
     {
      "key": "food",
-     "emoji": "🍽️",
      "label": "Food"
     }
    ],
    "snippet": "Food and drinks provided!"
+  },
+  {
+   "slug": "715ul99e",
+   "source": "luma",
+   "name": "Builder Night",
+   "url": "https://lu.ma/715ul99e",
+   "start": "2026-07-31T00:30:00.000Z",
+   "end": "2026-07-31T03:30:00.000Z",
+   "lat": 37.788385399999996,
+   "lng": -122.4029183,
+   "venue": "660 Market St, San Francisco",
+   "cover": "https://images.lumacdn.com/uploads/4q/0b5ba175-e6f0-439d-818d-bf4045be36a7.png",
+   "colors": [
+    "#2a242d",
+    "#050507",
+    "#e7e8ec"
+   ],
+   "price": 0,
+   "food": {
+    "key": "food",
+    "label": "Food"
+   },
+   "allFood": [
+    {
+     "key": "food",
+     "label": "Food"
+    }
+   ],
+   "snippet": "This is less panel, more practical session: two focused demos, an open conversation with the teams, and plenty of time for food, drinks,…"
   },
   {
    "slug": "4g3wb753",
@@ -641,51 +470,18 @@
     "#f6664c",
     "#fcf9f6"
    ],
-   "price": null,
+   "price": 0,
    "food": {
     "key": "food",
-    "emoji": "🍽️",
     "label": "Food"
    },
    "allFood": [
     {
      "key": "food",
-     "emoji": "🍽️",
      "label": "Food"
     }
    ],
    "snippet": "Keep the conversation going over drinks and authentic Taiwanese snacks."
-  },
-  {
-   "slug": "715ul99e",
-   "source": "luma",
-   "name": "Builder Night",
-   "url": "https://lu.ma/715ul99e",
-   "start": "2026-07-31T00:30:00.000Z",
-   "end": "2026-07-31T03:30:00.000Z",
-   "lat": 37.788385399999996,
-   "lng": -122.4029183,
-   "venue": "660 Market St, San Francisco",
-   "cover": "https://images.lumacdn.com/uploads/4q/0b5ba175-e6f0-439d-818d-bf4045be36a7.png",
-   "colors": [
-    "#2a242d",
-    "#050507",
-    "#e7e8ec"
-   ],
-   "price": null,
-   "food": {
-    "key": "food",
-    "emoji": "🍽️",
-    "label": "Food"
-   },
-   "allFood": [
-    {
-     "key": "food",
-     "emoji": "🍽️",
-     "label": "Food"
-    }
-   ],
-   "snippet": "This is less panel, more practical session: two focused demos, an open conversation with the teams, and plenty of time for food, drinks,…"
   },
   {
    "slug": "JulyDynamoAfterHours",
@@ -704,57 +500,18 @@
     "#78665c",
     "#8bab77"
    ],
-   "price": null,
+   "price": 0,
    "food": {
     "key": "food",
-    "emoji": "🍽️",
     "label": "Food"
    },
    "allFood": [
     {
      "key": "food",
-     "emoji": "🍽️",
      "label": "Food"
     }
    ],
    "snippet": "7:00 PM - 9:00 PM: Socialization with food and drinks"
-  },
-  {
-   "slug": "ir1t9z73",
-   "source": "luma",
-   "name": "Taste: A Physical AI Data Happy Hour",
-   "url": "https://lu.ma/ir1t9z73",
-   "start": "2026-07-31T01:00:00.000Z",
-   "end": "2026-07-31T04:00:00.000Z",
-   "lat": 37.798985217527374,
-   "lng": -122.3937160956817,
-   "venue": "San Francisco",
-   "cover": "https://images.lumacdn.com/uploads/s6/44ca226b-0593-47b7-b630-a8b973330310.jpg",
-   "colors": [
-    "#1f1ef6",
-    "#001564",
-    "#fdfdfd",
-    "#fc8d5f"
-   ],
-   "price": null,
-   "food": {
-    "key": "wine",
-    "emoji": "🥂",
-    "label": "Aperitivo"
-   },
-   "allFood": [
-    {
-     "key": "wine",
-     "emoji": "🥂",
-     "label": "Aperitivo"
-    },
-    {
-     "key": "food",
-     "emoji": "🍽️",
-     "label": "Food"
-    }
-   ],
-   "snippet": "Unusual Ventures & HumanSignal invite you to \"Taste: A Physical AI Data Happy Hour\""
   },
   {
    "slug": "7h2hjufc",
@@ -772,16 +529,14 @@
     "#1d1d1d",
     "#fea9fc"
    ],
-   "price": null,
+   "price": 0,
    "food": {
     "key": "food",
-    "emoji": "🍽️",
     "label": "Food"
    },
    "allFood": [
     {
      "key": "food",
-     "emoji": "🍽️",
      "label": "Food"
     }
    ],
@@ -804,78 +559,18 @@
     "#fdf7ee",
     "#e49da6"
    ],
-   "price": null,
+   "price": 0,
    "food": {
     "key": "food",
-    "emoji": "🍽️",
     "label": "Food"
    },
    "allFood": [
     {
      "key": "food",
-     "emoji": "🍽️",
      "label": "Food"
     }
    ],
    "snippet": "Join us for the first of many evenings at our new home: good food, good drinks, and a room full of people working on making AI go well."
-  },
-  {
-   "slug": "eb-1988686800755",
-   "source": "eventbrite",
-   "name": "Japantown Culinary Delights - Food Tour in the Bay Area | Cozymeal™",
-   "url": "https://www.eventbrite.com/e/japantown-culinary-delights-food-tour-in-the-bay-area-cozymealtm-tickets-1988686800755",
-   "start": "2026-07-31T18:00:00.000Z",
-   "end": "2026-07-31T21:00:00.000Z",
-   "lat": 37.7955703,
-   "lng": -122.3933208,
-   "venue": "Location provided after booking",
-   "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F786513829%2F931232795353%2F1%2Foriginal.20240610-145230?w=640&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=75b48de1bc11e3bf4e2384e1846ab08c",
-   "colors": [
-    "#929193"
-   ],
-   "price": 145,
-   "food": {
-    "key": "food",
-    "emoji": "🍽️",
-    "label": "Food"
-   },
-   "allFood": [
-    {
-     "key": "food",
-     "emoji": "🍽️",
-     "label": "Food"
-    }
-   ],
-   "snippet": "Japantown Culinary Delights - Food Tour in the Bay Area | Cozymeal™"
-  },
-  {
-   "slug": "eb-1988687186910",
-   "source": "eventbrite",
-   "name": "Italian Treasures of North Beach - Food Tour in the Bay Area | Cozymeal™",
-   "url": "https://www.eventbrite.com/e/italian-treasures-of-north-beach-food-tour-in-the-bay-area-cozymealtm-tickets-1988687186910",
-   "start": "2026-07-31T18:00:00.000Z",
-   "end": "2026-07-31T21:00:00.000Z",
-   "lat": 37.7967578,
-   "lng": -122.3933848,
-   "venue": "Location provided after booking",
-   "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1055004953%2F931232795353%2F1%2Foriginal.20250617-165617?w=640&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=d63a4a28fa455c13330c876d84c04a12",
-   "colors": [
-    "#7f756f"
-   ],
-   "price": 145,
-   "food": {
-    "key": "food",
-    "emoji": "🍽️",
-    "label": "Food"
-   },
-   "allFood": [
-    {
-     "key": "food",
-     "emoji": "🍽️",
-     "label": "Food"
-    }
-   ],
-   "snippet": "Italian Treasures of North Beach - Food Tour in the Bay Area | Cozymeal™"
   },
   {
    "slug": "eb-1993916640346",
@@ -894,51 +589,19 @@
    "price": 0,
    "food": {
     "key": "bbq",
-    "emoji": "🍖",
     "label": "BBQ"
    },
    "allFood": [
     {
      "key": "bbq",
-     "emoji": "🍖",
      "label": "BBQ"
     },
     {
      "key": "food",
-     "emoji": "🍽️",
      "label": "Food"
     }
    ],
    "snippet": "Join us for a chill FREE SUMMER BBQ EVENT with tasty eats, good vibes, and cool company!"
-  },
-  {
-   "slug": "eb-1995176986074",
-   "source": "eventbrite",
-   "name": "Espresso + Milk Steaming Classes",
-   "url": "https://www.eventbrite.com/e/espresso-milk-steaming-classes-tickets-1995176986074",
-   "start": "2026-08-01T16:30:00.000Z",
-   "end": "2026-08-01T19:30:00.000Z",
-   "lat": 37.7780998,
-   "lng": -122.404845,
-   "venue": "Telescope Coffee",
-   "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189593470%2F614681056393%2F1%2Foriginal.20260725-055442?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.432&fp-y=0.626&s=8d637060f99c08b93fd72d4de96b017b",
-   "colors": [
-    "#c6aa8e"
-   ],
-   "price": 269,
-   "food": {
-    "key": "coffee",
-    "emoji": "☕",
-    "label": "Coffee"
-   },
-   "allFood": [
-    {
-     "key": "coffee",
-     "emoji": "☕",
-     "label": "Coffee"
-    }
-   ],
-   "snippet": "Achieve cafe quality espresso based drinks at home with hands on learning from our baristas!"
   },
   {
    "slug": "eb-1995055528792",
@@ -957,75 +620,15 @@
    "price": 0,
    "food": {
     "key": "food",
-    "emoji": "🍽️",
     "label": "Food"
    },
    "allFood": [
     {
      "key": "food",
-     "emoji": "🍽️",
      "label": "Food"
     }
    ],
    "snippet": "The City Eats Monthly Feed - SAN FRANCISCO"
-  },
-  {
-   "slug": "eb-1979842621577",
-   "source": "eventbrite",
-   "name": "'Cafecito' Coffee Tour: Mission Street",
-   "url": "https://www.eventbrite.com/e/cafecito-coffee-tour-mission-street-tickets-1979842621577",
-   "start": "2026-08-01T17:00:00.000Z",
-   "end": "2026-08-01T19:00:00.000Z",
-   "lat": 37.7603749,
-   "lng": -122.4188767,
-   "venue": "Café de Olla",
-   "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F643369899%2F1525191111923%2F1%2Foriginal.20231116-204619?w=640&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=3e68d1c31112cd9e7dbf9f02f737f275",
-   "colors": [
-    "#443627"
-   ],
-   "price": 41,
-   "food": {
-    "key": "coffee",
-    "emoji": "☕",
-    "label": "Coffee"
-   },
-   "allFood": [
-    {
-     "key": "coffee",
-     "emoji": "☕",
-     "label": "Coffee"
-    }
-   ],
-   "snippet": "Join our guided coffee tour and discover new and established coffee shops in the Mission."
-  },
-  {
-   "slug": "eb-1988718246811",
-   "source": "eventbrite",
-   "name": "The Best Eats in the Mission District - Food Tour in the Bay Area | Cozymeal™",
-   "url": "https://www.eventbrite.com/e/the-best-eats-in-the-mission-district-food-tour-in-the-bay-area-cozymealtm-tickets-1988718246811",
-   "start": "2026-08-01T18:00:00.000Z",
-   "end": "2026-08-01T21:00:00.000Z",
-   "lat": 37.7509821,
-   "lng": -122.4187205,
-   "venue": "Location provided after booking",
-   "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F436448169%2F931232795353%2F1%2Foriginal.20230201-015309?w=640&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=464735e38ca4c065a616569f067b3ccf",
-   "colors": [
-    "#7b7d71"
-   ],
-   "price": 91,
-   "food": {
-    "key": "food",
-    "emoji": "🍽️",
-    "label": "Food"
-   },
-   "allFood": [
-    {
-     "key": "food",
-     "emoji": "🍽️",
-     "label": "Food"
-    }
-   ],
-   "snippet": "The Best Eats in the Mission District - Food Tour in the Bay Area | Cozymeal™"
   },
   {
    "slug": "h6fxh0x7",
@@ -1044,54 +647,18 @@
     "#c8647f",
     "#4dafe6"
    ],
-   "price": null,
+   "price": 0,
    "food": {
     "key": "food",
-    "emoji": "🍽️",
     "label": "Food"
    },
    "allFood": [
     {
      "key": "food",
-     "emoji": "🍽️",
      "label": "Food"
     }
    ],
    "snippet": "🍕 Free Food & Drinks"
-  },
-  {
-   "slug": "eb-1990676034607",
-   "source": "eventbrite",
-   "name": "Lips & Lashes Drag Brunch",
-   "url": "https://www.eventbrite.com/e/lips-lashes-drag-brunch-tickets-1990676034607",
-   "start": "2026-08-01T19:00:00.000Z",
-   "end": "2026-08-01T21:00:00.000Z",
-   "lat": 37.764394,
-   "lng": -122.433329,
-   "venue": "Lookout",
-   "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173402971%2F13776852595%2F1%2Foriginal.20251222-170913?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=9b532317515b5514c1e6b8f05fc0bdf9",
-   "colors": [
-    "#1b2520"
-   ],
-   "price": 10,
-   "food": {
-    "key": "pancake",
-    "emoji": "🥞",
-    "label": "Brunch"
-   },
-   "allFood": [
-    {
-     "key": "pancake",
-     "emoji": "🥞",
-     "label": "Brunch"
-    },
-    {
-     "key": "food",
-     "emoji": "🍽️",
-     "label": "Food"
-    }
-   ],
-   "snippet": "Join us for a fabulous drag brunch filled with great performances, amazing drinks and tasty food!"
   },
   {
    "slug": "eb-1994910024585",
@@ -1110,196 +677,15 @@
    "price": 0,
    "food": {
     "key": "food",
-    "emoji": "🍽️",
     "label": "Food"
    },
    "allFood": [
     {
      "key": "food",
-     "emoji": "🍽️",
      "label": "Food"
     }
    ],
    "snippet": "Enjoy FREE family fun at the Whale’s Tail: drinks, food trucks, lawn games, art, and live music at Golden Gate Park’s JFK Promenade."
-  },
-  {
-   "slug": "hcroww7j",
-   "source": "luma",
-   "name": "Read in the Park - San Francisco 📚",
-   "url": "https://lu.ma/hcroww7j",
-   "start": "2026-08-01T21:00:00.000Z",
-   "end": "2026-08-01T23:30:00.000Z",
-   "lat": 37.764785643420815,
-   "lng": -122.47492883392079,
-   "venue": "San Francisco",
-   "cover": "https://images.lumacdn.com/uploads/7y/26f9267e-f1d9-40c6-b784-9082a6f7040f.png",
-   "colors": [
-    "#739013",
-    "#ffffff",
-    "#000000"
-   ],
-   "price": null,
-   "food": {
-    "key": "food",
-    "emoji": "🍽️",
-    "label": "Food"
-   },
-   "allFood": [
-    {
-     "key": "food",
-     "emoji": "🍽️",
-     "label": "Food"
-    }
-   ],
-   "snippet": "→ A snack or drink if you'd like"
-  },
-  {
-   "slug": "kernel6",
-   "source": "luma",
-   "name": "kernel 6 launch party !",
-   "url": "https://lu.ma/kernel6",
-   "start": "2026-08-02T01:30:00.000Z",
-   "end": "2026-08-02T03:00:00.000Z",
-   "lat": 37.7861601,
-   "lng": -122.4082452,
-   "venue": "151 Powell St, San Francisco",
-   "cover": "https://images.lumacdn.com/uploads/5a/eec9b0be-69bd-4e44-b1ba-4551cb249460.png",
-   "colors": [
-    "#bcd5d8",
-    "#cea07b",
-    "#9075c4",
-    "#b95b77"
-   ],
-   "price": null,
-   "food": {
-    "key": "food",
-    "emoji": "🍽️",
-    "label": "Food"
-   },
-   "allFood": [
-    {
-     "key": "food",
-     "emoji": "🍽️",
-     "label": "Food"
-    }
-   ],
-   "snippet": "We'll have readings from the issue, conversations with contributing writers, and (naturally) food!"
-  },
-  {
-   "slug": "eb-1979842813150",
-   "source": "eventbrite",
-   "name": "'Cafecito' Coffee Tour: Excelsior District",
-   "url": "https://www.eventbrite.com/e/cafecito-coffee-tour-excelsior-district-tickets-1979842813150",
-   "start": "2026-08-02T17:00:00.000Z",
-   "end": "2026-08-02T19:00:00.000Z",
-   "lat": 37.7263543,
-   "lng": -122.4333723,
-   "venue": "Excelsior Coffee",
-   "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1170502112%2F1525191111923%2F1%2Foriginal.20251108-234646?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.302&fp-y=0.371&s=7844a93510914fd35a85dbf430113851",
-   "colors": [
-    "#eedfc8"
-   ],
-   "price": 41,
-   "food": {
-    "key": "coffee",
-    "emoji": "☕",
-    "label": "Coffee"
-   },
-   "allFood": [
-    {
-     "key": "coffee",
-     "emoji": "☕",
-     "label": "Coffee"
-    }
-   ],
-   "snippet": "'Cafecito' Coffee Tour: Excelsior District"
-  },
-  {
-   "slug": "eb-1980566336227",
-   "source": "eventbrite",
-   "name": "SF: Food + History + Art Tour",
-   "url": "https://www.eventbrite.com/e/sf-food-history-art-tour-tickets-1980566336227",
-   "start": "2026-08-02T19:00:00.000Z",
-   "end": "2026-08-02T22:00:00.000Z",
-   "lat": 37.7508296,
-   "lng": -122.4181823,
-   "venue": "Elsy's Restaurant",
-   "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F902367093%2F251550691539%2F1%2Foriginal.20241119-185814?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4ef6d9a19666029f015a785232370fc0",
-   "colors": [
-    "#846b58"
-   ],
-   "price": 97,
-   "food": {
-    "key": "food",
-    "emoji": "🍽️",
-    "label": "Food"
-   },
-   "allFood": [
-    {
-     "key": "food",
-     "emoji": "🍽️",
-     "label": "Food"
-    }
-   ],
-   "snippet": "Join us on the SF: Food + History + Art Tour and TRULY experience the very best of San Francisco."
-  },
-  {
-   "slug": "eb-1993985452164",
-   "source": "eventbrite",
-   "name": "Edible Art Workshop | Charcuterie & Wine Experience",
-   "url": "https://www.eventbrite.com/e/edible-art-workshop-charcuterie-wine-experience-tickets-1993985452164",
-   "start": "2026-08-02T20:00:00.000Z",
-   "end": "2026-08-02T22:00:00.000Z",
-   "lat": 37.780138,
-   "lng": -122.394055,
-   "venue": "Simply Divine",
-   "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188898340%2F2932028250061%2F1%2Foriginal.20260715-051013?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=98f7d9a9759850fe087d0f678d915808",
-   "colors": [
-    "#e3dac9"
-   ],
-   "price": 71,
-   "food": {
-    "key": "wine",
-    "emoji": "🥂",
-    "label": "Aperitivo"
-   },
-   "allFood": [
-    {
-     "key": "wine",
-     "emoji": "🥂",
-     "label": "Aperitivo"
-    }
-   ],
-   "snippet": "Edible Art Workshop | Charcuterie & Wine Experience"
-  },
-  {
-   "slug": "eb-1618761311659",
-   "source": "eventbrite",
-   "name": "Mabuhay Bitches",
-   "url": "https://www.eventbrite.com/e/mabuhay-bitches-tickets-1618761311659",
-   "start": "2026-08-02T20:00:00.000Z",
-   "end": "2026-08-02T22:30:00.000Z",
-   "lat": 37.76073,
-   "lng": -122.43432,
-   "venue": "Midnight Sun",
-   "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1102133653%2F945659832603%2F1%2Foriginal.20250821-212159?w=640&auto=format%2Ccompress&q=75&sharp=10&s=0f93d45edf338745f20bf7241b2ef07c",
-   "colors": [
-    "#4b3f28"
-   ],
-   "price": 13,
-   "food": {
-    "key": "food",
-    "emoji": "🍽️",
-    "label": "Food"
-   },
-   "allFood": [
-    {
-     "key": "food",
-     "emoji": "🍽️",
-     "label": "Food"
-    }
-   ],
-   "snippet": "Experience vibrant drag Filipino style, delicious food, and tempting drinks!"
   },
   {
    "slug": "b4y2veki",
@@ -1318,16 +704,14 @@
     "#25e46e",
     "#fcaefc"
    ],
-   "price": null,
+   "price": 0,
    "food": {
     "key": "food",
-    "emoji": "🍽️",
     "label": "Food"
    },
    "allFood": [
     {
      "key": "food",
-     "emoji": "🍽️",
      "label": "Food"
     }
    ],

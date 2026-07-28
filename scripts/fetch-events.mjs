@@ -14,23 +14,23 @@ const DETAIL_CONCURRENCY = 5;
 
 // Ordered most-specific-first; first match wins as the primary label.
 const FOOD_TYPES = [
-  { key: "pizza",   emoji: "🍕", label: "Pizza",   words: ["pizza", "pizzas", "pizzeria", "sourdough slice"] },
-  { key: "tacos",   emoji: "🌮", label: "Tacos",   words: ["taco", "tacos", "burrito", "burritos", "quesadilla", "birria", "al pastor"] },
-  { key: "sushi",   emoji: "🍣", label: "Sushi",   words: ["sushi", "nigiri", "sashimi", "omakase", "handroll", "hand roll"] },
-  { key: "noodles", emoji: "🍜", label: "Noodles", words: ["ramen", "pho", "noodle", "noodles", "udon", "dumpling", "dumplings", "dim sum", "bao", "wonton"] },
-  { key: "burgers", emoji: "🍔", label: "Burgers", words: ["burger", "burgers", "hot dog", "hot dogs", "sliders"] },
-  { key: "bbq",     emoji: "🍖", label: "BBQ",     words: ["bbq", "barbecue", "barbeque", "grill out", "cookout", "kebab", "kabob", "skewer", "skewers"] },
-  { key: "curry",   emoji: "🍛", label: "Curry",   words: ["curry", "biryani", "thali", "dosa", "indian food", "thai food"] },
-  { key: "medit",   emoji: "🥙", label: "Halal",   words: ["shawarma", "falafel", "halal", "gyro", "mediterranean food", "hummus"] },
-  { key: "salad",   emoji: "🥗", label: "Healthy", words: ["salad", "salads", "poke bowl", "grain bowl", "vegan food", "plant-based food", "acai", "açaí", "smoothie"] },
-  { key: "boba",    emoji: "🧋", label: "Boba",    words: ["boba", "bubble tea", "milk tea", "matcha"] },
-  { key: "coffee",  emoji: "☕", label: "Coffee",  words: ["coffee", "espresso", "latte", "cappuccino", "cold brew"] },
-  { key: "pastry",  emoji: "🍩", label: "Pastries", words: ["donut", "donuts", "doughnut", "pastry", "pastries", "croissant", "bagel", "bagels", "bakery", "baked goods", "muffin", "muffins"] },
-  { key: "dessert", emoji: "🍦", label: "Dessert", words: ["ice cream", "gelato", "dessert", "desserts", "cake", "cookies", "cookie", "chocolate", "sweet treats", "boba pop", "mochi"] },
-  { key: "pancake", emoji: "🥞", label: "Brunch",  words: ["brunch", "pancake", "pancakes", "waffle", "waffles", "breakfast"] },
-  { key: "wine",    emoji: "🥂", label: "Aperitivo", words: ["wine tasting", "wine and cheese", "cheese tasting", "charcuterie", "aperitivo", "happy hour"] },
+  { key: "pizza", label: "Pizza",   words: ["pizza", "pizzas", "pizzeria", "sourdough slice"] },
+  { key: "tacos", label: "Tacos",   words: ["taco", "tacos", "burrito", "burritos", "quesadilla", "birria", "al pastor"] },
+  { key: "sushi", label: "Sushi",   words: ["sushi", "nigiri", "sashimi", "omakase", "handroll", "hand roll"] },
+  { key: "noodles", label: "Noodles", words: ["ramen", "pho", "noodle", "noodles", "udon", "dumpling", "dumplings", "dim sum", "bao", "wonton"] },
+  { key: "burgers", label: "Burgers", words: ["burger", "burgers", "hot dog", "hot dogs", "sliders"] },
+  { key: "bbq", label: "BBQ",     words: ["bbq", "barbecue", "barbeque", "grill out", "cookout", "kebab", "kabob", "skewer", "skewers"] },
+  { key: "curry", label: "Curry",   words: ["curry", "biryani", "thali", "dosa", "indian food", "thai food"] },
+  { key: "medit", label: "Halal",   words: ["shawarma", "falafel", "halal", "gyro", "mediterranean food", "hummus"] },
+  { key: "salad", label: "Healthy", words: ["salad", "salads", "poke bowl", "grain bowl", "vegan food", "plant-based food", "acai", "açaí", "smoothie"] },
+  { key: "boba", label: "Boba",    words: ["boba", "bubble tea", "milk tea", "matcha"] },
+  { key: "coffee", label: "Coffee",  words: ["coffee", "espresso", "latte", "cappuccino", "cold brew"] },
+  { key: "pastry", label: "Pastries", words: ["donut", "donuts", "doughnut", "pastry", "pastries", "croissant", "bagel", "bagels", "bakery", "baked goods", "muffin", "muffins"] },
+  { key: "dessert", label: "Dessert", words: ["ice cream", "gelato", "dessert", "desserts", "cake", "cookies", "cookie", "chocolate", "sweet treats", "boba pop", "mochi"] },
+  { key: "pancake", label: "Brunch",  words: ["brunch", "pancake", "pancakes", "waffle", "waffles", "breakfast"] },
+  { key: "wine", label: "Aperitivo", words: ["wine tasting", "wine and cheese", "cheese tasting", "charcuterie", "aperitivo", "happy hour"] },
   // Generic mentions — matched last, shown as plain "Food".
-  { key: "food",    emoji: "🍽️", label: "Food",    words: [
+  { key: "food", label: "Food",    words: [
     "food", "lunch", "dinner", "snacks", "snack", "refreshments", "catered", "catering",
     "bites", "appetizers", "eats", "feast", "potluck", "food trucks", "food truck",
     "meals", "meal provided", "complimentary drinks", "light fare", "tastings", "tasting menu"
@@ -222,7 +222,14 @@ async function main() {
       try {
         const body = await fetchJSON(EVENT_URL(item.slug));
         const desc = mirrorToText(body?.data?.description_mirror).trim();
-        detailed.push({ ...item, desc });
+        const types = body?.data?.ticket_types || [];
+        const minCents = types.length ? Math.min(...types.map((t) => t.cents ?? 0)) : 0;
+        detailed.push({
+          ...item,
+          desc,
+          price: Math.round(minCents / 100),
+          soldOut: body?.data?.ticket_info?.is_sold_out === true,
+        });
       } catch (err) {
         console.warn(`  detail failed for ${item.slug}: ${err.message}`);
         detailed.push({ ...item, desc: "" });
@@ -259,9 +266,36 @@ async function main() {
   const lumaKeys = new Set(detailed.map((e) => e.name.toLowerCase().slice(0, 40) + e.start.slice(0, 10)));
   ebEvents = ebEvents.filter((e) => !lumaKeys.has(e.name.toLowerCase().slice(0, 40) + e.start.slice(0, 10)));
 
-  // 3. Classify.
+  // 2c. Eventbrite price enrichment (listing payload carries no price; event
+  // pages expose JSON-LD lowPrice). Only needed on fresh pulls — cache has prices.
+  const needPrice = ebEvents.filter((e) => e.price == null);
+  let pi = 0;
+  async function priceWorker() {
+    while (pi < needPrice.length) {
+      const ev = needPrice[pi++];
+      try {
+        const res = await fetch(ev.urlFull, { headers: { ...UA, Accept: "text/html" } });
+        if (!res.ok) continue;
+        const html = await res.text();
+        const pm = html.match(/"lowPrice"\s*:\s*"?([\d.]+)"?/);
+        if (pm) ev.price = Math.round(parseFloat(pm[1]));
+      } catch { /* price stays unknown */ }
+      await sleep(200);
+    }
+  }
+  await Promise.all(Array.from({ length: 4 }, priceWorker));
+  if (ebFresh) {
+    mkdirFs(new URL("../data/", import.meta.url), { recursive: true });
+    writeFs(cachePath, JSON.stringify(ebEvents, null, 1));
+  }
+
+  // 3. Classify — free events only. Unknown-price Eventbrite events are dropped
+  // (that category skews paid); Luma events price from ticket types.
   const events = [];
+  let paidSkipped = 0;
   for (const ev of [...detailed, ...ebEvents]) {
+    if (ev.soldOut) continue;
+    if (ev.price !== 0 && !(ev.source !== "eventbrite" && ev.price == null)) { paidSkipped++; continue; }
     const text = `${ev.name}\n${ev.desc}`;
     const hits = classifyFood(text);
     if (!hits) continue;
@@ -280,37 +314,12 @@ async function main() {
       cover: ev.cover,
       colors: ev.colors,
       price: ev.price ?? null,
-      food: { key: primary.type.key, emoji: primary.type.emoji, label: primary.type.label },
-      allFood: hits.map((h) => ({ key: h.type.key, emoji: h.type.emoji, label: h.type.label })),
+      food: { key: primary.type.key, label: primary.type.label },
+      allFood: hits.map((h) => ({ key: h.type.key, label: h.type.label })),
       snippet,
     });
   }
-  // 3b. Price enrichment for Eventbrite events (listing payload carries no price).
-  const needPrice = events.filter((e) => e.source === "eventbrite" && e.price == null);
-  let pi = 0;
-  async function priceWorker() {
-    while (pi < needPrice.length) {
-      const ev = needPrice[pi++];
-      try {
-        const res = await fetch(ev.url, { headers: { ...UA, Accept: "text/html" } });
-        if (!res.ok) continue;
-        const html = await res.text();
-        const pm = html.match(/"lowPrice"\s*:\s*"?([\d.]+)"?/);
-        if (pm) ev.price = Math.round(parseFloat(pm[1]));
-      } catch { /* price stays unknown */ }
-      await sleep(200);
-    }
-  }
-  await Promise.all(Array.from({ length: 4 }, priceWorker));
-
-  // Persist the fresh Eventbrite pull (with enriched prices) for blocked environments.
-  if (ebFresh) {
-    const priceBySlug = new Map(events.filter((e) => e.source === "eventbrite").map((e) => [e.slug, e.price]));
-    mkdirFs(new URL("../data/", import.meta.url), { recursive: true });
-    writeFs(cachePath, JSON.stringify(
-      ebEvents.map((e) => ({ ...e, price: priceBySlug.get(e.slug) ?? e.price })), null, 1));
-  }
-
+  console.log(`Skipped ${paidSkipped} paid or unknown-price events`);
   events.sort((a, b) => Date.parse(a.start) - Date.parse(b.start));
 
   const out = {
