@@ -253,6 +253,23 @@
   "desc": "Join us for a guided neighborhood tour and discover new and established cafes and bakeries in the neighborhood- tasting included."
  },
  {
+  "slug": "eb-1984332702530",
+  "source": "eventbrite",
+  "name": "Cultura y Comida: Mission District Food & Culture Tour",
+  "urlFull": "https://www.eventbrite.com/e/cultura-y-comida-mission-district-food-culture-tour-tickets-1984332702530",
+  "start": "2026-07-30T19:00:00.000Z",
+  "end": "2026-07-30T21:00:00.000Z",
+  "lat": 37.7519917,
+  "lng": -122.418722,
+  "venue": "24th St Mission BART Plaza",
+  "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F663473759%2F1363264927863%2F1%2Foriginal.20231226-222059?w=640&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C504%2C4032%2C2016&s=9a2e66baa8dde6594b74897569325ccd",
+  "colors": [
+   "#aca49d"
+  ],
+  "price": 85,
+  "desc": "Come see (and taste!) why we call it \"El Corazon de la Mision\" or \"The Heart of the Mission\""
+ },
+ {
   "slug": "eb-1979842621577",
   "source": "eventbrite",
   "name": "'Cafecito' Coffee Tour: Mission Street",
@@ -287,23 +304,6 @@
   "desc": "A walk through the oldest parts of San Francisco, telling ghost stories, and sipping spirits."
  },
  {
-  "slug": "eb-1984332702530",
-  "source": "eventbrite",
-  "name": "Cultura y Comida: Mission District Food & Culture Tour",
-  "urlFull": "https://www.eventbrite.com/e/cultura-y-comida-mission-district-food-culture-tour-tickets-1984332702530",
-  "start": "2026-07-30T19:00:00.000Z",
-  "end": "2026-07-30T21:00:00.000Z",
-  "lat": 37.7519917,
-  "lng": -122.418722,
-  "venue": "24th St Mission BART Plaza",
-  "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F663473759%2F1363264927863%2F1%2Foriginal.20231226-222059?w=640&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C504%2C4032%2C2016&s=9a2e66baa8dde6594b74897569325ccd",
-  "colors": [
-   "#aca49d"
-  ],
-  "price": 85,
-  "desc": "Come see (and taste!) why we call it \"El Corazon de la Mision\" or \"The Heart of the Mission\""
- },
- {
   "slug": "eb-1985211442866",
   "source": "eventbrite",
   "name": "Neon Paint & Sip Experience",
@@ -321,40 +321,6 @@
   "desc": "A Neon Light Paint & Sip event is a fun and creative experience where participants paint glowing artwork under black lights"
  },
  {
-  "slug": "eb-1980566336227",
-  "source": "eventbrite",
-  "name": "SF: Food + History + Art Tour",
-  "urlFull": "https://www.eventbrite.com/e/sf-food-history-art-tour-tickets-1980566336227",
-  "start": "2026-08-02T19:00:00.000Z",
-  "end": "2026-08-02T22:00:00.000Z",
-  "lat": 37.7508296,
-  "lng": -122.4181823,
-  "venue": "Elsy's Restaurant",
-  "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F902367093%2F251550691539%2F1%2Foriginal.20241119-185814?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4ef6d9a19666029f015a785232370fc0",
-  "colors": [
-   "#846b58"
-  ],
-  "price": 97,
-  "desc": "Join us on the SF: Food + History + Art Tour and TRULY experience the very best of San Francisco."
- },
- {
-  "slug": "eb-1988687186910",
-  "source": "eventbrite",
-  "name": "Italian Treasures of North Beach - Food Tour in the Bay Area | Cozymeal™",
-  "urlFull": "https://www.eventbrite.com/e/italian-treasures-of-north-beach-food-tour-in-the-bay-area-cozymealtm-tickets-1988687186910",
-  "start": "2026-07-31T18:00:00.000Z",
-  "end": "2026-07-31T21:00:00.000Z",
-  "lat": 37.7967578,
-  "lng": -122.3933848,
-  "venue": "Location provided after booking",
-  "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1055004953%2F931232795353%2F1%2Foriginal.20250617-165617?w=640&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=d63a4a28fa455c13330c876d84c04a12",
-  "colors": [
-   "#7f756f"
-  ],
-  "price": 145,
-  "desc": ""
- },
- {
   "slug": "eb-1618761311659",
   "source": "eventbrite",
   "name": "Mabuhay Bitches",
@@ -370,6 +336,23 @@
   ],
   "price": 13,
   "desc": "✨ Don't miss the monthly drag variety show Mabuhay Bitches! Experience vibrant drag  Filipino style, delicious food, and tempting drinks!"
+ },
+ {
+  "slug": "eb-1980566336227",
+  "source": "eventbrite",
+  "name": "SF: Food + History + Art Tour",
+  "urlFull": "https://www.eventbrite.com/e/sf-food-history-art-tour-tickets-1980566336227",
+  "start": "2026-08-02T19:00:00.000Z",
+  "end": "2026-08-02T22:00:00.000Z",
+  "lat": 37.7508296,
+  "lng": -122.4181823,
+  "venue": "Elsy's Restaurant",
+  "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F902367093%2F251550691539%2F1%2Foriginal.20241119-185814?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4ef6d9a19666029f015a785232370fc0",
+  "colors": [
+   "#846b58"
+  ],
+  "price": 97,
+  "desc": "Join us on the SF: Food + History + Art Tour and TRULY experience the very best of San Francisco."
  },
  {
   "slug": "eb-1989124662411",
@@ -401,6 +384,23 @@
   "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F786513829%2F931232795353%2F1%2Foriginal.20240610-145230?w=640&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=75b48de1bc11e3bf4e2384e1846ab08c",
   "colors": [
    "#929193"
+  ],
+  "price": 145,
+  "desc": ""
+ },
+ {
+  "slug": "eb-1988687186910",
+  "source": "eventbrite",
+  "name": "Italian Treasures of North Beach - Food Tour in the Bay Area | Cozymeal™",
+  "urlFull": "https://www.eventbrite.com/e/italian-treasures-of-north-beach-food-tour-in-the-bay-area-cozymealtm-tickets-1988687186910",
+  "start": "2026-07-31T18:00:00.000Z",
+  "end": "2026-07-31T21:00:00.000Z",
+  "lat": 37.7967578,
+  "lng": -122.3933848,
+  "venue": "Location provided after booking",
+  "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1055004953%2F931232795353%2F1%2Foriginal.20250617-165617?w=640&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=d63a4a28fa455c13330c876d84c04a12",
+  "colors": [
+   "#7f756f"
   ],
   "price": 145,
   "desc": ""
@@ -572,6 +572,23 @@
   ],
   "price": 0,
   "desc": "$1 Wing Wednesdays at Underdogs Cantina"
+ },
+ {
+  "slug": "eb-1995037012409",
+  "source": "eventbrite",
+  "name": "Quesabirria Mondays",
+  "urlFull": "https://www.eventbrite.com/e/quesabirria-mondays-tickets-1995037012409",
+  "start": "2026-08-03T18:00:00.000Z",
+  "end": "2026-08-04T04:00:00.000Z",
+  "lat": 37.77950959999999,
+  "lng": -122.3907097,
+  "venue": "Underdogs Cantina",
+  "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189268939%2F1287845793773%2F1%2Foriginal.20260721-011154?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.835&fp-y=0.562&s=d753b9b539ddc02c3d4fd7aa0ea5cb63",
+  "colors": [
+   "#9c4e06"
+  ],
+  "price": 0,
+  "desc": "Every Monday (Dine-In Only)"
  },
  {
   "slug": "eb-1994910024585",

@@ -32,8 +32,8 @@ const FOOD_TYPES = [
   // Generic mentions — matched last, shown as plain "Food".
   { key: "food", label: "Food",    words: [
     "food", "lunch", "dinner", "snacks", "snack", "refreshments", "catered", "catering",
-    "bites", "appetizers", "eats", "feast", "potluck", "food trucks", "food truck",
-    "meals", "meal provided", "complimentary drinks", "light fare", "tastings", "tasting menu"
+    "bites", "appetizers", "eats", "feast", "potluck",
+    "meals", "meal provided", "complimentary drinks", "light fare"
   ] },
 ];
 
@@ -77,27 +77,62 @@ function mirrorToText(node) {
 const FOOD_NOUN = "food|meal|meals|pizza|pizzas|tacos?|burritos?|sushi|ramen|pho|noodles?|dumplings?|dim sum|bao|burgers?|sliders?|hot ?dogs?|bbq|barbecue|kebabs?|curry|biryani|dosa|shawarma|falafel|salads?|poke|boba|bubble tea|milk tea|matcha|coffee|espresso|lattes?|cold brew|donuts?|doughnuts?|pastries|croissants?|bagels?|muffins?|ice cream|gelato|desserts?|cakes?|cookies?|mochi|pancakes?|waffles?|breakfast|brunch|lunch|dinner|supper|snacks?|refreshments|appetizers|apps|bites|eats|drinks|beverages|charcuterie|cheese";
 
 const PROVIDED_RES = [
-  new RegExp(`free\\s+(${FOOD_NOUN})`, "i"),
+  new RegExp(`free[^.!\\n]{0,24}?(${FOOD_NOUN})`, "i"),
   new RegExp(`(${FOOD_NOUN})[^.!\\n]{0,60}(will be |are |is )?(provided|included|served|supplied|on us|on the house|covered|sponsored|courtesy of)`, "i"),
   new RegExp(`(provided|complimentary|free of charge|unlimited)[^.!\\n]{0,40}(${FOOD_NOUN})`, "i"),
-  new RegExp(`(we['’]?ll have|we will have|we['’]?ve got|there will be|there['’]?ll be|come (grab|enjoy)|join us for|enjoy some|serving up|we['’]?re serving|handing out)[^.!\\n]{0,50}(${FOOD_NOUN})`, "i"),
+  new RegExp(`(we['’]?ll have|we will have|we['’]?ve got|there will be|there['’]?ll be|serving up|we['’]?re serving|handing out)[^.!\\n]{0,50}(${FOOD_NOUN})`, "i"),
   new RegExp(`(${FOOD_NOUN})[^.!\\n]{0,30}(and|&|\\+)[^.!\\n]{0,30}networking`, "i"),
   new RegExp(`networking[^.!\\n]{0,30}(and|&|\\+|with|over)[^.!\\n]{0,30}(${FOOD_NOUN})`, "i"),
   /catered|catering provided|potluck|(light|heavy) (fare|bites|appetizers|refreshments)|(grab|have) a (slice|bite|plate)|(breakfast|lunch|dinner|brunch) (is |will be )?(free|on us|included|complimentary)/i,
 ];
 
-// Food you would have to pay for at the event.
+// Food you would have to pay for at the event (applies to every source).
 const FOR_SALE_RE = /for (purchase|sale)|available to (buy|purchase)|food tour|tasting tour|culinary (tour|walk|experience)|walking tour|farmers'? market|food trucks?|cash bar|pay[- ]as[- ]you[- ]go|purchase (food|tastings)|bring (money|cash)|own expense|not included/i;
+// Eventbrite's food-and-drink category is commercial by default: kill the whole
+// paid-experience genre unless the listing explicitly promises free food.
+const EB_KILL_RE = /cooking class|cook[- ]?along|culinary class|masterclass|tasting (experience|menu|event|room)|wine tasting|beer tasting|sake|whiskey|cocktail (class|making)|mixology|speed dating|singles|matchmak|date night|supper club|dinner (party|series|cruise)|pop[- ]?up (dinner|dining|restaurant)|omakase|prix fixe|\d+[- ]course|chef'?s (table|tasting)|brunch (party|club|cruise)|bottomless|paint (and|&) sip|sip (and|&)|high tea|afternoon tea|buffet ticket|dining experience|restaurant week/i;
 const STRONG_FREE_RE = /free food|free samples|complimentary tastings|free tastings|all food (is )?(free|included)/i;
 
-function classifyFood(text) {
+// Eventbrite: require explicit provision language.
+function classifyEventbrite(text) {
   const lower = text.toLowerCase().replace(/[\r]/g, "");
-  if (FOR_SALE_RE.test(lower) && !STRONG_FREE_RE.test(lower)) return null;
+  if ((FOR_SALE_RE.test(lower) || EB_KILL_RE.test(lower)) && !STRONG_FREE_RE.test(lower)) return null;
   for (const re of PROVIDED_RES) {
     const m = lower.match(re);
     if (m) return { evidence: m[0], index: m.index };
   }
   return null;
+}
+
+// Luma: SF tech/community events feed people as a norm — a plain food mention
+// counts ("Korean street food, boba, and technical conversations").
+function classifyLuma(text) {
+  const lower = " " + text.toLowerCase().replace(/[\n\r]/g, " ") + " ";
+  if (FOR_SALE_RE.test(lower) && !STRONG_FREE_RE.test(lower)) return null;
+  const hits = [];
+  for (const type of FOOD_TYPES) {
+    for (const word of type.words) {
+      const re = new RegExp(`(^|[^a-z])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}($|[^a-z])`, "i");
+      if (re.test(lower)) { hits.push({ type, word }); break; }
+    }
+  }
+  if (hits.length === 0) return null;
+  // Guard: a lone generic "food" hit in industry context is not a meal.
+  if (hits.length === 1 && hits[0].type.key === "food" && hits[0].word === "food"
+    && /food for thought|foodtech|food tech|food industry|food startup|food delivery|food policy|food waste|food system/i.test(lower)
+    && !/free food|food provided|food served|food will be|food and drink|food & drink|great food|good food|delicious food|plenty of food|networking and food|food, drinks|food and drinks/i.test(lower)) {
+    return null;
+  }
+  return hits[0];
+}
+
+function findSnippet(text, word) {
+  const sentences = text.split(/(?<=[.!?])\s+|\n+/);
+  const re = new RegExp(`(^|[^a-z])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}($|[^a-z])`, "i");
+  const hit = sentences.find((s) => re.test(s));
+  if (!hit) return "";
+  const clean = hit.trim().replace(/\s+/g, " ");
+  return clean.length > 140 ? clean.slice(0, 137).trimEnd() + "…" : clean;
 }
 
 // Label the cuisine: prefer a match inside the evidence sentence, then anywhere.
@@ -327,10 +362,18 @@ async function main() {
     if (ev.soldOut) continue;
     if (ev.price !== 0 && !(ev.source !== "eventbrite" && ev.price == null)) { paidSkipped++; continue; }
     const text = `${ev.name}\n${ev.desc}`;
-    const provision = classifyFood(text);
-    if (!provision) { noFreeFood++; continue; }
-    const snippet = sentenceAround(text, provision.index) || provision.evidence;
-    const primary = labelFood(snippet, text);
+    let primary, snippet;
+    if (ev.source === "eventbrite") {
+      const provision = classifyEventbrite(text);
+      if (!provision) { noFreeFood++; continue; }
+      snippet = sentenceAround(text, provision.index) || provision.evidence;
+      primary = labelFood(snippet, text);
+    } else {
+      const hit = classifyLuma(text);
+      if (!hit) { noFreeFood++; continue; }
+      snippet = findSnippet(ev.desc, hit.word) || findSnippet(ev.name, hit.word);
+      primary = hit.type;
+    }
     events.push({
       slug: ev.slug,
       source: ev.source || "luma",

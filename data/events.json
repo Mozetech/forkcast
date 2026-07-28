@@ -1,9 +1,33 @@
 {
- "generatedAt": "2026-07-28T12:46:34.067Z",
+ "generatedAt": "2026-07-28T12:53:15.980Z",
  "city": "San Francisco",
  "source": "lu.ma + eventbrite",
- "count": 11,
+ "count": 16,
  "events": [
+  {
+   "slug": "kdgxf1fs",
+   "source": "luma",
+   "name": "AI Nerd Meet Up",
+   "url": "https://lu.ma/kdgxf1fs",
+   "start": "2026-07-29T01:00:00.000Z",
+   "end": "2026-07-29T04:00:00.000Z",
+   "lat": 37.76086254883034,
+   "lng": -122.39074641404001,
+   "venue": "San Francisco",
+   "cover": "https://images.lumacdn.com/uploads/34/a0f3f03d-aa66-431b-84d0-5dbd8092ac8b.png",
+   "colors": [
+    "#f8f7fb",
+    "#6538f9",
+    "#06080c",
+    "#f6bf61"
+   ],
+   "price": 0,
+   "food": {
+    "key": "pizza",
+    "label": "Pizza"
+   },
+   "snippet": "Food: Pizza, drinks and snacks will be provided"
+  },
   {
    "slug": "w61gmib2",
    "source": "luma",
@@ -29,28 +53,26 @@
    "snippet": "For our first edition, we’ll convene a curated group of attendees at UpScaleX for an evening of short research presentations, open discus…"
   },
   {
-   "slug": "kdgxf1fs",
+   "slug": "on-mercury-sf",
    "source": "luma",
-   "name": "AI Nerd Meet Up",
-   "url": "https://lu.ma/kdgxf1fs",
-   "start": "2026-07-29T01:00:00.000Z",
-   "end": "2026-07-29T04:00:00.000Z",
-   "lat": 37.76086254883034,
-   "lng": -122.39074641404001,
-   "venue": "San Francisco",
-   "cover": "https://images.lumacdn.com/uploads/34/a0f3f03d-aa66-431b-84d0-5dbd8092ac8b.png",
+   "name": "on Mercury - SF",
+   "url": "https://lu.ma/on-mercury-sf",
+   "start": "2026-07-29T16:00:00.000Z",
+   "end": "2026-07-29T23:00:00.000Z",
+   "lat": 37.757324,
+   "lng": -122.3879397,
+   "venue": "2535 3rd St, San Francisco",
+   "cover": "https://images.lumacdn.com/uploads/wd/7622a24e-5344-4a1e-9041-7698f294286c.png",
    "colors": [
-    "#f8f7fb",
-    "#6538f9",
-    "#06080c",
-    "#f6bf61"
+    "#e0ded7",
+    "#554e7b"
    ],
    "price": 0,
    "food": {
-    "key": "pizza",
-    "label": "Pizza"
+    "key": "coffee",
+    "label": "Coffee"
    },
-   "snippet": "Food: Pizza, drinks and snacks will be provided"
+   "snippet": "Grab breakfast with your team, take a coffee break, or swing by between meetings — we'd love to see you."
   },
   {
    "slug": "cazn88f7",
@@ -98,7 +120,7 @@
     "key": "coffee",
     "label": "Coffee"
    },
-   "snippet": "Food situation?"
+   "snippet": "Lunch, coffee, and a happy hour on us."
   },
   {
    "slug": "4yta9i2j",
@@ -122,7 +144,29 @@
     "key": "wine",
     "label": "Aperitivo"
    },
-   "snippet": "Whether you're working on models, applications, infrastructure, or anything in between, come grab a drink and light bites, meet the IREN…"
+   "snippet": "IREN is hosting a happy hour for the people building in AI."
+  },
+  {
+   "slug": "h5x0pzw9",
+   "source": "luma",
+   "name": "OpenAI Codex Community Meetup-San Francisco #8",
+   "url": "https://lu.ma/h5x0pzw9",
+   "start": "2026-07-31T00:00:00.000Z",
+   "end": "2026-07-31T03:00:00.000Z",
+   "lat": 37.726956436312584,
+   "lng": -122.47767078963795,
+   "venue": "San Francisco",
+   "cover": "https://images.lumacdn.com/event-covers/5n/379662f0-7bf3-4157-a46c-28ada9f7076f.png",
+   "colors": [
+    "#3f3de3",
+    "#fdfdfe"
+   ],
+   "price": 0,
+   "food": {
+    "key": "food",
+    "label": "Food"
+   },
+   "snippet": "Expect a warm, high-energy, and highly interactive evening with networking, refreshments, practical conversations, optional demos, and ne…"
   },
   {
    "slug": "i3evxecn",
@@ -149,28 +193,6 @@
    "snippet": "Food and drinks provided!"
   },
   {
-   "slug": "h5x0pzw9",
-   "source": "luma",
-   "name": "OpenAI Codex Community Meetup-San Francisco #8",
-   "url": "https://lu.ma/h5x0pzw9",
-   "start": "2026-07-31T00:00:00.000Z",
-   "end": "2026-07-31T03:00:00.000Z",
-   "lat": 37.726956436312584,
-   "lng": -122.47767078963795,
-   "venue": "San Francisco",
-   "cover": "https://images.lumacdn.com/event-covers/5n/379662f0-7bf3-4157-a46c-28ada9f7076f.png",
-   "colors": [
-    "#3f3de3",
-    "#fdfdfe"
-   ],
-   "price": 0,
-   "food": {
-    "key": "food",
-    "label": "Food"
-   },
-   "snippet": "Are you interested in volunteering for this event or supporting future community events as a sponsor, media partner, or collaborator?"
-  },
-  {
    "slug": "715ul99e",
    "source": "luma",
    "name": "Builder Night",
@@ -191,7 +213,78 @@
     "key": "food",
     "label": "Food"
    },
-   "snippet": "7:25 PM — Open networking, food, and drinks"
+   "snippet": "This is less panel, more practical session: two focused demos, an open conversation with the teams, and plenty of time for food, drinks,…"
+  },
+  {
+   "slug": "4g3wb753",
+   "source": "luma",
+   "name": "Startup Reality 202: AI in Industries — From Foundation Models to Vertical Moats",
+   "url": "https://lu.ma/4g3wb753",
+   "start": "2026-07-31T00:30:00.000Z",
+   "end": "2026-07-31T03:00:00.000Z",
+   "lat": 37.79366285660567,
+   "lng": -122.39772654867906,
+   "venue": "San Francisco",
+   "cover": "https://images.lumacdn.com/uploads/ac/e7d45c54-af30-47c9-b811-5bf522fe8020.png",
+   "colors": [
+    "#084542",
+    "#5a5248",
+    "#f6664c",
+    "#fcf9f6"
+   ],
+   "price": 0,
+   "food": {
+    "key": "food",
+    "label": "Food"
+   },
+   "snippet": "Keep the conversation going over drinks and authentic Taiwanese snacks."
+  },
+  {
+   "slug": "JulyDynamoAfterHours",
+   "source": "luma",
+   "name": "Dynamo After Hours",
+   "url": "https://lu.ma/JulyDynamoAfterHours",
+   "start": "2026-07-31T01:00:00.000Z",
+   "end": "2026-07-31T04:00:00.000Z",
+   "lat": 37.77342151243784,
+   "lng": -122.40359088666929,
+   "venue": "San Francisco",
+   "cover": "https://images.lumacdn.com/event-covers/gx/e4aa6021-40b1-4db6-9dfe-8317bce3864b.png",
+   "colors": [
+    "#141917",
+    "#eaeaeb",
+    "#78665c",
+    "#8bab77"
+   ],
+   "price": 0,
+   "food": {
+    "key": "food",
+    "label": "Food"
+   },
+   "snippet": "7:00 PM - 9:00 PM: Socialization with food and drinks"
+  },
+  {
+   "slug": "7h2hjufc",
+   "source": "luma",
+   "name": "Scaling revenue at Stripe and Vercel with Jeanne DeWitt Grosser (COO, Vercel)",
+   "url": "https://lu.ma/7h2hjufc",
+   "start": "2026-07-31T01:00:00.000Z",
+   "end": "2026-07-31T03:00:00.000Z",
+   "lat": 37.79713990716092,
+   "lng": -122.39651984364899,
+   "venue": "San Francisco",
+   "cover": "https://images.lumacdn.com/uploads/n0/5bb8bc6e-2552-44f9-a659-e0a9bc3e71a2.png",
+   "colors": [
+    "#e1eadd",
+    "#1d1d1d",
+    "#fea9fc"
+   ],
+   "price": 0,
+   "food": {
+    "key": "food",
+    "label": "Food"
+   },
+   "snippet": "6:00–6:45 PM — Welcome drinks & snacks"
   },
   {
    "slug": "bluedot-sf-launch",
@@ -236,7 +329,7 @@
     "key": "bbq",
     "label": "BBQ"
    },
-   "snippet": "Join us for a chill FREE SUMMER BBQ EVENT with tasty eats, good vibes, and cool company!"
+   "snippet": "FREE SUMMER BBQ EVENT"
   },
   {
    "slug": "h6fxh0x7",
@@ -261,6 +354,30 @@
     "label": "Food"
    },
    "snippet": "Free Food & Drinks"
+  },
+  {
+   "slug": "b4y2veki",
+   "source": "luma",
+   "name": "Built on Baseten | AI Demo Night",
+   "url": "https://lu.ma/b4y2veki",
+   "start": "2026-08-05T01:00:00.000Z",
+   "end": "2026-08-05T03:00:00.000Z",
+   "lat": 37.79920545868835,
+   "lng": -122.3980268418913,
+   "venue": "San Francisco",
+   "cover": "https://images.lumacdn.com/uploads/4s/eac27e5c-5e01-4a94-a1b3-35d5bc19a166.png",
+   "colors": [
+    "#f1f7ef",
+    "#0e0b0e",
+    "#25e46e",
+    "#fcaefc"
+   ],
+   "price": 0,
+   "food": {
+    "key": "food",
+    "label": "Food"
+   },
+   "snippet": "6:00–6:30 PM - Welcome drinks & bites"
   }
  ]
 }

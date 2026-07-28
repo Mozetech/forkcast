@@ -247,9 +247,9 @@ function boot(d) {
   render();
 }
 
-fetch("data/events.json")
+fetch("data/events.json?t=" + Math.floor(Date.now() / 60000))
   .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
-  .then((d) => requestAnimationFrame(() => { map.invalidateSize(false); boot(d); }))
+  .then((d) => setTimeout(() => { map.invalidateSize(false); boot(d); }, 0))
   .catch((err) => {
     console.error("load failed", err);
     emptyEl.hidden = false;
