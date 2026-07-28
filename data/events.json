@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-28T12:12:43.247Z",
+ "generatedAt": "2026-07-28T12:16:04.221Z",
  "city": "San Francisco",
  "source": "lu.ma + eventbrite",
  "count": 42,
@@ -209,37 +209,6 @@
    "snippet": "5:00 PM Networking and food"
   },
   {
-   "slug": "7lhjec3b",
-   "source": "luma",
-   "name": "scrappy sessions",
-   "url": "https://lu.ma/7lhjec3b",
-   "start": "2026-07-29T00:30:00.000Z",
-   "end": "2026-07-29T02:00:00.000Z",
-   "lat": 37.78210634410642,
-   "lng": -122.39299874186096,
-   "venue": "San Francisco",
-   "cover": "https://images.lumacdn.com/uploads/jn/39e68e3c-4fe3-4791-87b5-20b170a96b24.png",
-   "colors": [
-    "#fbf7ef",
-    "#1a1916",
-    "#c7d3b0"
-   ],
-   "price": null,
-   "food": {
-    "key": "food",
-    "emoji": "🍽️",
-    "label": "Food"
-   },
-   "allFood": [
-    {
-     "key": "food",
-     "emoji": "🍽️",
-     "label": "Food"
-    }
-   ],
-   "snippet": "free food 😛"
-  },
-  {
    "slug": "durable-ai-july",
    "source": "luma",
    "name": "Durable Multimodal AI Meetup with HeyGen, Vapi, and Modal",
@@ -275,6 +244,37 @@
     }
    ],
    "snippet": "🥘 Korean street food, ​🧋BOBA, and real technical conversations"
+  },
+  {
+   "slug": "7lhjec3b",
+   "source": "luma",
+   "name": "scrappy sessions",
+   "url": "https://lu.ma/7lhjec3b",
+   "start": "2026-07-29T00:30:00.000Z",
+   "end": "2026-07-29T02:00:00.000Z",
+   "lat": 37.78210634410642,
+   "lng": -122.39299874186096,
+   "venue": "San Francisco",
+   "cover": "https://images.lumacdn.com/uploads/jn/39e68e3c-4fe3-4791-87b5-20b170a96b24.png",
+   "colors": [
+    "#fbf7ef",
+    "#1a1916",
+    "#c7d3b0"
+   ],
+   "price": null,
+   "food": {
+    "key": "food",
+    "emoji": "🍽️",
+    "label": "Food"
+   },
+   "allFood": [
+    {
+     "key": "food",
+     "emoji": "🍽️",
+     "label": "Food"
+    }
+   ],
+   "snippet": "free food 😛"
   },
   {
    "slug": "kdgxf1fs",
@@ -563,6 +563,36 @@
    "snippet": "IREN is hosting a happy hour for the people building in AI."
   },
   {
+   "slug": "h5x0pzw9",
+   "source": "luma",
+   "name": "☕️ OpenAI Codex Community Meetup-San Francisco #8",
+   "url": "https://lu.ma/h5x0pzw9",
+   "start": "2026-07-31T00:00:00.000Z",
+   "end": "2026-07-31T03:00:00.000Z",
+   "lat": 37.726956436312584,
+   "lng": -122.47767078963795,
+   "venue": "San Francisco",
+   "cover": "https://images.lumacdn.com/event-covers/5n/379662f0-7bf3-4157-a46c-28ada9f7076f.png",
+   "colors": [
+    "#3f3de3",
+    "#fdfdfe"
+   ],
+   "price": null,
+   "food": {
+    "key": "food",
+    "emoji": "🍽️",
+    "label": "Food"
+   },
+   "allFood": [
+    {
+     "key": "food",
+     "emoji": "🍽️",
+     "label": "Food"
+    }
+   ],
+   "snippet": "Expect a warm, high-energy, and highly interactive evening with networking, refreshments, practical conversations, optional demos, and ne…"
+  },
+  {
    "slug": "i3evxecn",
    "source": "luma",
    "name": "Qualcomm x ZETIC x Liquid AI: Edge AI Builders Meetup",
@@ -595,19 +625,21 @@
    "snippet": "Food and drinks provided!"
   },
   {
-   "slug": "h5x0pzw9",
+   "slug": "4g3wb753",
    "source": "luma",
-   "name": "☕️ OpenAI Codex Community Meetup-San Francisco #8",
-   "url": "https://lu.ma/h5x0pzw9",
-   "start": "2026-07-31T00:00:00.000Z",
+   "name": "Startup Reality 202: AI in Industries — From Foundation Models to Vertical Moats",
+   "url": "https://lu.ma/4g3wb753",
+   "start": "2026-07-31T00:30:00.000Z",
    "end": "2026-07-31T03:00:00.000Z",
-   "lat": 37.726956436312584,
-   "lng": -122.47767078963795,
+   "lat": 37.79366285660567,
+   "lng": -122.39772654867906,
    "venue": "San Francisco",
-   "cover": "https://images.lumacdn.com/event-covers/5n/379662f0-7bf3-4157-a46c-28ada9f7076f.png",
+   "cover": "https://images.lumacdn.com/uploads/ac/e7d45c54-af30-47c9-b811-5bf522fe8020.png",
    "colors": [
-    "#3f3de3",
-    "#fdfdfe"
+    "#084542",
+    "#5a5248",
+    "#f6664c",
+    "#fcf9f6"
    ],
    "price": null,
    "food": {
@@ -622,7 +654,7 @@
      "label": "Food"
     }
    ],
-   "snippet": "Expect a warm, high-energy, and highly interactive evening with networking, refreshments, practical conversations, optional demos, and ne…"
+   "snippet": "Keep the conversation going over drinks and authentic Taiwanese snacks."
   },
   {
    "slug": "715ul99e",
@@ -656,21 +688,21 @@
    "snippet": "This is less panel, more practical session: two focused demos, an open conversation with the teams, and plenty of time for food, drinks,…"
   },
   {
-   "slug": "4g3wb753",
+   "slug": "JulyDynamoAfterHours",
    "source": "luma",
-   "name": "Startup Reality 202: AI in Industries — From Foundation Models to Vertical Moats",
-   "url": "https://lu.ma/4g3wb753",
-   "start": "2026-07-31T00:30:00.000Z",
-   "end": "2026-07-31T03:00:00.000Z",
-   "lat": 37.79366285660567,
-   "lng": -122.39772654867906,
+   "name": "Dynamo After Hours",
+   "url": "https://lu.ma/JulyDynamoAfterHours",
+   "start": "2026-07-31T01:00:00.000Z",
+   "end": "2026-07-31T04:00:00.000Z",
+   "lat": 37.77342151243784,
+   "lng": -122.40359088666929,
    "venue": "San Francisco",
-   "cover": "https://images.lumacdn.com/uploads/ac/e7d45c54-af30-47c9-b811-5bf522fe8020.png",
+   "cover": "https://images.lumacdn.com/event-covers/gx/e4aa6021-40b1-4db6-9dfe-8317bce3864b.png",
    "colors": [
-    "#084542",
-    "#5a5248",
-    "#f6664c",
-    "#fcf9f6"
+    "#141917",
+    "#eaeaeb",
+    "#78665c",
+    "#8bab77"
    ],
    "price": null,
    "food": {
@@ -685,7 +717,7 @@
      "label": "Food"
     }
    ],
-   "snippet": "Keep the conversation going over drinks and authentic Taiwanese snacks."
+   "snippet": "7:00 PM - 9:00 PM: Socialization with food and drinks"
   },
   {
    "slug": "ir1t9z73",
@@ -754,38 +786,6 @@
     }
    ],
    "snippet": "6:00–6:45 PM — Welcome drinks & snacks"
-  },
-  {
-   "slug": "JulyDynamoAfterHours",
-   "source": "luma",
-   "name": "Dynamo After Hours",
-   "url": "https://lu.ma/JulyDynamoAfterHours",
-   "start": "2026-07-31T01:00:00.000Z",
-   "end": "2026-07-31T04:00:00.000Z",
-   "lat": 37.77342151243784,
-   "lng": -122.40359088666929,
-   "venue": "San Francisco",
-   "cover": "https://images.lumacdn.com/event-covers/gx/e4aa6021-40b1-4db6-9dfe-8317bce3864b.png",
-   "colors": [
-    "#141917",
-    "#eaeaeb",
-    "#78665c",
-    "#8bab77"
-   ],
-   "price": null,
-   "food": {
-    "key": "food",
-    "emoji": "🍽️",
-    "label": "Food"
-   },
-   "allFood": [
-    {
-     "key": "food",
-     "emoji": "🍽️",
-     "label": "Food"
-    }
-   ],
-   "snippet": "7:00 PM - 9:00 PM: Socialization with food and drinks"
   },
   {
    "slug": "bluedot-sf-launch",

@@ -1,0 +1,593 @@
+[
+ {
+  "slug": "eb-1990676034607",
+  "source": "eventbrite",
+  "name": "Lips & Lashes Drag Brunch",
+  "urlFull": "https://www.eventbrite.com/e/lips-lashes-drag-brunch-tickets-1990676034607",
+  "start": "2026-08-01T19:00:00.000Z",
+  "end": "2026-08-01T21:00:00.000Z",
+  "lat": 37.764394,
+  "lng": -122.433329,
+  "venue": "Lookout",
+  "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173402971%2F13776852595%2F1%2Foriginal.20251222-170913?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=9b532317515b5514c1e6b8f05fc0bdf9",
+  "colors": [
+   "#1b2520"
+  ],
+  "price": 10,
+  "desc": "Join us for a fabulous drag brunch filled  with great performances, amazing drinks and tasty food!"
+ },
+ {
+  "slug": "eb-1994547138182",
+  "source": "eventbrite",
+  "name": "Cooking with WTVA’s Michelle Martin!",
+  "urlFull": "https://www.eventbrite.com/e/cooking-with-wtvas-michelle-martin-tickets-1994547138182",
+  "start": "2026-07-31T22:30:00.000Z",
+  "end": "2026-08-01T01:30:00.000Z",
+  "lat": 37.780138,
+  "lng": -122.394055,
+  "venue": "Tim and Shelia’s House",
+  "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189202894%2F300063272010%2F1%2Foriginal.20260720-104903?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=1f01d93707f7b6cb4c3509f5445b5d8e",
+  "colors": [
+   "#73f9fa"
+  ],
+  "price": null,
+  "desc": "Join WTVA’s Michelle Martin for a fun, hands-on cooking class you won’t want to miss!"
+ },
+ {
+  "slug": "eb-1991998659614",
+  "source": "eventbrite",
+  "name": "Sicilia",
+  "urlFull": "https://www.eventbrite.com/e/sicilia-registration-1991998659614",
+  "start": "2026-07-29T01:00:00.000Z",
+  "end": "2026-07-29T03:00:00.000Z",
+  "lat": 37.79620240000001,
+  "lng": -122.4114906,
+  "venue": "AltoVino",
+  "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187043580%2F537428704985%2F1%2Foriginal.20260616-170402?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.463&fp-y=0.015&s=0a699693bb71a90a1d5e1096de72c94a",
+  "colors": [
+   "#fffdd2"
+  ],
+  "price": null,
+  "desc": "Take a wine trip to Sicily in this immersive tasting experience covering history, geography and a range of expressive wines"
+ },
+ {
+  "slug": "eb-1993105179244",
+  "source": "eventbrite",
+  "name": "Sweet Tooth Fest",
+  "urlFull": "https://www.eventbrite.com/e/sweet-tooth-fest-tickets-1993105179244",
+  "start": "2026-08-02T21:00:00.000Z",
+  "end": "2026-08-03T04:00:00.000Z",
+  "lat": 37.7761825,
+  "lng": -122.4083567,
+  "venue": "The Stud",
+  "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188136163%2F1144466968723%2F1%2Foriginal.20260703-043252?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=7387e1e0529fa13591fe8bc18fe61592",
+  "colors": [
+   "#777777"
+  ],
+  "price": null,
+  "desc": "Your favorite day party is back with a special edition !"
+ },
+ {
+  "slug": "eb-1993179732234",
+  "source": "eventbrite",
+  "name": "Shit & Champagne",
+  "urlFull": "https://www.eventbrite.com/e/shit-champagne-tickets-1993179732234",
+  "start": "2026-07-31T01:00:00.000Z",
+  "end": "2026-07-31T04:00:00.000Z",
+  "lat": 37.7719444,
+  "lng": -122.4144444,
+  "venue": "OASIS",
+  "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188488611%2F375279996079%2F1%2Foriginal.20260708-203333?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=5c7b682621ee0cb285b9a89e2d38ef29",
+  "colors": [
+   "#241c14"
+  ],
+  "price": null,
+  "desc": "Join the cast of Shit & Champagne for a screening of the film, followed by Q&A about the success of Lady Champagne and what’s coming next!"
+ },
+ {
+  "slug": "eb-1988507725135",
+  "source": "eventbrite",
+  "name": "The Mission District's Thriving Culinary Scene - Food Tour in the Bay Area | Cozymeal™",
+  "urlFull": "https://www.eventbrite.com/e/the-mission-districts-thriving-culinary-scene-food-tour-in-the-bay-area-cozymealtm-tickets-1988507725135",
+  "start": "2026-07-28T18:00:00.000Z",
+  "end": "2026-07-28T21:00:00.000Z",
+  "lat": 37.7509821,
+  "lng": -122.4187205,
+  "venue": "Location provided after booking",
+  "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F513888309%2F931232795353%2F1%2Foriginal.20230512-210123?w=640&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=0e5c2c5648fe40b1059565c0742cb445",
+  "colors": [
+   "#99755a"
+  ],
+  "price": 0,
+  "desc": ""
+ },
+ {
+  "slug": "eb-1993985452164",
+  "source": "eventbrite",
+  "name": "Edible Art Workshop | Charcuterie & Wine Experience",
+  "urlFull": "https://www.eventbrite.com/e/edible-art-workshop-charcuterie-wine-experience-tickets-1993985452164",
+  "start": "2026-08-02T20:00:00.000Z",
+  "end": "2026-08-02T22:00:00.000Z",
+  "lat": 37.780138,
+  "lng": -122.394055,
+  "venue": "Simply Divine",
+  "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188898340%2F2932028250061%2F1%2Foriginal.20260715-051013?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=98f7d9a9759850fe087d0f678d915808",
+  "colors": [
+   "#e3dac9"
+  ],
+  "price": 71,
+  "desc": "Get hands-on and create delicious masterpieces at our fun Edible Art Workshop—taste your creativity!"
+ },
+ {
+  "slug": "eb-1740883482359",
+  "source": "eventbrite",
+  "name": "Great Cocktails: An Introduction to Mixology",
+  "urlFull": "https://www.eventbrite.com/e/great-cocktails-an-introduction-to-mixology-tickets-1740883482359",
+  "start": "2026-08-01T19:00:00.000Z",
+  "end": "2026-08-01T21:00:00.000Z",
+  "lat": 37.764903,
+  "lng": -122.42430059999998,
+  "venue": "Elixir",
+  "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F911730493%2F73071848307%2F1%2Foriginal.20241204-200411?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.725378787879&fp-y=0.494402985075&s=ca4da5929e91dbb3dccad7f318a60a76",
+  "colors": [
+   "#897874"
+  ],
+  "price": null,
+  "desc": "Learn the core formulas, tools, and techniques to not only make, but understand, great cocktails, home bartending, and  drinking about town."
+ },
+ {
+  "slug": "eb-1981620972673",
+  "source": "eventbrite",
+  "name": "Veggie Cocktails",
+  "urlFull": "https://www.eventbrite.com/e/veggie-cocktails-tickets-1981620972673",
+  "start": "2026-08-04T02:00:00.000Z",
+  "end": "2026-08-04T04:00:00.000Z",
+  "lat": 37.7693079,
+  "lng": -122.45115049999998,
+  "venue": "The Alembic",
+  "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1048249563%2F55656695649%2F1%2Foriginal.20250608-012010?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=e7a0e3a16312442e674a15a91c785c7a",
+  "colors": [
+   "#6f5a3d"
+  ],
+  "price": null,
+  "desc": "Join us for a unique mixology experience where veggies take the spotlight in unexpected ways."
+ },
+ {
+  "slug": "eb-1995184746285",
+  "source": "eventbrite",
+  "name": "Ladies Night @ Rose'",
+  "urlFull": "https://www.eventbrite.com/e/ladies-night-rose-tickets-1995184746285",
+  "start": "2026-07-31T02:00:00.000Z",
+  "end": "2026-07-31T05:00:00.000Z",
+  "lat": 37.780138,
+  "lng": -122.394055,
+  "venue": "SUSIE ROSE'",
+  "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189704039%2F2292187515173%2F1%2Foriginal.20260727-145758?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.512&fp-y=0.227&s=7ff04091193fa9c65176e39755ee24d5",
+  "colors": [
+   "#140a0a"
+  ],
+  "price": null,
+  "desc": "After the IBTF events, grab your girls and get ready for a fun night filled with drinks, laughs, and good vibes at Rose'!"
+ },
+ {
+  "slug": "eb-1988718246811",
+  "source": "eventbrite",
+  "name": "The Best Eats in the Mission District - Food Tour in the Bay Area | Cozymeal™",
+  "urlFull": "https://www.eventbrite.com/e/the-best-eats-in-the-mission-district-food-tour-in-the-bay-area-cozymealtm-tickets-1988718246811",
+  "start": "2026-08-01T18:00:00.000Z",
+  "end": "2026-08-01T21:00:00.000Z",
+  "lat": 37.7509821,
+  "lng": -122.4187205,
+  "venue": "Location provided after booking",
+  "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F436448169%2F931232795353%2F1%2Foriginal.20230201-015309?w=640&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=464735e38ca4c065a616569f067b3ccf",
+  "colors": [
+   "#7b7d71"
+  ],
+  "price": 91,
+  "desc": ""
+ },
+ {
+  "slug": "eb-1995176986074",
+  "source": "eventbrite",
+  "name": "Espresso + Milk Steaming Classes",
+  "urlFull": "https://www.eventbrite.com/e/espresso-milk-steaming-classes-tickets-1995176986074",
+  "start": "2026-08-01T16:30:00.000Z",
+  "end": "2026-08-01T19:30:00.000Z",
+  "lat": 37.7780998,
+  "lng": -122.404845,
+  "venue": "Telescope Coffee",
+  "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189593470%2F614681056393%2F1%2Foriginal.20260725-055442?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.432&fp-y=0.626&s=8d637060f99c08b93fd72d4de96b017b",
+  "colors": [
+   "#c6aa8e"
+  ],
+  "price": 269,
+  "desc": "Achieve cafe quality espresso based drinks at home with hands on learning from our baristas!"
+ },
+ {
+  "slug": "eb-1994751495420",
+  "source": "eventbrite",
+  "name": "Wine & Weights",
+  "urlFull": "https://www.eventbrite.com/e/wine-weights-tickets-1994751495420",
+  "start": "2026-08-02T17:00:00.000Z",
+  "end": "2026-08-02T18:00:00.000Z",
+  "lat": 37.780138,
+  "lng": -122.394055,
+  "venue": "The One Training",
+  "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189357360%2F349586759641%2F1%2Foriginal.20260722-002731?w=640&auto=format%2Ccompress&q=75&sharp=10&s=b4c8ba0946c09b59fc14230023de3d97",
+  "colors": [
+   "#ee0867"
+  ],
+  "price": null,
+  "desc": "Crush some weights, Sip some wine and have a blast with friends in this fun in-person workout session!"
+ },
+ {
+  "slug": "eb-1991490696282",
+  "source": "eventbrite",
+  "name": "In-person class: Handmade Pasta 101 (SF)",
+  "urlFull": "https://www.eventbrite.com/e/in-person-class-handmade-pasta-101-sf-tickets-1991490696282",
+  "start": "2026-08-02T00:00:00.000Z",
+  "end": "2026-08-02T02:00:00.000Z",
+  "lat": 37.7872503,
+  "lng": -122.425474,
+  "venue": "The Hotel Majestic",
+  "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1177782741%2F79175508931%2F1%2Foriginal.20260217-232443?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.45&fp-y=0.306&s=272d36746e61c55455591dd234a0adb3",
+  "colors": [],
+  "price": null,
+  "desc": "Handmade Pasta 101"
+ },
+ {
+  "slug": "eb-1979842813150",
+  "source": "eventbrite",
+  "name": "'Cafecito' Coffee Tour: Excelsior District",
+  "urlFull": "https://www.eventbrite.com/e/cafecito-coffee-tour-excelsior-district-tickets-1979842813150",
+  "start": "2026-08-02T17:00:00.000Z",
+  "end": "2026-08-02T19:00:00.000Z",
+  "lat": 37.7263543,
+  "lng": -122.4333723,
+  "venue": "Excelsior Coffee",
+  "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1170502112%2F1525191111923%2F1%2Foriginal.20251108-234646?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.302&fp-y=0.371&s=7844a93510914fd35a85dbf430113851",
+  "colors": [
+   "#eedfc8"
+  ],
+  "price": 41,
+  "desc": "Join us for a guided neighborhood tour and discover new and established cafes and bakeries in the neighborhood- tasting included."
+ },
+ {
+  "slug": "eb-1984332702530",
+  "source": "eventbrite",
+  "name": "Cultura y Comida: Mission District Food & Culture Tour",
+  "urlFull": "https://www.eventbrite.com/e/cultura-y-comida-mission-district-food-culture-tour-tickets-1984332702530",
+  "start": "2026-07-30T19:00:00.000Z",
+  "end": "2026-07-30T21:00:00.000Z",
+  "lat": 37.7519917,
+  "lng": -122.418722,
+  "venue": "24th St Mission BART Plaza",
+  "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F663473759%2F1363264927863%2F1%2Foriginal.20231226-222059?w=640&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C504%2C4032%2C2016&s=9a2e66baa8dde6594b74897569325ccd",
+  "colors": [
+   "#aca49d"
+  ],
+  "price": 85,
+  "desc": "Come see (and taste!) why we call it \"El Corazon de la Mision\" or \"The Heart of the Mission\""
+ },
+ {
+  "slug": "eb-1979842621577",
+  "source": "eventbrite",
+  "name": "'Cafecito' Coffee Tour: Mission Street",
+  "urlFull": "https://www.eventbrite.com/e/cafecito-coffee-tour-mission-street-tickets-1979842621577",
+  "start": "2026-08-01T17:00:00.000Z",
+  "end": "2026-08-01T19:00:00.000Z",
+  "lat": 37.7603749,
+  "lng": -122.4188767,
+  "venue": "Café de Olla",
+  "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F643369899%2F1525191111923%2F1%2Foriginal.20231116-204619?w=640&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=3e68d1c31112cd9e7dbf9f02f737f275",
+  "colors": [
+   "#443627"
+  ],
+  "price": 41,
+  "desc": "Discover the Mission District in a whole new way! Join our guided coffee tour and discover  new and established coffee shops in the Mission."
+ },
+ {
+  "slug": "eb-1991699688383",
+  "source": "eventbrite",
+  "name": "Walk with Spirits, A Haunted Pub Crawl",
+  "urlFull": "https://www.eventbrite.com/e/walk-with-spirits-a-haunted-pub-crawl-tickets-1991699688383",
+  "start": "2026-08-01T01:30:00.000Z",
+  "end": "2026-08-01T04:00:00.000Z",
+  "lat": 37.79589469999999,
+  "lng": -122.4031897,
+  "venue": "Barbarossa Lounge",
+  "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F256850839%2F839388907203%2F1%2Foriginal.20220329-210606?w=640&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C70%2C2400%2C1200&s=d6d87240ff257b8fcab680569217a22e",
+  "colors": [
+   "#8f6736"
+  ],
+  "price": null,
+  "desc": "A walk through the oldest parts of San Francisco, telling ghost stories, and sipping spirits."
+ },
+ {
+  "slug": "eb-1985211442866",
+  "source": "eventbrite",
+  "name": "Neon Paint & Sip Experience",
+  "urlFull": "https://www.eventbrite.com/e/neon-paint-sip-experience-tickets-1985211442866",
+  "start": "2026-07-28T20:00:00.000Z",
+  "end": "2026-07-28T22:00:00.000Z",
+  "lat": 37.78168280000001,
+  "lng": -122.4011316,
+  "venue": "310 4th St",
+  "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F989983783%2F308819252815%2F1%2Foriginal.20250322-050549?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.533603816837&fp-y=0.375670436755&s=1196e90ffc65a5f1d5b3dd6eed81fa12",
+  "colors": [
+   "#1b0575"
+  ],
+  "price": null,
+  "desc": "A Neon Light Paint & Sip event is a fun and creative experience where participants paint glowing artwork under black lights"
+ },
+ {
+  "slug": "eb-1618761311659",
+  "source": "eventbrite",
+  "name": "Mabuhay Bitches",
+  "urlFull": "https://www.eventbrite.com/e/mabuhay-bitches-tickets-1618761311659",
+  "start": "2026-08-02T20:00:00.000Z",
+  "end": "2026-08-02T22:30:00.000Z",
+  "lat": 37.76073,
+  "lng": -122.43432,
+  "venue": "Midnight Sun",
+  "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1102133653%2F945659832603%2F1%2Foriginal.20250821-212159?w=640&auto=format%2Ccompress&q=75&sharp=10&s=0f93d45edf338745f20bf7241b2ef07c",
+  "colors": [
+   "#4b3f28"
+  ],
+  "price": 13,
+  "desc": "✨ Don't miss the monthly drag variety show Mabuhay Bitches! Experience vibrant drag  Filipino style, delicious food, and tempting drinks!"
+ },
+ {
+  "slug": "eb-1989124662411",
+  "source": "eventbrite",
+  "name": "In-person class: Better than Takeout Pad Thai (San Francisco)",
+  "urlFull": "https://www.eventbrite.com/e/in-person-class-better-than-takeout-pad-thai-san-francisco-tickets-1989124662411",
+  "start": "2026-08-01T00:00:00.000Z",
+  "end": "2026-08-01T02:00:00.000Z",
+  "lat": 37.7954739,
+  "lng": -122.3935764,
+  "venue": "1 Ferry Building suite 9",
+  "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F367090069%2F79175508931%2F1%2Foriginal.20221004-234633?w=502&auto=format%2Ccompress&q=75&sharp=10&rect=21%2C84%2C502%2C251&s=2600939f16c4ba689fe9317e66fdc65e",
+  "colors": [
+   "#9b8f82"
+  ],
+  "price": null,
+  "desc": "Better than Takeout: Pad Thai"
+ },
+ {
+  "slug": "eb-1980566336227",
+  "source": "eventbrite",
+  "name": "SF: Food + History + Art Tour",
+  "urlFull": "https://www.eventbrite.com/e/sf-food-history-art-tour-tickets-1980566336227",
+  "start": "2026-08-02T19:00:00.000Z",
+  "end": "2026-08-02T22:00:00.000Z",
+  "lat": 37.7508296,
+  "lng": -122.4181823,
+  "venue": "Elsy's Restaurant",
+  "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F902367093%2F251550691539%2F1%2Foriginal.20241119-185814?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4ef6d9a19666029f015a785232370fc0",
+  "colors": [
+   "#846b58"
+  ],
+  "price": 97,
+  "desc": "Join us on the SF: Food + History + Art Tour and TRULY experience the very best of San Francisco."
+ },
+ {
+  "slug": "eb-1988686800755",
+  "source": "eventbrite",
+  "name": "Japantown Culinary Delights - Food Tour in the Bay Area | Cozymeal™",
+  "urlFull": "https://www.eventbrite.com/e/japantown-culinary-delights-food-tour-in-the-bay-area-cozymealtm-tickets-1988686800755",
+  "start": "2026-07-31T18:00:00.000Z",
+  "end": "2026-07-31T21:00:00.000Z",
+  "lat": 37.7955703,
+  "lng": -122.3933208,
+  "venue": "Location provided after booking",
+  "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F786513829%2F931232795353%2F1%2Foriginal.20240610-145230?w=640&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=75b48de1bc11e3bf4e2384e1846ab08c",
+  "colors": [
+   "#929193"
+  ],
+  "price": 145,
+  "desc": ""
+ },
+ {
+  "slug": "eb-1988687186910",
+  "source": "eventbrite",
+  "name": "Italian Treasures of North Beach - Food Tour in the Bay Area | Cozymeal™",
+  "urlFull": "https://www.eventbrite.com/e/italian-treasures-of-north-beach-food-tour-in-the-bay-area-cozymealtm-tickets-1988687186910",
+  "start": "2026-07-31T18:00:00.000Z",
+  "end": "2026-07-31T21:00:00.000Z",
+  "lat": 37.7967578,
+  "lng": -122.3933848,
+  "venue": "Location provided after booking",
+  "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1055004953%2F931232795353%2F1%2Foriginal.20250617-165617?w=640&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=d63a4a28fa455c13330c876d84c04a12",
+  "colors": [
+   "#7f756f"
+  ],
+  "price": 145,
+  "desc": ""
+ },
+ {
+  "slug": "eb-1984162098248",
+  "source": "eventbrite",
+  "name": "Crucial Reggae Sundays: Free Weekly Reggae Concert in Golden Gate Park 2026",
+  "urlFull": "https://www.eventbrite.com/e/crucial-reggae-sundays-free-weekly-reggae-concert-in-golden-gate-park-2026-tickets-1984162098248",
+  "start": "2026-08-02T23:30:00.000Z",
+  "end": "2026-08-03T02:30:00.000Z",
+  "lat": 37.7702366,
+  "lng": -122.4695459,
+  "venue": "Spreckels Temple of Music Bandshell, Music Concourse",
+  "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F989721283%2F338182474571%2F1%2Foriginal.20250321-192754?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.005&fp-y=0.005&s=9e0e9e1e23ab7803e9147d0b0bd8425e",
+  "colors": [
+   "#509173"
+  ],
+  "price": null,
+  "desc": "Join us at the Golden Gate Park Bandshell for Crucial Reggae Sundays with Irie Dole, Guid8nce, Sep & weekly special guests. Free & All Ages."
+ },
+ {
+  "slug": "eb-1991646608620",
+  "source": "eventbrite",
+  "name": "La Dolce Vita at Morella",
+  "urlFull": "https://www.eventbrite.com/e/la-dolce-vita-at-morella-tickets-1991646608620",
+  "start": "2026-08-01T04:00:00.000Z",
+  "end": "2026-08-01T06:30:00.000Z",
+  "lat": 37.8006268,
+  "lng": -122.436417,
+  "venue": "Morella",
+  "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1186646070%2F2986226779500%2F1%2Foriginal.20260611-010233?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=5a73982f4c5c0d8a2e2193e3a487e4e3",
+  "colors": [
+   "#924f33"
+  ],
+  "price": null,
+  "desc": "Late-night dining, DJs & $10 cocktails every Friday & Saturday at Morella. Italian summer energy all night."
+ },
+ {
+  "slug": "eb-1993916640346",
+  "source": "eventbrite",
+  "name": "FREE SUMMER BBQ EVENT",
+  "urlFull": "https://www.eventbrite.com/e/free-summer-bbq-event-tickets-1993916640346",
+  "start": "2026-08-01T12:00:00.000Z",
+  "end": "2026-08-01T18:00:00.000Z",
+  "lat": 37.780138,
+  "lng": -122.394055,
+  "venue": "CALDERGLEN  PACK",
+  "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188828128%2F1698436308293%2F1%2Foriginal.20260714-130600?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=284973c4a2677dd911051dbed4cfb2df",
+  "colors": [
+   "#917651"
+  ],
+  "price": 0,
+  "desc": "Join us for a chill FREE SUMMER BBQ EVENT with tasty eats, good vibes, and cool company!"
+ },
+ {
+  "slug": "eb-1751427349349",
+  "source": "eventbrite",
+  "name": "Food in the Dark :1-on-1 Blindfolded Tasting Experience with Shanghai Domme",
+  "urlFull": "https://www.eventbrite.com/e/food-in-the-dark-1-on-1-blindfolded-tasting-experience-with-shanghai-domme-tickets-1751427349349",
+  "start": "2026-07-28T16:00:00.000Z",
+  "end": "2026-07-29T05:00:00.000Z",
+  "lat": 37.780138,
+  "lng": -122.394055,
+  "venue": "Shanghai Jingan International Center",
+  "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1135995763%2F2921851175751%2F1%2Foriginal.20250926-035035?crop=focalpoint&fit=crop&h=200&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.4&fp-y=0.161&s=3027c7c967ba2887031d9268be02243f",
+  "colors": [],
+  "price": 0,
+  "desc": "Enjoy Curated Gourmet Menu & Personal Feeding by Shanghai Mistress Alessandra In The Dark"
+ },
+ {
+  "slug": "eb-1995055528792",
+  "source": "eventbrite",
+  "name": "The City Eats Monthly Feed - SAN FRANCISCO",
+  "urlFull": "https://www.eventbrite.com/e/the-city-eats-monthly-feed-san-francisco-tickets-1995055528792",
+  "start": "2026-08-01T16:30:00.000Z",
+  "end": "2026-08-01T19:00:00.000Z",
+  "lat": 37.7839497,
+  "lng": -122.4107461,
+  "venue": "199 Eddy St",
+  "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187218011%2F461684631128%2F1%2Foriginal.20260618-182002?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ca14c00c0b3c31522ae5d11f0f5145aa",
+  "colors": [
+   "#a59c92"
+  ],
+  "price": 0,
+  "desc": "Join us for our monthly community feed as we prepare and distribute warm meals to neighbors in need."
+ },
+ {
+  "slug": "eb-1988500753282",
+  "source": "eventbrite",
+  "name": "Historic Ferry Building and Farmers' Market - Food Tour in the Bay Area | Cozymeal™",
+  "urlFull": "https://www.eventbrite.com/e/historic-ferry-building-and-farmers-market-food-tour-in-the-bay-area-cozymealtm-tickets-1988500753282",
+  "start": "2026-07-28T17:00:00.000Z",
+  "end": "2026-07-28T18:30:00.000Z",
+  "lat": 37.7955703,
+  "lng": -122.3933208,
+  "venue": "Location provided after booking",
+  "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F786514089%2F931232795353%2F1%2Foriginal.20240610-145249?w=640&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=dfbf89735c14e5d4547f5505b3d9ee91",
+  "colors": [
+   "#b9996b"
+  ],
+  "price": 0,
+  "desc": ""
+ },
+ {
+  "slug": "eb-1988500329013",
+  "source": "eventbrite",
+  "name": "Experience Chinatown Like a Local - Food Tour in the Bay Area | Cozymeal™",
+  "urlFull": "https://www.eventbrite.com/e/experience-chinatown-like-a-local-food-tour-in-the-bay-area-cozymealtm-tickets-1988500329013",
+  "start": "2026-07-28T17:30:00.000Z",
+  "end": "2026-07-28T20:30:00.000Z",
+  "lat": 37.790786,
+  "lng": -122.405412,
+  "venue": "Location provided after booking",
+  "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F290098129%2F931232795353%2F1%2Foriginal.20220524-000619?w=640&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=ee403daeb579e89c8192db9b7c0cad75",
+  "colors": [
+   "#8b8261"
+  ],
+  "price": 0,
+  "desc": ""
+ },
+ {
+  "slug": "eb-1988507528547",
+  "source": "eventbrite",
+  "name": "Exploring the Mission District - Food Tour in the Bay Area | Cozymeal™",
+  "urlFull": "https://www.eventbrite.com/e/exploring-the-mission-district-food-tour-in-the-bay-area-cozymealtm-tickets-1988507528547",
+  "start": "2026-07-28T18:00:00.000Z",
+  "end": "2026-07-28T21:00:00.000Z",
+  "lat": 37.7509821,
+  "lng": -122.4187205,
+  "venue": "Location provided after booking",
+  "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F440682209%2F931232795353%2F1%2Foriginal.20230207-035519?w=640&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=992758e86d594982c6c446e0fa44f6c4",
+  "colors": [
+   "#a38b83"
+  ],
+  "price": 0,
+  "desc": ""
+ },
+ {
+  "slug": "eb-1988500338040",
+  "source": "eventbrite",
+  "name": "Explore Chinatown and Little Italy - Food Tour in the Bay Area | Cozymeal™",
+  "urlFull": "https://www.eventbrite.com/e/explore-chinatown-and-little-italy-food-tour-in-the-bay-area-cozymealtm-tickets-1988500338040",
+  "start": "2026-07-28T17:30:00.000Z",
+  "end": "2026-07-28T21:30:00.000Z",
+  "lat": 37.790786,
+  "lng": -122.405412,
+  "venue": "Location provided after booking",
+  "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F290098819%2F931232795353%2F1%2Foriginal.20220524-000754?w=640&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=fcbabeaa5216839b26b2a705176b08e4",
+  "colors": [
+   "#8e7e72"
+  ],
+  "price": 0,
+  "desc": ""
+ },
+ {
+  "slug": "eb-1992732928833",
+  "source": "eventbrite",
+  "name": "Wing & White Claw Wednesdays at Underdogs Cantina",
+  "urlFull": "https://www.eventbrite.com/e/wing-white-claw-wednesdays-at-underdogs-cantina-tickets-1992732928833",
+  "start": "2026-07-29T23:30:00.000Z",
+  "end": "2026-07-30T05:00:00.000Z",
+  "lat": 37.77950959999999,
+  "lng": -122.3907097,
+  "venue": "Underdogs Cantina",
+  "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187809099%2F1287845793773%2F1%2Foriginal.20240603-220336?w=640&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C1%2C2562%2C1281&s=8af8960df4112b8074b4a8b2095b852c",
+  "colors": [
+   "#3e3226"
+  ],
+  "price": null,
+  "desc": "$1 Wing Wednesdays at Underdogs Cantina"
+ },
+ {
+  "slug": "eb-1994910024585",
+  "source": "eventbrite",
+  "name": "The Whale's Tail",
+  "urlFull": "https://www.eventbrite.com/e/the-whales-tail-tickets-1994910024585",
+  "start": "2026-08-01T19:00:00.000Z",
+  "end": "2026-08-02T01:00:00.000Z",
+  "lat": 37.7711818,
+  "lng": -122.4737831,
+  "venue": "John F Kennedy Promenade",
+  "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1093494293%2F2862285121821%2F1%2Foriginal.20250812-032811?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=c77300912badd66549f141783acd5a80",
+  "colors": [
+   "#484238"
+  ],
+  "price": 0,
+  "desc": "Enjoy FREE family fun at the Whale’s Tail: drinks, food trucks, lawn games, art, and live music at Golden Gate Park’s JFK Promenade."
+ }
+]

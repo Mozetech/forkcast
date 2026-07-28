@@ -115,7 +115,14 @@ async function fetchEventbrite(now, horizon) {
   for (const pageUrl of EB_PAGES) {
     let html;
     try {
-      const res = await fetch(pageUrl, { headers: { ...UA, Accept: "text/html" } });
+      const res = await fetch(pageUrl, { headers: {
+        ...UA,
+        Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Sec-Fetch-Dest": "document",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-Site": "none",
+      } });
       if (!res.ok) { console.warn(`  eventbrite ${res.status} for ${pageUrl}`); continue; }
       html = await res.text();
     } catch (err) { console.warn(`  eventbrite fetch failed: ${err.message}`); continue; }
@@ -226,12 +233,27 @@ async function main() {
   await Promise.all(Array.from({ length: DETAIL_CONCURRENCY }, worker));
 
   // 2b. Eventbrite (best-effort: never sinks the build if it's blocked or reshaped).
+  // Eventbrite 405s datacenter IPs (e.g. GitHub Actions), so successful fetches are
+  // cached in the repo and reused whenever the live fetch comes back empty.
+  const { writeFileSync: writeFs, readFileSync: readFs, mkdirSync: mkdirFs } = await import("node:fs");
+  const cachePath = new URL("../data/eventbrite-cache.json", import.meta.url);
   let ebEvents = [];
   try {
     ebEvents = await fetchEventbrite(now, horizon);
     console.log(`Eventbrite: ${ebEvents.length} offline SF events in window`);
   } catch (err) {
-    console.warn(`Eventbrite source failed, continuing with Luma only: ${err.message}`);
+    console.warn(`Eventbrite source failed: ${err.message}`);
+  }
+  const ebFresh = ebEvents.length > 0;
+  if (!ebFresh) {
+    try {
+      const cached = JSON.parse(readFs(cachePath, "utf8"));
+      ebEvents = cached.filter((e) => {
+        const t = Date.parse(e.start);
+        return t > now - 3 * 3600 * 1000 && t < horizon;
+      });
+      console.log(`Eventbrite blocked here — using ${ebEvents.length} cached events still in window`);
+    } catch { console.warn("No usable Eventbrite cache"); }
   }
   // Cross-source dedupe: same title on the same day keeps the Luma copy.
   const lumaKeys = new Set(detailed.map((e) => e.name.toLowerCase().slice(0, 40) + e.start.slice(0, 10)));
@@ -280,6 +302,14 @@ async function main() {
     }
   }
   await Promise.all(Array.from({ length: 4 }, priceWorker));
+
+  // Persist the fresh Eventbrite pull (with enriched prices) for blocked environments.
+  if (ebFresh) {
+    const priceBySlug = new Map(events.filter((e) => e.source === "eventbrite").map((e) => [e.slug, e.price]));
+    mkdirFs(new URL("../data/", import.meta.url), { recursive: true });
+    writeFs(cachePath, JSON.stringify(
+      ebEvents.map((e) => ({ ...e, price: priceBySlug.get(e.slug) ?? e.price })), null, 1));
+  }
 
   events.sort((a, b) => Date.parse(a.start) - Date.parse(b.start));
 
