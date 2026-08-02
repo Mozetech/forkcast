@@ -161,6 +161,22 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 }
 @keyframes pulse { 50% { transform: scale(1.09); } }
 
+/* ─── Refresh ──────────────────────────────────────────────────────── */
+
+.refresh {
+  width: 42px; height: 42px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  color: var(--ink); padding: 0;
+  margin-right: auto;
+  animation: pop-in 0.7s 0.04s var(--spring) backwards;
+  transition: transform 0.25s var(--spring);
+}
+.refresh svg { width: 17px; height: 17px; }
+.refresh:hover { transform: scale(1.08); }
+.refresh:active { transform: scale(0.9); }
+.refresh.spin svg { animation: spin 0.7s cubic-bezier(0.4, 0, 0.2, 1); }
+@keyframes spin { to { transform: rotate(360deg); } }
+
 /* ─── Day segmented control ────────────────────────────────────────── */
 
 .days {
@@ -271,6 +287,15 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
   padding: 5px 9px; border-radius: 99px;
 }
 .card-when.is-soon { background: var(--accent); animation: pulse 2.2s ease-in-out infinite; }
+.card-reg {
+  position: absolute; bottom: 8px; right: 8px; z-index: 1;
+  width: 22px; height: 22px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  background: var(--accent); color: #fff;
+  box-shadow: 0 3px 10px -2px rgba(232, 84, 47, 0.6), inset 0 1px 0 rgba(255,255,255,0.35);
+  animation: pop-in 0.45s var(--spring) backwards;
+}
+.card-reg .ic { width: 12px; height: 12px; }
 
 .card-body { padding: 10px 12px 12px; }
 .card-name {

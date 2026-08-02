@@ -1,374 +1,33 @@
 {
- "generatedAt": "2026-07-28T13:03:52.046Z",
+ "generatedAt": "2026-08-02T20:24:14.057Z",
  "city": "San Francisco",
  "source": "lu.ma + eventbrite",
- "count": 16,
+ "count": 8,
  "events": [
   {
-   "slug": "w61gmib2",
+   "slug": "beyond-yh96",
    "source": "luma",
-   "name": "Intelligence in the Open — Edition 01: Reasoning, Evaluation & Long-Horizon Agents",
-   "url": "https://lu.ma/w61gmib2",
-   "start": "2026-07-29T01:00:00.000Z",
-   "end": "2026-07-29T04:00:00.000Z",
-   "lat": 37.79398868920479,
-   "lng": -122.40122263783394,
-   "venue": "San Francisco",
-   "cover": "https://images.lumacdn.com/uploads/qq/07cfddfa-9f2e-4342-b46e-c552fd4874e6.png",
+   "name": "A Morning Walk: When AI Agents Touch Money",
+   "url": "https://lu.ma/beyond-yh96",
+   "start": "2026-08-03T16:00:00.000Z",
+   "end": "2026-08-03T17:30:00.000Z",
+   "lat": 37.8018663,
+   "lng": -122.4562556,
+   "venue": "215 Lincoln Blvd, San Francisco",
+   "cover": "https://images.lumacdn.com/uploads/xg/82959761-c79d-43c1-a9a3-0a3f1ba6caae.png",
    "colors": [
-    "#f13d1f",
-    "#d71b42",
-    "#fdf7f7",
-    "#4a1323"
+    "#faeed7",
+    "#063e27",
+    "#a0af29",
+    "#faa5b2"
    ],
    "price": 0,
-   "embed": "https://luma.com/embed/event/evt-XCxlrZIFrED0Nx5/simple",
-   "food": {
-    "key": "food",
-    "label": "Food"
-   },
-   "snippet": "For our first edition, we’ll convene a curated group of attendees at UpScaleX for an evening of short research presentations, open discus…"
-  },
-  {
-   "slug": "kdgxf1fs",
-   "source": "luma",
-   "name": "AI Nerd Meet Up",
-   "url": "https://lu.ma/kdgxf1fs",
-   "start": "2026-07-29T01:00:00.000Z",
-   "end": "2026-07-29T04:00:00.000Z",
-   "lat": 37.76086254883034,
-   "lng": -122.39074641404001,
-   "venue": "San Francisco",
-   "cover": "https://images.lumacdn.com/uploads/34/a0f3f03d-aa66-431b-84d0-5dbd8092ac8b.png",
-   "colors": [
-    "#f8f7fb",
-    "#6538f9",
-    "#06080c",
-    "#f6bf61"
-   ],
-   "price": 0,
-   "embed": "https://luma.com/embed/event/evt-AUlyE6fg1iijyVx/simple",
-   "food": {
-    "key": "pizza",
-    "label": "Pizza"
-   },
-   "snippet": "Food: Pizza, drinks and snacks will be provided"
-  },
-  {
-   "slug": "on-mercury-sf",
-   "source": "luma",
-   "name": "on Mercury - SF",
-   "url": "https://lu.ma/on-mercury-sf",
-   "start": "2026-07-29T16:00:00.000Z",
-   "end": "2026-07-29T23:00:00.000Z",
-   "lat": 37.757324,
-   "lng": -122.3879397,
-   "venue": "2535 3rd St, San Francisco",
-   "cover": "https://images.lumacdn.com/uploads/wd/7622a24e-5344-4a1e-9041-7698f294286c.png",
-   "colors": [
-    "#e0ded7",
-    "#554e7b"
-   ],
-   "price": 0,
-   "embed": "https://luma.com/embed/event/evt-G2H1XlOXOzz69xE/simple",
+   "embed": "https://luma.com/embed/event/evt-5gTC4AXFl5XH2bQ/simple",
    "food": {
     "key": "coffee",
     "label": "Coffee"
    },
-   "snippet": "Grab breakfast with your team, take a coffee break, or swing by between meetings — we'd love to see you."
-  },
-  {
-   "slug": "cazn88f7",
-   "source": "luma",
-   "name": "Can We Close the Sim2Real Gap?",
-   "url": "https://lu.ma/cazn88f7",
-   "start": "2026-07-30T00:30:00.000Z",
-   "end": "2026-07-30T04:00:00.000Z",
-   "lat": 37.762809662151504,
-   "lng": -122.41025880982444,
-   "venue": "San Francisco",
-   "cover": "https://images.lumacdn.com/uploads/jd/6a0e3da7-fdb1-4bd6-b9f2-c3184b6701bc.jpg",
-   "colors": [
-    "#ebebe3",
-    "#cacaca",
-    "#060402",
-    "#9c9067"
-   ],
-   "price": 0,
-   "embed": "https://luma.com/embed/event/evt-NSw1gQCCwb9DzIf/simple",
-   "food": {
-    "key": "food",
-    "label": "Food"
-   },
-   "snippet": "5:30 PM — Doors Open + Light Bites"
-  },
-  {
-   "slug": "builtdifferent-auth0-stripe",
-   "source": "luma",
-   "name": "Built Different: Auth0 x Stripe Hackathon",
-   "url": "https://lu.ma/builtdifferent-auth0-stripe",
-   "start": "2026-07-30T19:00:00.000Z",
-   "end": "2026-07-31T02:30:00.000Z",
-   "lat": 37.7895063,
-   "lng": -122.39744179999998,
-   "venue": "100 First Plaza, 100 1st St 6th floor, San Francisco",
-   "cover": "https://images.lumacdn.com/uploads/lq/2300f1be-0302-42f0-bcf3-b322777d3533.png",
-   "colors": [
-    "#12110f",
-    "#631a95",
-    "#fcfcfc",
-    "#d42f0b"
-   ],
-   "price": 0,
-   "embed": "https://luma.com/embed/event/evt-gtWXwKnAlF4s321/simple",
-   "food": {
-    "key": "coffee",
-    "label": "Coffee"
-   },
-   "snippet": "Lunch, coffee, and a happy hour on us."
-  },
-  {
-   "slug": "4yta9i2j",
-   "source": "luma",
-   "name": "IREN AI Social",
-   "url": "https://lu.ma/4yta9i2j",
-   "start": "2026-07-31T00:00:00.000Z",
-   "end": "2026-07-31T02:00:00.000Z",
-   "lat": 37.77704327097121,
-   "lng": -122.3932181598894,
-   "venue": "San Francisco",
-   "cover": "https://images.lumacdn.com/uploads/3a/d797c4b5-356e-4ec8-b5b1-45a480cebff7.png",
-   "colors": [
-    "#032245",
-    "#4fcdbd",
-    "#32b6f4",
-    "#6dd774"
-   ],
-   "price": 0,
-   "embed": "https://luma.com/embed/event/evt-UHAODEGAFIQryhB/simple",
-   "food": {
-    "key": "wine",
-    "label": "Aperitivo"
-   },
-   "snippet": "IREN is hosting a happy hour for the people building in AI."
-  },
-  {
-   "slug": "h5x0pzw9",
-   "source": "luma",
-   "name": "OpenAI Codex Community Meetup-San Francisco #8",
-   "url": "https://lu.ma/h5x0pzw9",
-   "start": "2026-07-31T00:00:00.000Z",
-   "end": "2026-07-31T03:00:00.000Z",
-   "lat": 37.726956436312584,
-   "lng": -122.47767078963795,
-   "venue": "San Francisco",
-   "cover": "https://images.lumacdn.com/event-covers/5n/379662f0-7bf3-4157-a46c-28ada9f7076f.png",
-   "colors": [
-    "#3f3de3",
-    "#fdfdfe"
-   ],
-   "price": 0,
-   "embed": "https://luma.com/embed/event/evt-iZMrMUFofZK4eOF/simple",
-   "food": {
-    "key": "food",
-    "label": "Food"
-   },
-   "snippet": "Expect a warm, high-energy, and highly interactive evening with networking, refreshments, practical conversations, optional demos, and ne…"
-  },
-  {
-   "slug": "i3evxecn",
-   "source": "luma",
-   "name": "Qualcomm x ZETIC x Liquid AI: Edge AI Builders Meetup",
-   "url": "https://lu.ma/i3evxecn",
-   "start": "2026-07-31T00:00:00.000Z",
-   "end": "2026-07-31T03:30:00.000Z",
-   "lat": 37.7898731,
-   "lng": -122.4053026,
-   "venue": "300 Grant Ave Ste 500, San Francisco",
-   "cover": "https://images.lumacdn.com/uploads/y7/26d5805b-36e6-448f-90e2-8c6d4abecf38.jpg",
-   "colors": [
-    "#fafafa",
-    "#353636",
-    "#3555dc",
-    "#27a49e"
-   ],
-   "price": 0,
-   "embed": "https://luma.com/embed/event/evt-7FtTJSFEc9492Yw/simple",
-   "food": {
-    "key": "food",
-    "label": "Food"
-   },
-   "snippet": "Food and drinks provided!"
-  },
-  {
-   "slug": "715ul99e",
-   "source": "luma",
-   "name": "Builder Night",
-   "url": "https://lu.ma/715ul99e",
-   "start": "2026-07-31T00:30:00.000Z",
-   "end": "2026-07-31T03:30:00.000Z",
-   "lat": 37.788385399999996,
-   "lng": -122.4029183,
-   "venue": "660 Market St, San Francisco",
-   "cover": "https://images.lumacdn.com/uploads/4q/0b5ba175-e6f0-439d-818d-bf4045be36a7.png",
-   "colors": [
-    "#2a242d",
-    "#050507",
-    "#e7e8ec"
-   ],
-   "price": 0,
-   "embed": "https://luma.com/embed/event/evt-9kBGaQyAylbqM3i/simple",
-   "food": {
-    "key": "food",
-    "label": "Food"
-   },
-   "snippet": "This is less panel, more practical session: two focused demos, an open conversation with the teams, and plenty of time for food, drinks,…"
-  },
-  {
-   "slug": "4g3wb753",
-   "source": "luma",
-   "name": "Startup Reality 202: AI in Industries — From Foundation Models to Vertical Moats",
-   "url": "https://lu.ma/4g3wb753",
-   "start": "2026-07-31T00:30:00.000Z",
-   "end": "2026-07-31T03:00:00.000Z",
-   "lat": 37.79366285660567,
-   "lng": -122.39772654867906,
-   "venue": "San Francisco",
-   "cover": "https://images.lumacdn.com/uploads/ac/e7d45c54-af30-47c9-b811-5bf522fe8020.png",
-   "colors": [
-    "#084542",
-    "#5a5248",
-    "#f6664c",
-    "#fcf9f6"
-   ],
-   "price": 0,
-   "embed": "https://luma.com/embed/event/evt-5rnwnFn8Rp1UoXX/simple",
-   "food": {
-    "key": "food",
-    "label": "Food"
-   },
-   "snippet": "Keep the conversation going over drinks and authentic Taiwanese snacks."
-  },
-  {
-   "slug": "7h2hjufc",
-   "source": "luma",
-   "name": "Scaling revenue at Stripe and Vercel with Jeanne DeWitt Grosser (COO, Vercel)",
-   "url": "https://lu.ma/7h2hjufc",
-   "start": "2026-07-31T01:00:00.000Z",
-   "end": "2026-07-31T03:00:00.000Z",
-   "lat": 37.79713990716092,
-   "lng": -122.39651984364899,
-   "venue": "San Francisco",
-   "cover": "https://images.lumacdn.com/uploads/n0/5bb8bc6e-2552-44f9-a659-e0a9bc3e71a2.png",
-   "colors": [
-    "#e1eadd",
-    "#1d1d1d",
-    "#fea9fc"
-   ],
-   "price": 0,
-   "embed": "https://luma.com/embed/event/evt-P7Fb9e3MUBbNsmh/simple",
-   "food": {
-    "key": "food",
-    "label": "Food"
-   },
-   "snippet": "6:00–6:45 PM — Welcome drinks & snacks"
-  },
-  {
-   "slug": "JulyDynamoAfterHours",
-   "source": "luma",
-   "name": "Dynamo After Hours",
-   "url": "https://lu.ma/JulyDynamoAfterHours",
-   "start": "2026-07-31T01:00:00.000Z",
-   "end": "2026-07-31T04:00:00.000Z",
-   "lat": 37.77342151243784,
-   "lng": -122.40359088666929,
-   "venue": "San Francisco",
-   "cover": "https://images.lumacdn.com/event-covers/gx/e4aa6021-40b1-4db6-9dfe-8317bce3864b.png",
-   "colors": [
-    "#141917",
-    "#eaeaeb",
-    "#78665c",
-    "#8bab77"
-   ],
-   "price": 0,
-   "embed": "https://luma.com/embed/event/evt-lutDq15FCBqcZ5v/simple",
-   "food": {
-    "key": "food",
-    "label": "Food"
-   },
-   "snippet": "7:00 PM - 9:00 PM: Socialization with food and drinks"
-  },
-  {
-   "slug": "bluedot-sf-launch",
-   "source": "luma",
-   "name": "BlueDot SF Launch",
-   "url": "https://lu.ma/bluedot-sf-launch",
-   "start": "2026-07-31T02:00:00.000Z",
-   "end": "2026-07-31T05:00:00.000Z",
-   "lat": 37.77837775071261,
-   "lng": -122.42051374524527,
-   "venue": "San Francisco",
-   "cover": "https://images.unsplash.com/photo-1518365050014-70fe7232897f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjQyMjF8MHwxfHNlYXJjaHw2fHxsYXVuY2h8ZW58MHx8fHwxNzgzNjEyNjUyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-   "colors": [
-    "#001334",
-    "#473461",
-    "#fdf7ee",
-    "#e49da6"
-   ],
-   "price": 0,
-   "embed": "https://luma.com/embed/event/evt-45VVK0N3KlKxofo/simple",
-   "food": {
-    "key": "food",
-    "label": "Food"
-   },
-   "snippet": "Join us for the first of many evenings at our new home: good food, good drinks, and a room full of people working on making AI go well."
-  },
-  {
-   "slug": "eb-1993916640346",
-   "source": "eventbrite",
-   "name": "FREE SUMMER BBQ EVENT",
-   "url": "https://www.eventbrite.com/e/free-summer-bbq-event-tickets-1993916640346",
-   "start": "2026-08-01T12:00:00.000Z",
-   "end": "2026-08-01T18:00:00.000Z",
-   "lat": 37.780138,
-   "lng": -122.394055,
-   "venue": "CALDERGLEN PACK",
-   "cover": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188828128%2F1698436308293%2F1%2Foriginal.20260714-130600?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=284973c4a2677dd911051dbed4cfb2df",
-   "colors": [
-    "#917651"
-   ],
-   "price": 0,
-   "embed": null,
-   "food": {
-    "key": "bbq",
-    "label": "BBQ"
-   },
-   "snippet": "FREE SUMMER BBQ EVENT"
-  },
-  {
-   "slug": "h6fxh0x7",
-   "source": "luma",
-   "name": "Draw Together, Be SEEN",
-   "url": "https://lu.ma/h6fxh0x7",
-   "start": "2026-08-01T19:00:00.000Z",
-   "end": "2026-08-02T00:00:00.000Z",
-   "lat": 37.752525600000006,
-   "lng": -122.4176365,
-   "venue": "886 Capp St, San Francisco",
-   "cover": "https://images.lumacdn.com/uploads/5n/154851d9-db77-4670-ab34-f91218d80718.png",
-   "colors": [
-    "#c7da49",
-    "#0c0908",
-    "#c8647f",
-    "#4dafe6"
-   ],
-   "price": 0,
-   "embed": "https://luma.com/embed/event/evt-l4PD87CvOxvzJHv/simple",
-   "food": {
-    "key": "food",
-    "label": "Food"
-   },
-   "snippet": "Free Food & Drinks"
+   "snippet": "We'll meet for coffee at Il Parco in the Presidio at 10, walk the trails and the water afterward, and wrap by 11:30."
   },
   {
    "slug": "b4y2veki",
@@ -394,6 +53,153 @@
     "label": "Food"
    },
    "snippet": "6:00–6:30 PM - Welcome drinks & bites"
+  },
+  {
+   "slug": "gmicloud-384l",
+   "source": "luma",
+   "name": "The Model Question: Routing Models for Production Agents",
+   "url": "https://lu.ma/gmicloud-384l",
+   "start": "2026-08-05T01:30:00.000Z",
+   "end": "2026-08-05T04:00:00.000Z",
+   "lat": 37.787782,
+   "lng": -122.4028877,
+   "venue": "685 Market St, San Francisco",
+   "cover": "https://images.lumacdn.com/uploads/kr/060eb1bd-1be4-499d-93bb-9178b3f9232b.png",
+   "colors": [
+    "#211b11",
+    "#fdfdfd",
+    "#999912",
+    "#876214"
+   ],
+   "price": 0,
+   "embed": "https://luma.com/embed/event/evt-SH14DdbsqYcHYkX/simple",
+   "food": {
+    "key": "food",
+    "label": "Food"
+   },
+   "snippet": "6:30 Doors open · food & drinks"
+  },
+  {
+   "slug": "x1to4ziz",
+   "source": "luma",
+   "name": "Privy Home: IRL SF",
+   "url": "https://lu.ma/x1to4ziz",
+   "start": "2026-08-05T18:00:00.000Z",
+   "end": "2026-08-06T01:00:00.000Z",
+   "lat": 37.75676489328622,
+   "lng": -122.38957632859355,
+   "venue": "San Francisco",
+   "cover": "https://images.lumacdn.com/uploads/a4/b7775439-c107-46bd-9d49-7bf75e107e43.png",
+   "colors": [
+    "#e3e2dc",
+    "#b89d84",
+    "#4f3d2f"
+   ],
+   "price": 0,
+   "embed": "https://luma.com/embed/event/evt-ft0RUinOiBulThW/simple",
+   "food": {
+    "key": "food",
+    "label": "Food"
+   },
+   "snippet": "• Lunch, drinks, and plenty of time to meet fellow builders"
+  },
+  {
+   "slug": "o0id5abn",
+   "source": "luma",
+   "name": "AlphaSignal's Pizza Agent Challenge ($2,500 Cash Prize)",
+   "url": "https://lu.ma/o0id5abn",
+   "start": "2026-08-07T00:30:00.000Z",
+   "end": "2026-08-07T04:00:00.000Z",
+   "lat": 37.79340714910209,
+   "lng": -122.39519277259,
+   "venue": "San Francisco",
+   "cover": "https://images.lumacdn.com/uploads/cj/546991ef-0f07-4284-8638-da6273adccfb.png",
+   "colors": [
+    "#0a0a0a",
+    "#db3f25",
+    "#f2f0eb",
+    "#1f4171"
+   ],
+   "price": 0,
+   "embed": "https://luma.com/embed/event/evt-AxyTqFihn3AvzMz/simple",
+   "food": {
+    "key": "pizza",
+    "label": "Pizza"
+   },
+   "snippet": "The mission: build an AI agent that orders a pizza."
+  },
+  {
+   "slug": "6uaouoxj",
+   "source": "luma",
+   "name": "Agent Infra Night",
+   "url": "https://lu.ma/6uaouoxj",
+   "start": "2026-08-07T01:00:00.000Z",
+   "end": "2026-08-07T04:00:00.000Z",
+   "lat": 37.78620829982227,
+   "lng": -122.3990837884536,
+   "venue": "San Francisco",
+   "cover": "https://images.lumacdn.com/uploads/1s/19995a4a-9cd4-45de-977d-c5b5fd0191fa.png",
+   "colors": [
+    "#00040d",
+    "#fbfbfb",
+    "#16a9bb"
+   ],
+   "price": 0,
+   "embed": "https://luma.com/embed/event/evt-tX5DoFxwdMGDg6Y/simple",
+   "food": {
+    "key": "food",
+    "label": "Food"
+   },
+   "snippet": "7:40 – 9:00 PM | Refreshments + networking"
+  },
+  {
+   "slug": "xfbtidsx",
+   "source": "luma",
+   "name": "AI x Fashion Coffee Club",
+   "url": "https://lu.ma/xfbtidsx",
+   "start": "2026-08-07T15:00:00.000Z",
+   "end": "2026-08-07T16:30:00.000Z",
+   "lat": 37.7612879,
+   "lng": -122.43078310000001,
+   "venue": "498 Sanchez St, San Francisco",
+   "cover": "https://images.lumacdn.com/uploads/to/27db0e64-89e1-4924-ba13-4eadaa864a0b.png",
+   "colors": [
+    "#838181",
+    "#0b0f0f",
+    "#7cdd55"
+   ],
+   "price": 0,
+   "embed": "https://luma.com/embed/event/evt-JymROVyd4pXctaG/simple",
+   "food": {
+    "key": "coffee",
+    "label": "Coffee"
+   },
+   "snippet": "An intimate and thoughtfully curated coffee gathering for people fascinated by the intersection of AI and fashion."
+  },
+  {
+   "slug": "pxdhdo4a",
+   "source": "luma",
+   "name": "Hack with VoiceOS | $5k in OpenAI Credits",
+   "url": "https://lu.ma/pxdhdo4a",
+   "start": "2026-08-09T17:00:00.000Z",
+   "end": "2026-08-10T03:00:00.000Z",
+   "lat": 37.7822672,
+   "lng": -122.4099607,
+   "venue": "Hewes Building, 995 Market St, San Francisco",
+   "cover": "https://images.lumacdn.com/uploads/ft/adefa3f9-7c96-455f-9a0c-957cf8dfff2b.png",
+   "colors": [
+    "#faf8f6",
+    "#2d2d2d",
+    "#635bef",
+    "#f06024"
+   ],
+   "price": 0,
+   "embed": "https://luma.com/embed/event/evt-cTw4vOM0oViELXW/simple",
+   "food": {
+    "key": "food",
+    "label": "Food"
+   },
+   "snippet": "FOOD & DRINKS:"
   }
  ]
 }

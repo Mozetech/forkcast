@@ -33,6 +33,7 @@ const ICONS = {
   pancake: P(`<ellipse cx="12" cy="7.6" rx="7.2" ry="2.6"/><path d="M4.8 7.6v3.6c0 1.5 3.2 2.7 7.2 2.7s7.2-1.2 7.2-2.7V7.6"/><path d="M4.8 11.2v4c0 1.5 3.2 2.7 7.2 2.7s7.2-1.2 7.2-2.7v-4"/>`),
   wine: P(`<path d="M5.8 4.2h12.4a6.2 4.9 0 0 1-12.4 0Z"/><path d="M12 10.6V19"/><path d="M8.2 19.6h7.6"/>`),
   pin: P(`<path d="M12 21c-4.3-4.7-6.7-7.9-6.7-11a6.7 6.7 0 0 1 13.4 0c0 3.1-2.4 6.3-6.7 11Z"/><circle cx="12" cy="9.6" r="2.2"/>`),
+  check: P(`<path d="M5 12.5l4.5 4.5L19 7.5"/>`, 2.2),
 };
 
 const icon = (key, size) =>
@@ -136,6 +137,7 @@ function renderRail(list) {
       <div class="card-art" ${art}>
         <span class="card-badge">${icon(ev.food.key, 13)}${ev.food.label}</span>
         <span class="card-when ${isSoon(ev.start) ? "is-soon" : ""}">${whenLabel(ev)}</span>
+        ${regd.has(ev.slug) ? `<span class="card-reg">${icon("check", 12)}</span>` : ""}
       </div>
       <div class="card-body">
         <h3 class="card-name">${ev.name}</h3>
@@ -148,6 +150,7 @@ function renderRail(list) {
     card.onclick = () => focusEvent(ev, { fly: true });
     card.querySelector(".card-go").onclick = (e) => {
       e.stopPropagation();
+      markRegistered(ev, card);
       if (ev.embed) { e.preventDefault(); openModal(ev.embed); }
     };
     railEl.appendChild(card);
@@ -211,11 +214,25 @@ function render() {
   if (list.length) {
     try {
       const bounds = L.latLngBounds(list.map((e) => [e.lat, e.lng])).pad(0.18);
+      state.lastBounds = bounds;
       if (state.booted) map.flyToBounds(bounds, { duration: 0.9, maxZoom: 14.5 });
       else map.fitBounds(bounds, { animate: false, maxZoom: 14.5 });
     } catch (err) { console.warn("fit failed", err); }
   }
   state.booted = true;
+}
+
+/* ── local memory: which events you've opened registration for ── */
+
+const regd = new Set(JSON.parse(localStorage.getItem("fk-reg") || "[]"));
+function markRegistered(ev, card) {
+  if (regd.has(ev.slug)) return;
+  regd.add(ev.slug);
+  localStorage.setItem("fk-reg", JSON.stringify([...regd]));
+  const art = card.querySelector(".card-art");
+  if (art && !art.querySelector(".card-reg")) {
+    art.insertAdjacentHTML("beforeend", `<span class="card-reg">${icon("check", 12)}</span>`);
+  }
 }
 
 /* ── register modal (Luma's official embed, in place) ───── */
@@ -252,11 +269,13 @@ daysEl.querySelectorAll(".day").forEach((b) => {
   };
 });
 
-/* ── boot ───────────────────────────────────────────────── */
+/* ── data loading: on boot, on demand, and on a clock ───── */
 
-function boot(d) {
+let lastLoad = 0;
+
+function applyData(d) {
   state.events = d.events.filter((e) => Date.parse(e.end || e.start) > Date.now());
-  if (!state.events.some(inDay)) state.day = "week"; // never land on an empty screen
+  if (!state.booted && !state.events.some(inDay)) state.day = "week"; // never land on an empty screen
   daysEl.querySelectorAll(".day").forEach((x) =>
     x.classList.toggle("is-on", x.dataset.day === state.day));
   const age = Math.round((Date.now() - Date.parse(d.generatedAt)) / 36e5);
@@ -266,13 +285,40 @@ function boot(d) {
   render();
 }
 
-fetch("data/events.json?t=" + Math.floor(Date.now() / 60000))
-  .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
-  .then((d) => setTimeout(() => { map.invalidateSize(false); boot(d); }, 0))
-  .catch((err) => {
-    console.error("load failed", err);
-    emptyEl.hidden = false;
-    emptyEl.querySelector("span:last-child").textContent = "couldn't load events";
-  });
+function loadData() {
+  return fetch("data/events.json?t=" + Date.now())
+    .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then((d) => { lastLoad = Date.now(); applyData(d); })
+    .catch((err) => {
+      console.error("load failed", err);
+      if (!state.events.length) {
+        emptyEl.hidden = false;
+        emptyEl.querySelector("span:last-child").textContent = "couldn't load events";
+      }
+    });
+}
+
+setTimeout(() => { map.invalidateSize(false); loadData(); }, 0);
+
+// Keep an open tab current: poll every 30 min, and refetch on refocus if stale.
+setInterval(loadData, 30 * 60000);
+document.addEventListener("visibilitychange", () => {
+  if (!document.hidden && Date.now() - lastLoad > 10 * 60000) loadData();
+});
+
+// Heal a map that was fitted while its container had no size (background tab,
+// hidden pane): refit as soon as the container becomes measurable.
+new ResizeObserver(() => {
+  map.invalidateSize(false);
+  if (state.lastBounds && map.getZoom() < 10) {
+    map.fitBounds(state.lastBounds, { animate: false, maxZoom: 14.5 });
+  }
+}).observe(document.getElementById("map"));
+
+$("refresh").onclick = () => {
+  const b = $("refresh");
+  b.classList.add("spin");
+  loadData().finally(() => setTimeout(() => b.classList.remove("spin"), 700));
+};
 
 addEventListener("resize", moveThumb);
